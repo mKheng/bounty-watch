@@ -86609,6 +86609,46 @@
   "url": "https://hackerone.com/wisdomtree",
   "wildcards": 0
  },
+ "hackerone:wolt": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "*.wolt.com",
+   "1477299281",
+   "943905271",
+   "authentication.wolt.com",
+   "com.wolt.android",
+   "com.wolt.courierapp",
+   "corporate.wolt.com",
+   "drive.wolt.com",
+   "merchant.wolt.com",
+   "ops.wolt.com",
+   "restaurant-api.wolt.com",
+   "wolt.com"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:wolt",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Wolt",
+  "platform": "hackerone",
+  "scope_types": {
+   "*.wolt.com": "wildcard",
+   "1477299281": "mobile",
+   "943905271": "mobile",
+   "authentication.wolt.com": "domain",
+   "com.wolt.android": "mobile",
+   "com.wolt.courierapp": "mobile",
+   "corporate.wolt.com": "domain",
+   "drive.wolt.com": "domain",
+   "merchant.wolt.com": "domain",
+   "ops.wolt.com": "domain",
+   "restaurant-api.wolt.com": "domain",
+   "wolt.com": "domain"
+  },
+  "url": "https://hackerone.com/wolt",
+  "wildcards": 1
+ },
  "hackerone:wordpress": {
   "barriers": [],
   "currency": "",
