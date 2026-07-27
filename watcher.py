@@ -60,6 +60,7 @@ class Program:
     barriers: list[str] = field(default_factory=list)
     in_scope: list[str] = field(default_factory=list)
     wildcards: int = 0
+    scope_types: dict[str, str] = field(default_factory=dict)
 
     def to_json(self) -> dict:
         return asdict(self)
@@ -92,20 +93,44 @@ def fetch_json(url: str, retries: int = 3) -> list | dict:
 # Normalizer — mỗi platform có shape JSON khác nhau
 # --------------------------------------------------------------------------
 
-def _scope_strings(entries: list, *keys: str) -> tuple[list[str], int]:
-    """Rút endpoint ra khỏi list scope, đếm số wildcard."""
-    out, wild = [], 0
+DOMAINISH = ("http://", "https://", "*.")
+
+
+def _classify(val: str, raw_type: str) -> str:
+    """Phân loại asset: wildcard | domain | mobile | other."""
+    t = raw_type.lower()
+    v = val.strip()
+    if v.startswith("*.") or "wildcard" in t:
+        return "wildcard"
+    if any(k in t for k in ("android", "ios", "apple", "google_play", "mobile")):
+        return "mobile"
+    if v.startswith(DOMAINISH):
+        return "domain"
+    # "type: other/url" nhưng giá trị vẫn là hostname → coi là domain
+    if " " not in v and "." in v and "/" not in v.rstrip("/"):
+        return "domain"
+    if t in ("url", "website", "web"):
+        return "domain"
+    return "other"
+
+
+def _scope_strings(entries: list, *keys: str) -> tuple[list[str], int, dict[str, str]]:
+    """Rút endpoint ra khỏi list scope.
+
+    Trả về (danh sách endpoint đã sort, số wildcard, map endpoint -> loại).
+    """
+    types: dict[str, str] = {}
     for e in entries or []:
         if not isinstance(e, dict):
             continue
         val = next((str(e[k]) for k in keys if e.get(k)), None)
         if not val:
             continue
-        out.append(val)
-        etype = str(e.get("type") or e.get("asset_type") or "").lower()
-        if "wildcard" in etype or val.startswith("*."):
-            wild += 1
-    return sorted(set(out)), wild
+        val = val.strip()
+        raw_type = str(e.get("type") or e.get("asset_type") or "")
+        types[val] = _classify(val, raw_type)
+    wild = sum(1 for t in types.values() if t == "wildcard")
+    return sorted(types), wild, types
 
 
 def norm_intigriti(raw: list) -> dict[str, Program]:
@@ -113,7 +138,7 @@ def norm_intigriti(raw: list) -> dict[str, Program]:
     for p in raw:
         if p.get("status") != "open" or p.get("confidentiality_level") != "public":
             continue
-        scope, wild = _scope_strings(
+        scope, wild, stypes = _scope_strings(
             (p.get("targets") or {}).get("in_scope"), "endpoint"
         )
         maxb = float((p.get("max_bounty") or {}).get("value") or 0)
@@ -136,6 +161,7 @@ def norm_intigriti(raw: list) -> dict[str, Program]:
             barriers=barriers,
             in_scope=scope,
             wildcards=wild,
+            scope_types=stypes,
         )
     return progs
 
@@ -145,7 +171,7 @@ def norm_hackerone(raw: list) -> dict[str, Program]:
     for p in raw:
         if p.get("submission_state") not in (None, "open"):
             continue
-        scope, wild = _scope_strings(
+        scope, wild, stypes = _scope_strings(
             (p.get("targets") or {}).get("in_scope"),
             "asset_identifier", "target", "endpoint",
         )
@@ -159,6 +185,7 @@ def norm_hackerone(raw: list) -> dict[str, Program]:
             is_vdp=not offers,
             in_scope=scope,
             wildcards=wild,
+            scope_types=stypes,
         )
     return progs
 
@@ -176,7 +203,7 @@ def norm_generic(platform: str) -> callable:
                 continue
             name = p.get("name") or p.get("title") or p.get("slug") or "?"
             url = p.get("url") or p.get("program_url") or ""
-            scope, wild = _scope_strings(
+            scope, wild, stypes = _scope_strings(
                 (p.get("targets") or {}).get("in_scope"),
                 "target", "endpoint", "asset_identifier", "uri", "name",
             )
@@ -193,6 +220,7 @@ def norm_generic(platform: str) -> callable:
                 max_bounty=float(maxb or 0),
                 in_scope=scope,
                 wildcards=wild,
+                scope_types=stypes,
             )
         return progs
     return _norm
@@ -298,52 +326,123 @@ def diff(old: dict[str, Program], new: dict[str, Program]) -> list[Change]:
 # Định dạng thông báo (Telegram HTML — an toàn hơn MarkdownV2 nhiều)
 # --------------------------------------------------------------------------
 
+PLATFORM_LABEL = {
+    "intigriti": "Intigriti",
+    "hackerone": "HackerOne",
+    "bugcrowd": "Bugcrowd",
+    "yeswehack": "YesWeHack",
+    "federacy": "Federacy",
+}
+
+TYPE_LABEL = {
+    "wildcard": "Wildcard",
+    "domain": "Domain",
+    "mobile": "Mobile",
+    "other": "Khác",
+}
+
+TYPE_ORDER = ["wildcard", "domain", "mobile", "other"]
+
+# số dòng hiển thị tối đa cho mỗi loại asset
+TYPE_LIMIT = {"wildcard": 6, "domain": 6, "mobile": 3, "other": 0}
+
+
 def esc(s: str) -> str:
     return html.escape(str(s), quote=False)
 
 
+def money(v: float) -> str:
+    return f"{v:,.0f}".replace(",", ".")
+
+
+def bullets(items: list[str], limit: int) -> list[str]:
+    """Danh sách gạch đầu dòng, cắt bớt nếu quá dài."""
+    out = [f"• <code>{esc(i)}</code>" for i in items[:limit]]
+    if len(items) > limit:
+        out.append(f"  <i>… và {len(items) - limit} nữa</i>")
+    return out
+
+
+def group_scope(p: Program) -> dict[str, list[str]]:
+    groups: dict[str, list[str]] = {}
+    for endpoint in p.in_scope:
+        t = p.scope_types.get(endpoint) or _classify(endpoint, "")
+        groups.setdefault(t, []).append(endpoint)
+    return groups
+
+
 def render(c: Change) -> str:
     p = c.program
-    plat = p.platform.upper()
+    plat = PLATFORM_LABEL.get(p.platform, p.platform.title())
 
     if c.kind == "new_program":
-        score, why = score_newbie(p)
-        stars = "🟢" if score >= 8 else ("🟡" if score >= 5 else "⚪")
-        lines = [
-            f"{stars} <b>PROGRAM MỚI</b> · {esc(plat)}",
+        score, _ = score_newbie(p)
+        dot = "🟢" if score >= 8 else ("🟡" if score >= 5 else "⚪")
+
+        L = [
+            f"{dot} <b>PROGRAM MỚI</b> · {esc(plat)}",
+            "",
             f"<b>{esc(p.name)}</b>",
-            f"Điểm newbie: <b>{score}/10</b> — {esc(', '.join(why))}",
+            f"Điểm newbie: <b>{score}/10</b>",
+            "",
         ]
+
         if p.max_bounty:
-            lines.append(f"Bounty: {p.min_bounty:g}–{p.max_bounty:g} {esc(p.currency)}")
+            L.append(f"💰 {money(p.min_bounty)}–{money(p.max_bounty)} {esc(p.currency)}")
         else:
-            lines.append("Bounty: VDP / không thưởng tiền")
-        if p.in_scope:
-            preview = p.in_scope[:8]
-            lines.append("Scope: <code>" + esc(", ".join(preview)) + "</code>"
-                         + (f" … (+{len(p.in_scope) - 8})" if len(p.in_scope) > 8 else ""))
+            L.append("💰 VDP — không thưởng tiền")
+
+        L.append("🚪 " + ("Cần " + ", ".join(p.barriers) if p.barriers
+                          else "Không rào cản tham gia"))
+
+        groups = group_scope(p)
+        total = len(p.in_scope)
+        summary = f"🎯 {total} asset"
+        if p.wildcards:
+            summary += f" · <b>{p.wildcards} wildcard</b>"
+        L.append(summary)
+
+        for t in TYPE_ORDER:
+            items = groups.get(t)
+            limit = TYPE_LIMIT.get(t, 0)
+            if not items:
+                continue
+            if limit == 0:                       # nhóm "Khác" chỉ đếm, không liệt kê
+                L += ["", f"<b>{TYPE_LABEL[t]}</b>: {len(items)} mục"]
+                continue
+            L += ["", f"<b>{TYPE_LABEL[t]}</b>"] + bullets(items, limit)
+
         if p.url:
-            lines.append(f'<a href="{esc(p.url)}">Mở program</a>')
-        return "\n".join(lines)
+            L += ["", f'<a href="{esc(p.url)}">▸ Mở program</a>']
+        return "\n".join(L)
 
     if c.kind == "scope_added":
-        preview = c.detail[:12]
-        more = f" … (+{len(c.detail) - 12})" if len(c.detail) > 12 else ""
-        return (
-            f"🔵 <b>SCOPE MỞ RỘNG</b> · {esc(plat)}\n"
-            f"<b>{esc(p.name)}</b> — thêm {len(c.detail)} asset\n"
-            f"<code>{esc(', '.join(preview))}</code>{more}\n"
-            f'<a href="{esc(p.url)}">Mở program</a>'
-        )
+        L = [
+            f"🔵 <b>SCOPE MỞ RỘNG</b> · {esc(plat)}",
+            "",
+            f"<b>{esc(p.name)}</b>",
+            f"🎯 Thêm {len(c.detail)} asset",
+            "",
+        ]
+        wild = [d for d in c.detail if d.startswith("*.")]
+        rest = [d for d in c.detail if not d.startswith("*.")]
+        if wild:
+            L += ["<b>Wildcard</b>"] + bullets(wild, 6) + [""]
+        if rest:
+            L += bullets(rest, 8)
+        if p.url:
+            L += ["", f'<a href="{esc(p.url)}">▸ Mở program</a>']
+        return "\n".join(L)
 
     if c.kind == "bounty_changed":
         return (
-            f"💰 <b>ĐỔI MỨC BOUNTY</b> · {esc(plat)}\n"
-            f"<b>{esc(p.name)}</b>: {esc(c.detail[0])}\n"
-            f'<a href="{esc(p.url)}">Mở program</a>'
+            f"💰 <b>ĐỔI MỨC BOUNTY</b> · {esc(plat)}\n\n"
+            f"<b>{esc(p.name)}</b>\n"
+            f"{esc(c.detail[0])}\n\n"
+            f'<a href="{esc(p.url)}">▸ Mở program</a>'
         )
 
-    return f"⚫ <b>PROGRAM ĐÓNG</b> · {esc(plat)}\n<b>{esc(p.name)}</b>"
+    return f"⚫ <b>PROGRAM ĐÓNG</b> · {esc(plat)}\n\n<b>{esc(p.name)}</b>"
 
 
 # --------------------------------------------------------------------------
