@@ -204,6 +204,7 @@
    "8x8 Communication APIs",
    "8x8 Partner Portal",
    "8x8-work",
+   "8x8.cloud",
    "8x8.my.site.com",
    "ASN: AS10976",
    "ASN: AS133144",
@@ -246,6 +247,7 @@
    "https://github.com/jitsi",
    "https://webrtc.8x8.com/",
    "https://www.npmjs.com/package/@8x8/pui-partner-comm",
+   "maestro.8x8.cloud",
    "mcp.8x8.com",
    "org.vom8x8.sipua",
    "pay.8x8.com",
@@ -319,6 +321,7 @@
    "8x8 Communication APIs": "other",
    "8x8 Partner Portal": "other",
    "8x8-work": "mobile",
+   "8x8.cloud": "domain",
    "8x8.my.site.com": "domain",
    "ASN: AS10976": "other",
    "ASN: AS133144": "other",
@@ -361,6 +364,7 @@
    "https://github.com/jitsi": "domain",
    "https://webrtc.8x8.com/": "domain",
    "https://www.npmjs.com/package/@8x8/pui-partner-comm": "domain",
+   "maestro.8x8.cloud": "domain",
    "mcp.8x8.com": "domain",
    "org.vom8x8.sipua": "mobile",
    "pay.8x8.com": "domain",
@@ -35486,30 +35490,6 @@
   },
   "url": "https://hackerone.com/coinbase",
   "wildcards": 4
- },
- "hackerone:coinhako": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "com.coinhako",
-   "com.coinhako.app",
-   "help.coinhako.com",
-   "www.coinhako.com"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:coinhako",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Coinhako",
-  "platform": "hackerone",
-  "scope_types": {
-   "com.coinhako": "mobile",
-   "com.coinhako.app": "mobile",
-   "help.coinhako.com": "domain",
-   "www.coinhako.com": "domain"
-  },
-  "url": "https://hackerone.com/coinhako",
-  "wildcards": 0
  },
  "hackerone:coinmate": {
   "barriers": [],

@@ -1435,6 +1435,44 @@
   "url": "https://www.intigriti.com/programs/buhlergroup/buhlergroupvdp/detail",
   "wildcards": 8
  },
+ "intigriti:capitalcom/capitalcom": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.backend-capital.com",
+   "*.capital.com",
+   "*.itcapital.io",
+   "aff.capital.com",
+   "capital.com/*",
+   "careers.capital.com",
+   "com.capital.trading",
+   "go.capital.com",
+   "open-api.capital.com",
+   "payment.backend-capital.com",
+   "register.capital.com"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:capitalcom/capitalcom",
+  "max_bounty": 15000.0,
+  "min_bounty": 0.0,
+  "name": "Capital.com",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.backend-capital.com": "wildcard",
+   "*.capital.com": "wildcard",
+   "*.itcapital.io": "wildcard",
+   "aff.capital.com": "domain",
+   "capital.com/*": "wildcard",
+   "careers.capital.com": "domain",
+   "com.capital.trading": "mobile",
+   "go.capital.com": "domain",
+   "open-api.capital.com": "domain",
+   "payment.backend-capital.com": "domain",
+   "register.capital.com": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/capitalcom/capitalcom/detail",
+  "wildcards": 4
+ },
  "intigriti:citymesh/responsiblevulnerabilitydisclosureprogram": {
   "barriers": [],
   "currency": "EUR",
@@ -1717,6 +1755,52 @@
    "Out of Scope": "other"
   },
   "url": "https://www.intigriti.com/programs/dashlane/dashlanevulnerabilitydisclosureprogram/detail",
+  "wildcards": 1
+ },
+ "intigriti:datacamp/datacamp": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.datacamp.com",
+   "app.datacamp.com/certification",
+   "app.datacamp.com/groups",
+   "app.datacamp.com/learn",
+   "assessment-api.datacamp.com",
+   "assessment-v2.datacamp.com",
+   "assessment.datacamp.com",
+   "campus.datacamp.com",
+   "com.datacamp",
+   "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087",
+   "practice.datacamp.com",
+   "profiles-api.datacamp.com",
+   "projects.datacamp.com",
+   "www.datacamp.com",
+   "www.datacamp.com/datalab"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:datacamp/datacamp",
+  "max_bounty": 1500.0,
+  "min_bounty": 25.0,
+  "name": "DataCamp",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.datacamp.com": "wildcard",
+   "app.datacamp.com/certification": "domain",
+   "app.datacamp.com/groups": "domain",
+   "app.datacamp.com/learn": "domain",
+   "assessment-api.datacamp.com": "domain",
+   "assessment-v2.datacamp.com": "domain",
+   "assessment.datacamp.com": "domain",
+   "campus.datacamp.com": "domain",
+   "com.datacamp": "mobile",
+   "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087": "mobile",
+   "practice.datacamp.com": "domain",
+   "profiles-api.datacamp.com": "domain",
+   "projects.datacamp.com": "domain",
+   "www.datacamp.com": "domain",
+   "www.datacamp.com/datalab": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/datacamp/datacamp/detail",
   "wildcards": 1
  },
  "intigriti:dhlgroup/dhlvdp": {
