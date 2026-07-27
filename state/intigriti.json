@@ -1803,6 +1803,60 @@
   "url": "https://www.intigriti.com/programs/datacamp/datacamp/detail",
   "wildcards": 1
  },
+ "intigriti:delenprivatebank/privatebankdelen": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "api.digital.delen.be",
+   "api.digital.delen.lu",
+   "app.delen.be",
+   "app.delen.ch",
+   "app.delen.lu",
+   "auth.digital.delen.be",
+   "auth.digital.delen.lu",
+   "be.delen.digital",
+   "delen/id1064839588",
+   "login.delen.be",
+   "login.delen.ch",
+   "login.delen.lu",
+   "login.oyens.com",
+   "status.delen.be",
+   "sts.delen.be",
+   "www.cadelam.be",
+   "www.cadelux.lu/en",
+   "www.delen.bank",
+   "www.delen.be/en"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:delenprivatebank/privatebankdelen",
+  "max_bounty": 15000.0,
+  "min_bounty": 100.0,
+  "name": "Delen Private Bank",
+  "platform": "intigriti",
+  "scope_types": {
+   "api.digital.delen.be": "domain",
+   "api.digital.delen.lu": "domain",
+   "app.delen.be": "domain",
+   "app.delen.ch": "domain",
+   "app.delen.lu": "domain",
+   "auth.digital.delen.be": "domain",
+   "auth.digital.delen.lu": "domain",
+   "be.delen.digital": "mobile",
+   "delen/id1064839588": "mobile",
+   "login.delen.be": "domain",
+   "login.delen.ch": "domain",
+   "login.delen.lu": "domain",
+   "login.oyens.com": "domain",
+   "status.delen.be": "domain",
+   "sts.delen.be": "domain",
+   "www.cadelam.be": "domain",
+   "www.cadelux.lu/en": "domain",
+   "www.delen.bank": "domain",
+   "www.delen.be/en": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/delenprivatebank/privatebankdelen/detail",
+  "wildcards": 0
+ },
  "intigriti:dhlgroup/dhlvdp": {
   "barriers": [],
   "currency": "EUR",
@@ -2727,6 +2781,24 @@
    "Software": "other"
   },
   "url": "https://www.intigriti.com/programs/intel/intel/detail",
+  "wildcards": 0
+ },
+ "intigriti:intigriti/challenge0726": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "https://challenge-0726.intigriti.io"
+  ],
+  "is_vdp": true,
+  "key": "intigriti:intigriti/challenge0726",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Challenge 0726",
+  "platform": "intigriti",
+  "scope_types": {
+   "https://challenge-0726.intigriti.io": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/intigriti/challenge0726/detail",
   "wildcards": 0
  },
  "intigriti:intigriti/intigriti": {
@@ -4686,42 +4758,6 @@
   },
   "url": "https://www.intigriti.com/programs/waterlink/water-linkvdp/detail",
   "wildcards": 2
- },
- "intigriti:wolt/wolt": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.wolt.com",
-   "Wolt Courier Partner",
-   "Wolt Delivery: Food and more",
-   "authentication.wolt.com",
-   "corporate.wolt.com",
-   "drive.wolt.com",
-   "merchant.wolt.com",
-   "ops.wolt.com",
-   "restaurant-api.wolt.com",
-   "wolt.com"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:wolt/wolt",
-  "max_bounty": 3500.0,
-  "min_bounty": 100.0,
-  "name": "Wolt",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.wolt.com": "wildcard",
-   "Wolt Courier Partner": "mobile",
-   "Wolt Delivery: Food and more": "mobile",
-   "authentication.wolt.com": "domain",
-   "corporate.wolt.com": "domain",
-   "drive.wolt.com": "domain",
-   "merchant.wolt.com": "domain",
-   "ops.wolt.com": "domain",
-   "restaurant-api.wolt.com": "domain",
-   "wolt.com": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/wolt/wolt/detail",
-  "wildcards": 1
  },
  "intigriti:wpengine/wpengine": {
   "barriers": [],
