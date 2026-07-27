@@ -1,0 +1,46 @@
+# Repo riêng, standalone. Đặt tại: .github/workflows/bounty-watch.yml
+name: bounty-watch
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Chạy thử, không gửi Telegram"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bounty-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Chạy watcher
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PLATFORMS: "intigriti,hackerone"
+          MIN_SCORE: "0"
+          STATE_DIR: "state"
+        run: python watcher.py ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit state
+        run: |
+          git config user.name  "bounty-watch[bot]"
+          git config user.email "bounty-watch@users.noreply.github.com"
+          git add state
+          git diff --staged --quiet || git commit -m "chore: cập nhật state [skip ci]"
+          git push
