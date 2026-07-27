@@ -79025,6 +79025,28 @@
   "url": "https://hackerone.com/okg",
   "wildcards": 2
  },
+ "hackerone:omnicell": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "*.enlivenhealth.co",
+   "*.myomnicell.com",
+   "*.omnicell.com"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:omnicell",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Omnicell",
+  "platform": "hackerone",
+  "scope_types": {
+   "*.enlivenhealth.co": "wildcard",
+   "*.myomnicell.com": "wildcard",
+   "*.omnicell.com": "wildcard"
+  },
+  "url": "https://hackerone.com/omnicell",
+  "wildcards": 3
+ },
  "hackerone:on": {
   "barriers": [],
   "currency": "",

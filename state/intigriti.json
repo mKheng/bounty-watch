@@ -2999,24 +2999,6 @@
   "url": "https://www.intigriti.com/programs/kiwa/kiwavdp/detail",
   "wildcards": 6
  },
- "intigriti:kuleuven/huisvesting": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "https://www.kuleuven.be/sapredir/huisvesting"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:kuleuven/huisvesting",
-  "max_bounty": 2000.0,
-  "min_bounty": 0.0,
-  "name": "Housing Application (huisvestingsapp) Bug Bounty Program",
-  "platform": "intigriti",
-  "scope_types": {
-   "https://www.kuleuven.be/sapredir/huisvesting": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/kuleuven/huisvesting/detail",
-  "wildcards": 0
- },
  "intigriti:kuleuven/kuleuvenrdp": {
   "barriers": [],
   "currency": "EUR",
