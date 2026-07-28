@@ -2617,6 +2617,7 @@
    "*abnamroprivatebanking.be",
    "*neuflizeobc.fr",
    "6698897106",
+   "aa-ob.com",
    "com.abnamro.nl.buut",
    "www.buut.com"
   ],
@@ -2645,6 +2646,7 @@
    "*abnamroprivatebanking.be": "wildcard",
    "*neuflizeobc.fr": "wildcard",
    "6698897106": "mobile",
+   "aa-ob.com": "domain",
    "com.abnamro.nl.buut": "mobile",
    "www.buut.com": "domain"
   },
