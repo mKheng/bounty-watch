@@ -235,8 +235,8 @@
   "barriers": [],
   "currency": "USD",
   "in_scope": [
-   "Mbed TLS & TF-PSA-Crypto",
    "OP-TEE",
+   "TF-PSA-Crypto",
    "TrustedFirmware-A (TF-A)",
    "TrustedFirmware-M (TF-M)"
   ],
@@ -247,8 +247,8 @@
   "name": "Trusted Firmware",
   "platform": "intigriti",
   "scope_types": {
-   "Mbed TLS & TF-PSA-Crypto": "other",
    "OP-TEE": "other",
+   "TF-PSA-Crypto": "other",
    "TrustedFirmware-A (TF-A)": "other",
    "TrustedFirmware-M (TF-M)": "other"
   },
