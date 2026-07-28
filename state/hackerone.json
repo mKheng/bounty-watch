@@ -63437,6 +63437,9 @@
    "com.getyourguide.mobile.GetYourGuide",
    "https://partner-public.getyourguide.com/graphql",
    "partner.getyourguide.com",
+   "supplier-api.getyourguide.com",
+   "supplier-support.getyourguide.com",
+   "supplier.getyourguide.com",
    "travelers-api.getyourguide.com",
    "widget.getyourguide.com",
    "www.getyourguide.com"
@@ -63452,6 +63455,9 @@
    "com.getyourguide.mobile.GetYourGuide": "mobile",
    "https://partner-public.getyourguide.com/graphql": "domain",
    "partner.getyourguide.com": "domain",
+   "supplier-api.getyourguide.com": "domain",
+   "supplier-support.getyourguide.com": "domain",
+   "supplier.getyourguide.com": "domain",
    "travelers-api.getyourguide.com": "domain",
    "widget.getyourguide.com": "domain",
    "www.getyourguide.com": "domain"
