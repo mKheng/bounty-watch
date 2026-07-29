@@ -36687,6 +36687,24 @@
   "url": "https://hackerone.com/databricks",
   "wildcards": 0
  },
+ "hackerone:defectdojo": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://github.com/DefectDojo/django-DefectDojo"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:defectdojo",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "DefectDojo",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://github.com/DefectDojo/django-DefectDojo": "domain"
+  },
+  "url": "https://hackerone.com/defectdojo",
+  "wildcards": 0
+ },
  "hackerone:deptofdefense": {
   "barriers": [],
   "currency": "",
