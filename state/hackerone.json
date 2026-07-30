@@ -5011,6 +5011,7 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "adamsrite.com",
    "https://accentra.assaabloy.com",
    "https://apps.apple.com/cr/app/yale-connect/id1204336886",
    "https://apps.apple.com/in/app/centrIosAppStore/id6449100322",
@@ -5055,6 +5056,7 @@
   "name": "Assa Abloy Americas",
   "platform": "hackerone",
   "scope_types": {
+   "adamsrite.com": "domain",
    "https://accentra.assaabloy.com": "domain",
    "https://apps.apple.com/cr/app/yale-connect/id1204336886": "mobile",
    "https://apps.apple.com/in/app/centrIosAppStore/id6449100322": "mobile",
@@ -84777,6 +84779,7 @@
    "demo-life360.identityforce.com",
    "duoemail.neustar.biz",
    "e1ch.neustar.biz",
+   "empidwatch.sontiq.com",
    "enrollment.monitormyidentity.com",
    "ezshield.biz",
    "ezshield.com",
@@ -84925,6 +84928,7 @@
    "demo-life360.identityforce.com": "domain",
    "duoemail.neustar.biz": "domain",
    "e1ch.neustar.biz": "domain",
+   "empidwatch.sontiq.com": "domain",
    "enrollment.monitormyidentity.com": "domain",
    "ezshield.biz": "domain",
    "ezshield.com": "domain",
