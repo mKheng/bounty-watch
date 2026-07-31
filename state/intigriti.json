@@ -4693,6 +4693,48 @@
   "url": "https://www.intigriti.com/programs/uz%20leuven/uzleuven/detail",
   "wildcards": 8
  },
+ "intigriti:veriff/veriffbugbounty": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.veriff.com",
+   "1467907532",
+   "alchemy.veriff.com",
+   "api.flamingo-eu.veriff.com",
+   "api.us.veriff.me",
+   "api.veriff.me",
+   "com.veriff.demo",
+   "developers.veriff.me",
+   "louvre.veriff.me",
+   "magic.veriff.me",
+   "station.veriff.com",
+   "stationapi.veriff.com",
+   "www.veriff.com"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:veriff/veriffbugbounty",
+  "max_bounty": 6000.0,
+  "min_bounty": 5.0,
+  "name": "Veriff Bug Bounty",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.veriff.com": "wildcard",
+   "1467907532": "mobile",
+   "alchemy.veriff.com": "domain",
+   "api.flamingo-eu.veriff.com": "domain",
+   "api.us.veriff.me": "domain",
+   "api.veriff.me": "domain",
+   "com.veriff.demo": "mobile",
+   "developers.veriff.me": "domain",
+   "louvre.veriff.me": "domain",
+   "magic.veriff.me": "domain",
+   "station.veriff.com": "domain",
+   "stationapi.veriff.com": "domain",
+   "www.veriff.com": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/veriff/veriffbugbounty/detail",
+  "wildcards": 1
+ },
  "intigriti:visma/VismaResponsibleDisclosure": {
   "barriers": [],
   "currency": "EUR",
