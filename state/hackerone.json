@@ -82705,40 +82705,6 @@
   "url": "https://hackerone.com/security",
   "wildcards": 1
  },
- "hackerone:sega": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "Creative Assembly",
-   "Hardlight Studios",
-   "SEGA Europe",
-   "SEGA Japan",
-   "Sports Interactive",
-   "Two Point Studios",
-   "community.twopointcounty.com",
-   "games2gether.com",
-   "redeem.footballmanager.com"
-  ],
-  "is_vdp": true,
-  "key": "hackerone:sega",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "SEGA",
-  "platform": "hackerone",
-  "scope_types": {
-   "Creative Assembly": "other",
-   "Hardlight Studios": "other",
-   "SEGA Europe": "other",
-   "SEGA Japan": "other",
-   "Sports Interactive": "other",
-   "Two Point Studios": "other",
-   "community.twopointcounty.com": "domain",
-   "games2gether.com": "domain",
-   "redeem.footballmanager.com": "domain"
-  },
-  "url": "https://hackerone.com/sega",
-  "wildcards": 0
- },
  "hackerone:semrush": {
   "barriers": [],
   "currency": "",
