@@ -1759,52 +1759,6 @@
   "url": "https://www.intigriti.com/programs/dashlane/dashlanevulnerabilitydisclosureprogram/detail",
   "wildcards": 1
  },
- "intigriti:datacamp/datacamp": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.datacamp.com",
-   "app.datacamp.com/certification",
-   "app.datacamp.com/groups",
-   "app.datacamp.com/learn",
-   "assessment-api.datacamp.com",
-   "assessment-v2.datacamp.com",
-   "assessment.datacamp.com",
-   "campus.datacamp.com",
-   "com.datacamp",
-   "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087",
-   "practice.datacamp.com",
-   "profiles-api.datacamp.com",
-   "projects.datacamp.com",
-   "www.datacamp.com",
-   "www.datacamp.com/datalab"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:datacamp/datacamp",
-  "max_bounty": 1500.0,
-  "min_bounty": 25.0,
-  "name": "DataCamp",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.datacamp.com": "wildcard",
-   "app.datacamp.com/certification": "domain",
-   "app.datacamp.com/groups": "domain",
-   "app.datacamp.com/learn": "domain",
-   "assessment-api.datacamp.com": "domain",
-   "assessment-v2.datacamp.com": "domain",
-   "assessment.datacamp.com": "domain",
-   "campus.datacamp.com": "domain",
-   "com.datacamp": "mobile",
-   "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087": "mobile",
-   "practice.datacamp.com": "domain",
-   "profiles-api.datacamp.com": "domain",
-   "projects.datacamp.com": "domain",
-   "www.datacamp.com": "domain",
-   "www.datacamp.com/datalab": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/datacamp/datacamp/detail",
-  "wildcards": 1
- },
  "intigriti:delenprivatebank/privatebankdelen": {
   "barriers": [],
   "currency": "EUR",
@@ -3481,32 +3435,6 @@
   "url": "https://www.intigriti.com/programs/ourahealthoy/ouravulnerabilitydisclosureprogram/detail",
   "wildcards": 1
  },
- "intigriti:pdq/pdqcomprivate": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "https://a.simplemdm.com/",
-   "https://app.pdq.com/",
-   "https://auth2.pdq.com/",
-   "https://library.pdq.com/",
-   "https://portal.pdq.com/"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:pdq/pdqcomprivate",
-  "max_bounty": 3500.0,
-  "min_bounty": 50.0,
-  "name": "PDQ bug bounty program",
-  "platform": "intigriti",
-  "scope_types": {
-   "https://a.simplemdm.com/": "domain",
-   "https://app.pdq.com/": "domain",
-   "https://auth2.pdq.com/": "domain",
-   "https://library.pdq.com/": "domain",
-   "https://portal.pdq.com/": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/pdq/pdqcomprivate/detail",
-  "wildcards": 0
- },
  "intigriti:peoplecert/peoplecert": {
   "barriers": [],
   "currency": "EUR",
@@ -4693,48 +4621,6 @@
   "url": "https://www.intigriti.com/programs/uz%20leuven/uzleuven/detail",
   "wildcards": 8
  },
- "intigriti:veriff/veriffbugbounty": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.veriff.com",
-   "1467907532",
-   "alchemy.veriff.com",
-   "api.flamingo-eu.veriff.com",
-   "api.us.veriff.me",
-   "api.veriff.me",
-   "com.veriff.demo",
-   "developers.veriff.me",
-   "louvre.veriff.me",
-   "magic.veriff.me",
-   "station.veriff.com",
-   "stationapi.veriff.com",
-   "www.veriff.com"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:veriff/veriffbugbounty",
-  "max_bounty": 6000.0,
-  "min_bounty": 5.0,
-  "name": "Veriff Bug Bounty",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.veriff.com": "wildcard",
-   "1467907532": "mobile",
-   "alchemy.veriff.com": "domain",
-   "api.flamingo-eu.veriff.com": "domain",
-   "api.us.veriff.me": "domain",
-   "api.veriff.me": "domain",
-   "com.veriff.demo": "mobile",
-   "developers.veriff.me": "domain",
-   "louvre.veriff.me": "domain",
-   "magic.veriff.me": "domain",
-   "station.veriff.com": "domain",
-   "stationapi.veriff.com": "domain",
-   "www.veriff.com": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/veriff/veriffbugbounty/detail",
-  "wildcards": 1
- },
  "intigriti:visma/VismaResponsibleDisclosure": {
   "barriers": [],
   "currency": "EUR",
@@ -4936,36 +4822,6 @@
   },
   "url": "https://www.intigriti.com/programs/wartsila/wartsila-vdp/detail",
   "wildcards": 1
- },
- "intigriti:waterlink/water-link": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.mijnwater-link.be",
-   "*.water-link.be/",
-   "https://desktop.water-link.be/",
-   "https://pit.water-link.be/",
-   "https://www.water-link-jaarverslag.be",
-   "https://www.water-link.be",
-   "https://www.waterstoring.be/"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:waterlink/water-link",
-  "max_bounty": 5000.0,
-  "min_bounty": 50.0,
-  "name": "Water-Link",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.mijnwater-link.be": "wildcard",
-   "*.water-link.be/": "wildcard",
-   "https://desktop.water-link.be/": "domain",
-   "https://pit.water-link.be/": "domain",
-   "https://www.water-link-jaarverslag.be": "domain",
-   "https://www.water-link.be": "domain",
-   "https://www.waterstoring.be/": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/waterlink/water-link/detail",
-  "wildcards": 2
  },
  "intigriti:waterlink/water-linkvdp": {
   "barriers": [],
