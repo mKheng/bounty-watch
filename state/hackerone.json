@@ -41874,7 +41874,8 @@
    "https://apps.apple.com/us/app/exodus-crypto-bitcoin-wallet/id1414384820",
    "https://apps.apple.com/us/app/grateful-by-exodus/id6754093889",
    "https://play.google.com/store/apps/details?id=com.exodus.grateful",
-   "https://play.google.com/store/apps/details?id=exodusmovement.exodus&hl=en_IN"
+   "https://play.google.com/store/apps/details?id=exodusmovement.exodus&hl=en_IN",
+   "pay.exodus.io"
   ],
   "is_vdp": false,
   "key": "hackerone:exodus",
@@ -41892,7 +41893,8 @@
    "https://apps.apple.com/us/app/exodus-crypto-bitcoin-wallet/id1414384820": "mobile",
    "https://apps.apple.com/us/app/grateful-by-exodus/id6754093889": "mobile",
    "https://play.google.com/store/apps/details?id=com.exodus.grateful": "mobile",
-   "https://play.google.com/store/apps/details?id=exodusmovement.exodus&hl=en_IN": "mobile"
+   "https://play.google.com/store/apps/details?id=exodusmovement.exodus&hl=en_IN": "mobile",
+   "pay.exodus.io": "domain"
   },
   "url": "https://hackerone.com/exodus",
   "wildcards": 3
