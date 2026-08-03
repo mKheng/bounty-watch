@@ -6937,6 +6937,32 @@
   "url": "https://hackerone.com/bose_vdp",
   "wildcards": 1
  },
+ "hackerone:brave": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "Brave Browser Desktop",
+   "Brave websites",
+   "com.brave.browser",
+   "com.brave.ios.browser",
+   "https://github.com/brave/*, https://github.com/brave-intl/*"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:brave",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Brave Software",
+  "platform": "hackerone",
+  "scope_types": {
+   "Brave Browser Desktop": "other",
+   "Brave websites": "other",
+   "com.brave.browser": "mobile",
+   "com.brave.ios.browser": "mobile",
+   "https://github.com/brave/*, https://github.com/brave-intl/*": "domain"
+  },
+  "url": "https://hackerone.com/brave",
+  "wildcards": 0
+ },
  "hackerone:braze_inc": {
   "barriers": [],
   "currency": "",
