@@ -36131,6 +36131,24 @@
   "url": "https://hackerone.com/csg-public",
   "wildcards": 1
  },
+ "hackerone:curl": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://github.com/curl/curl"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:curl",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "curl",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://github.com/curl/curl": "domain"
+  },
+  "url": "https://hackerone.com/curl",
+  "wildcards": 0
+ },
  "hackerone:dailypay_vdp": {
   "barriers": [],
   "currency": "",
@@ -39702,9 +39720,7 @@
   "currency": "",
   "in_scope": [
    "*.enjinusercontent.com",
-   "Enjin - Ethereum ERC-1155 Contract",
    "Enjin Blockchain",
-   "Enjin Coin - Ethereum ERC-20 Contract",
    "com.enjin.mobile.wallet",
    "nft.io"
   ],
@@ -39716,9 +39732,7 @@
   "platform": "hackerone",
   "scope_types": {
    "*.enjinusercontent.com": "wildcard",
-   "Enjin - Ethereum ERC-1155 Contract": "other",
    "Enjin Blockchain": "other",
-   "Enjin Coin - Ethereum ERC-20 Contract": "other",
    "com.enjin.mobile.wallet": "mobile",
    "nft.io": "domain"
   },
@@ -41738,7 +41752,6 @@
    "com.security.BatteryCam",
    "com.security.care",
    "eufyMake E1",
-   "eufyMake Studio software",
    "https://us.eufy.com/products/e8213181",
    "https://us.eufy.com/products/t8410121",
    "https://us.eufy.com/products/t88511d1",
@@ -41762,7 +41775,6 @@
    "com.security.BatteryCam": "mobile",
    "com.security.care": "mobile",
    "eufyMake E1": "other",
-   "eufyMake Studio software": "other",
    "https://us.eufy.com/products/e8213181": "domain",
    "https://us.eufy.com/products/t8410121": "domain",
    "https://us.eufy.com/products/t88511d1": "domain",
@@ -63424,7 +63436,6 @@
    "Freshcaller-iOS-App",
    "Freshchat-iOS-App",
    "Freshdesk-iOS-App",
-   "Freshservice Discovery Agent and Probe",
    "Freshservice-Intune-iOS-App",
    "Freshservice-iOS-App",
    "com.freshchat.agent.android",
@@ -63449,7 +63460,6 @@
    "Freshcaller-iOS-App": "mobile",
    "Freshchat-iOS-App": "mobile",
    "Freshdesk-iOS-App": "mobile",
-   "Freshservice Discovery Agent and Probe": "other",
    "Freshservice-Intune-iOS-App": "mobile",
    "Freshservice-iOS-App": "mobile",
    "com.freshchat.agent.android": "mobile",
