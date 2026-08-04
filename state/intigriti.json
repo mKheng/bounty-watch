@@ -2935,6 +2935,24 @@
   "url": "https://www.intigriti.com/programs/kiwa/kiwavdp/detail",
   "wildcards": 6
  },
+ "intigriti:kuleuven/huisvesting": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "https://www.kuleuven.be/sapredir/huisvesting"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:kuleuven/huisvesting",
+  "max_bounty": 2000.0,
+  "min_bounty": 0.0,
+  "name": "Housing Application (huisvestingsapp) Bug Bounty Program",
+  "platform": "intigriti",
+  "scope_types": {
+   "https://www.kuleuven.be/sapredir/huisvesting": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/kuleuven/huisvesting/detail",
+  "wildcards": 0
+ },
  "intigriti:kuleuven/kuleuvenrdp": {
   "barriers": [],
   "currency": "EUR",
@@ -4047,6 +4065,8 @@
    "*.danalock.com",
    "*.danalock.dk",
    "*.danalock.eu",
+   "*.danalockapps.com",
+   "*.danalockservices.com",
    "*.dejoris.de",
    "*.enviso.io",
    "*.enviso.shop",
@@ -4057,19 +4077,20 @@
    "*.guidemylock.dk",
    "*.my-clay.com",
    "*.mylock.dk",
+   "*.poly-control.com",
    "*.poly-control.dk",
    "*.poly-lock.dk",
    "*.polycontrol.dk",
    "*.recreatex.be",
    "*.salto-orion.app",
    "*.saltoapis.com",
+   "*.saltohomesolution.com",
    "*.saltoks.com",
    "*.saltosystems.com",
    "*.saltowecosystem.com",
    "*.vintia.cloud",
    "*.vintia.com",
-   "*.wecosystem.com",
-   "*poly-control.com"
+   "*.wecosystem.com"
   ],
   "is_vdp": true,
   "key": "intigriti:saltosystems/saltovulnerabilitydisclosure",
@@ -4084,6 +4105,8 @@
    "*.danalock.com": "wildcard",
    "*.danalock.dk": "wildcard",
    "*.danalock.eu": "wildcard",
+   "*.danalockapps.com": "wildcard",
+   "*.danalockservices.com": "wildcard",
    "*.dejoris.de": "wildcard",
    "*.enviso.io": "wildcard",
    "*.enviso.shop": "wildcard",
@@ -4094,22 +4117,23 @@
    "*.guidemylock.dk": "wildcard",
    "*.my-clay.com": "wildcard",
    "*.mylock.dk": "wildcard",
+   "*.poly-control.com": "wildcard",
    "*.poly-control.dk": "wildcard",
    "*.poly-lock.dk": "wildcard",
    "*.polycontrol.dk": "wildcard",
    "*.recreatex.be": "wildcard",
    "*.salto-orion.app": "wildcard",
    "*.saltoapis.com": "wildcard",
+   "*.saltohomesolution.com": "wildcard",
    "*.saltoks.com": "wildcard",
    "*.saltosystems.com": "wildcard",
    "*.saltowecosystem.com": "wildcard",
    "*.vintia.cloud": "wildcard",
    "*.vintia.com": "wildcard",
-   "*.wecosystem.com": "wildcard",
-   "*poly-control.com": "wildcard"
+   "*.wecosystem.com": "wildcard"
   },
   "url": "https://www.intigriti.com/programs/saltosystems/saltovulnerabilitydisclosure/detail",
-  "wildcards": 29
+  "wildcards": 32
  },
  "intigriti:sbb/sbbglobal": {
   "barriers": [],
