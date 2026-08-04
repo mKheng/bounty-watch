@@ -2739,24 +2739,6 @@
   "url": "https://www.intigriti.com/programs/intel/intel/detail",
   "wildcards": 0
  },
- "intigriti:intigriti/challenge0726": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "https://challenge-0726.intigriti.io"
-  ],
-  "is_vdp": true,
-  "key": "intigriti:intigriti/challenge0726",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Challenge 0726",
-  "platform": "intigriti",
-  "scope_types": {
-   "https://challenge-0726.intigriti.io": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/intigriti/challenge0726/detail",
-  "wildcards": 0
- },
  "intigriti:intigriti/intigriti": {
   "barriers": [],
   "currency": "EUR",
