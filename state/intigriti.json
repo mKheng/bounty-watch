@@ -2935,24 +2935,6 @@
   "url": "https://www.intigriti.com/programs/kiwa/kiwavdp/detail",
   "wildcards": 6
  },
- "intigriti:kuleuven/huisvesting": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "https://www.kuleuven.be/sapredir/huisvesting"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:kuleuven/huisvesting",
-  "max_bounty": 2000.0,
-  "min_bounty": 0.0,
-  "name": "Housing Application (huisvestingsapp) Bug Bounty Program",
-  "platform": "intigriti",
-  "scope_types": {
-   "https://www.kuleuven.be/sapredir/huisvesting": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/kuleuven/huisvesting/detail",
-  "wildcards": 0
- },
  "intigriti:kuleuven/kuleuvenrdp": {
   "barriers": [],
   "currency": "EUR",
@@ -4066,7 +4048,7 @@
    "*.danalock.dk",
    "*.danalock.eu",
    "*.dejoris.de",
-   "*.envisio.io",
+   "*.enviso.io",
    "*.enviso.shop",
    "*.gantner.be",
    "*.gantner.com",
@@ -4075,7 +4057,6 @@
    "*.guidemylock.dk",
    "*.my-clay.com",
    "*.mylock.dk",
-   "*.mysmartlock.com",
    "*.poly-control.dk",
    "*.poly-lock.dk",
    "*.polycontrol.dk",
@@ -4104,7 +4085,7 @@
    "*.danalock.dk": "wildcard",
    "*.danalock.eu": "wildcard",
    "*.dejoris.de": "wildcard",
-   "*.envisio.io": "wildcard",
+   "*.enviso.io": "wildcard",
    "*.enviso.shop": "wildcard",
    "*.gantner.be": "wildcard",
    "*.gantner.com": "wildcard",
@@ -4113,7 +4094,6 @@
    "*.guidemylock.dk": "wildcard",
    "*.my-clay.com": "wildcard",
    "*.mylock.dk": "wildcard",
-   "*.mysmartlock.com": "wildcard",
    "*.poly-control.dk": "wildcard",
    "*.poly-lock.dk": "wildcard",
    "*.polycontrol.dk": "wildcard",
@@ -4129,7 +4109,7 @@
    "*poly-control.com": "wildcard"
   },
   "url": "https://www.intigriti.com/programs/saltosystems/saltovulnerabilitydisclosure/detail",
-  "wildcards": 30
+  "wildcards": 29
  },
  "intigriti:sbb/sbbglobal": {
   "barriers": [],
