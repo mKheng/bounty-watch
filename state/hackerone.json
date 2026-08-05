@@ -84180,24 +84180,14 @@
  "hackerone:taxwell-vdp": {
   "barriers": [],
   "currency": "",
-  "in_scope": [
-   "1040.com",
-   "drakesoftware.com",
-   "securefilepro.com",
-   "taxact.com"
-  ],
+  "in_scope": [],
   "is_vdp": true,
   "key": "hackerone:taxwell-vdp",
   "max_bounty": 0.0,
   "min_bounty": 0.0,
   "name": "Taxwell VDP",
   "platform": "hackerone",
-  "scope_types": {
-   "1040.com": "domain",
-   "drakesoftware.com": "domain",
-   "securefilepro.com": "domain",
-   "taxact.com": "domain"
-  },
+  "scope_types": {},
   "url": "https://hackerone.com/taxwell-vdp",
   "wildcards": 0
  },
