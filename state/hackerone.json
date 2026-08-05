@@ -41980,9 +41980,7 @@
    "pay.exodus.io",
    "relay.passkeys.foundation",
    "turing.exodus.io",
-   "wallet.passkeys.foundation",
-   "xoswap-graphql-p.a.exodus.io",
-   "xoswap-graphql.a.exodus.io"
+   "wallet.passkeys.foundation"
   ],
   "is_vdp": false,
   "key": "hackerone:exodus",
@@ -42026,9 +42024,7 @@
    "pay.exodus.io": "domain",
    "relay.passkeys.foundation": "domain",
    "turing.exodus.io": "domain",
-   "wallet.passkeys.foundation": "domain",
-   "xoswap-graphql-p.a.exodus.io": "domain",
-   "xoswap-graphql.a.exodus.io": "domain"
+   "wallet.passkeys.foundation": "domain"
   },
   "url": "https://hackerone.com/exodus",
   "wildcards": 3
