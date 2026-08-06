@@ -140,7 +140,6 @@
   "currency": "",
   "in_scope": [
    "Security vulnerabilities that are identified in 6sense products or in website domains owned, operated, or controlled by 6sense are in scope",
-   "https://6sense.com/platform/sales/signup",
    "https://api.6sense.com/docs/#introduction",
    "https://chromewebstore.google.com/detail/6sense-si-extension-for-c/mkpoonlmiaknmcdcmdhbnehhglndcolf?hl=en"
   ],
@@ -152,7 +151,6 @@
   "platform": "hackerone",
   "scope_types": {
    "Security vulnerabilities that are identified in 6sense products or in website domains owned, operated, or controlled by 6sense are in scope": "other",
-   "https://6sense.com/platform/sales/signup": "domain",
    "https://api.6sense.com/docs/#introduction": "domain",
    "https://chromewebstore.google.com/detail/6sense-si-extension-for-c/mkpoonlmiaknmcdcmdhbnehhglndcolf?hl=en": "domain"
   },
