@@ -42245,20 +42245,6 @@
   "url": "https://hackerone.com/experian",
   "wildcards": 0
  },
- "hackerone:expressionengine": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [],
-  "is_vdp": true,
-  "key": "hackerone:expressionengine",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "ExpressionEngine",
-  "platform": "hackerone",
-  "scope_types": {},
-  "url": "https://hackerone.com/expressionengine",
-  "wildcards": 0
- },
  "hackerone:fanduel": {
   "barriers": [],
   "currency": "",
