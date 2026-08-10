@@ -4121,6 +4121,28 @@
   "url": "https://www.intigriti.com/programs/solarwinds/solarwindsvdp/detail",
   "wildcards": 0
  },
+ "intigriti:spacelift/spaceliftvdp": {
+  "barriers": [],
+  "currency": "USD",
+  "in_scope": [
+   "*.app.spacelift.dev",
+   "app.spacelift.dev",
+   "spacelift.dev"
+  ],
+  "is_vdp": true,
+  "key": "intigriti:spacelift/spaceliftvdp",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Spacelift VDP",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.app.spacelift.dev": "wildcard",
+   "app.spacelift.dev": "domain",
+   "spacelift.dev": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/spacelift/spaceliftvdp/detail",
+  "wildcards": 1
+ },
  "intigriti:speakap/speakapresponsibledisclosure": {
   "barriers": [],
   "currency": "EUR",
