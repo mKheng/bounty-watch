@@ -4183,6 +4183,66 @@
   "url": "https://www.intigriti.com/programs/spp-storebrand/storebrand-rd/detail",
   "wildcards": 38
  },
+ "intigriti:sqills/sqillscorporatewebsite": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.sqills.com",
+   "*.sqills.team"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:sqills/sqillscorporatewebsite",
+  "max_bounty": 2500.0,
+  "min_bounty": 0.0,
+  "name": "Sqills",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.sqills.com": "wildcard",
+   "*.sqills.team": "wildcard"
+  },
+  "url": "https://www.intigriti.com/programs/sqills/sqillscorporatewebsite/detail",
+  "wildcards": 2
+ },
+ "intigriti:syb/soundtrackyourbrand": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "1114799709",
+   "1114800186",
+   "api.soundtrackyourbrand.com",
+   "billing.api.soundtrackyourbrand.com",
+   "builds.soundtrackyourbrand.com",
+   "business.soundtrackyourbrand.com",
+   "com.soundtrackyourbrand.soundtrack.player",
+   "https://auth.api.soundtrackyourbrand.com/",
+   "https://builds.soundtrackyourbrand.com/download/WIN32SOUNDTRACK/latest",
+   "https://radio.api.soundtrackyourbrand.com/",
+   "https://soundtrack.io",
+   "macOS app"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:syb/soundtrackyourbrand",
+  "max_bounty": 3500.0,
+  "min_bounty": 50.0,
+  "name": "Soundtrack Technologies",
+  "platform": "intigriti",
+  "scope_types": {
+   "1114799709": "mobile",
+   "1114800186": "mobile",
+   "api.soundtrackyourbrand.com": "domain",
+   "billing.api.soundtrackyourbrand.com": "domain",
+   "builds.soundtrackyourbrand.com": "domain",
+   "business.soundtrackyourbrand.com": "domain",
+   "com.soundtrackyourbrand.soundtrack.player": "mobile",
+   "https://auth.api.soundtrackyourbrand.com/": "domain",
+   "https://builds.soundtrackyourbrand.com/download/WIN32SOUNDTRACK/latest": "domain",
+   "https://radio.api.soundtrackyourbrand.com/": "domain",
+   "https://soundtrack.io": "domain",
+   "macOS app": "other"
+  },
+  "url": "https://www.intigriti.com/programs/syb/soundtrackyourbrand/detail",
+  "wildcards": 0
+ },
  "intigriti:tccc/coca-cola": {
   "barriers": [],
   "currency": "USD",
@@ -4646,10 +4706,13 @@
    "564141518",
    "accountsettings.connect.identity.stagaws.visma.com",
    "admin.stage.vismaonline.com",
+   "ai-testing.maventa.com",
    "aiassistant.stage.vismaonline.com",
    "api.workbox.dk",
    "app.workbox.dk",
    "authz.workbox.dk",
+   "autointerface.stag.visma.net",
+   "ax-stage.maventa.com",
    "com.visma.blue",
    "connect.identity.stagaws.visma.com",
    "eaccounting.stage.vismaonline.com",
@@ -4658,7 +4721,8 @@
    "myservices-api.stage.vismaonline.com",
    "myservices.stage.vismaonline.com",
    "oauth.developers.stagaws.visma.com",
-   "photoservice.stage.vismaonline.com"
+   "photoservice.stage.vismaonline.com",
+   "testing.maventa.com"
   ],
   "is_vdp": false,
   "key": "intigriti:visma/visma",
@@ -4670,10 +4734,13 @@
    "564141518": "mobile",
    "accountsettings.connect.identity.stagaws.visma.com": "domain",
    "admin.stage.vismaonline.com": "domain",
+   "ai-testing.maventa.com": "domain",
    "aiassistant.stage.vismaonline.com": "domain",
    "api.workbox.dk": "domain",
    "app.workbox.dk": "domain",
    "authz.workbox.dk": "domain",
+   "autointerface.stag.visma.net": "domain",
+   "ax-stage.maventa.com": "domain",
    "com.visma.blue": "mobile",
    "connect.identity.stagaws.visma.com": "domain",
    "eaccounting.stage.vismaonline.com": "domain",
@@ -4682,7 +4749,8 @@
    "myservices-api.stage.vismaonline.com": "domain",
    "myservices.stage.vismaonline.com": "domain",
    "oauth.developers.stagaws.visma.com": "domain",
-   "photoservice.stage.vismaonline.com": "domain"
+   "photoservice.stage.vismaonline.com": "domain",
+   "testing.maventa.com": "domain"
   },
   "url": "https://www.intigriti.com/programs/visma/visma/detail",
   "wildcards": 0
