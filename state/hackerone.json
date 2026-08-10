@@ -40191,6 +40191,9 @@
    "*.redeverdeamarela.com.br",
    "*.scpcnet.com.br",
    "*.talx.com",
+   "*.vedaadvantage.com",
+   "*.vedaadvantage.com.au",
+   "*.vedaadvantage.com.nz",
    "*.vineapps.com",
    "*equifax.ca",
    "*equifax.cl",
@@ -40481,6 +40484,9 @@
    "*.redeverdeamarela.com.br": "wildcard",
    "*.scpcnet.com.br": "wildcard",
    "*.talx.com": "wildcard",
+   "*.vedaadvantage.com": "wildcard",
+   "*.vedaadvantage.com.au": "wildcard",
+   "*.vedaadvantage.com.nz": "wildcard",
    "*.vineapps.com": "wildcard",
    "*equifax.ca": "domain",
    "*equifax.cl": "domain",
@@ -40717,7 +40723,7 @@
    "yourcreditidentity.com.au": "domain"
   },
   "url": "https://hackerone.com/equifax",
-  "wildcards": 61
+  "wildcards": 64
  },
  "hackerone:estee-lauder": {
   "barriers": [],
