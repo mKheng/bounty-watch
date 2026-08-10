@@ -1646,8 +1646,8 @@
   ],
   "is_vdp": false,
   "key": "intigriti:cmcom/cmcom",
-  "max_bounty": 3500.0,
-  "min_bounty": 25.0,
+  "max_bounty": 2625.0,
+  "min_bounty": 5.0,
   "name": "CM.com",
   "platform": "intigriti",
   "scope_types": {
