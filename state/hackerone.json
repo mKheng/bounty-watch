@@ -3577,6 +3577,7 @@
    "*.americaneagle.com.qa",
    "*.americaneagle.com.sa",
    "*.amitinoura.com",
+   "*.aura-mena-uat.alshaya.com",
    "*.aura-mena.com",
    "*.babelkwt.com",
    "*.bathandbodyworks.ae",
@@ -3768,6 +3769,7 @@
    "*.americaneagle.com.qa": "wildcard",
    "*.americaneagle.com.sa": "wildcard",
    "*.amitinoura.com": "wildcard",
+   "*.aura-mena-uat.alshaya.com": "wildcard",
    "*.aura-mena.com": "wildcard",
    "*.babelkwt.com": "wildcard",
    "*.bathandbodyworks.ae": "wildcard",
@@ -3939,7 +3941,7 @@
    "www.victoriassecretbeauty.ro": "domain"
   },
   "url": "https://hackerone.com/alshaya",
-  "wildcards": 81
+  "wildcards": 82
  },
  "hackerone:amazonvrp": {
   "barriers": [],
