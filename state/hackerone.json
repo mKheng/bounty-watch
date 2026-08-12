@@ -74059,6 +74059,10 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "*.klarna.com",
+   "*.klarna.net",
+   "*.klarnacdn.net",
+   "*.pricerunner.com",
    "Klarna Android App (com.myklarnamobile)",
    "Klarna iOS App (com.klarna.app)",
    "Merchant Portal",
@@ -74079,6 +74083,10 @@
   "name": "Klarna",
   "platform": "hackerone",
   "scope_types": {
+   "*.klarna.com": "wildcard",
+   "*.klarna.net": "wildcard",
+   "*.klarnacdn.net": "wildcard",
+   "*.pricerunner.com": "wildcard",
    "Klarna Android App (com.myklarnamobile)": "mobile",
    "Klarna iOS App (com.klarna.app)": "mobile",
    "Merchant Portal": "other",
@@ -74093,7 +74101,7 @@
    "xs2a.banking.playground.klarna.com": "domain"
   },
   "url": "https://hackerone.com/klarna",
-  "wildcards": 0
+  "wildcards": 4
  },
  "hackerone:koho": {
   "barriers": [],

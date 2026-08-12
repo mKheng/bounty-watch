@@ -2869,6 +2869,48 @@
   "url": "https://www.intigriti.com/programs/lansweeper/fing/detail",
   "wildcards": 1
  },
+ "intigriti:lansweeper/lansweeper1": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.lansweeper.com",
+   "Lansweeper Discovery",
+   "api.lansweeper.com",
+   "app.lansweeper.com",
+   "app.lansweeper.com/trial",
+   "autoupdateapi.lansweeper.com",
+   "backoffice.lansweeper.com",
+   "docs.lansweeper.com",
+   "edge.lansweeper.com",
+   "fb.lansweeper.com",
+   "https://lsagentrelay.lansweeper.com/",
+   "login.lansweeper.com",
+   "www.lansweeper.com"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:lansweeper/lansweeper1",
+  "max_bounty": 2000.0,
+  "min_bounty": 50.0,
+  "name": "Lansweeper Bug Bounty Program",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.lansweeper.com": "wildcard",
+   "Lansweeper Discovery": "domain",
+   "api.lansweeper.com": "domain",
+   "app.lansweeper.com": "domain",
+   "app.lansweeper.com/trial": "domain",
+   "autoupdateapi.lansweeper.com": "domain",
+   "backoffice.lansweeper.com": "domain",
+   "docs.lansweeper.com": "domain",
+   "edge.lansweeper.com": "domain",
+   "fb.lansweeper.com": "domain",
+   "https://lsagentrelay.lansweeper.com/": "domain",
+   "login.lansweeper.com": "domain",
+   "www.lansweeper.com": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/lansweeper/lansweeper1/detail",
+  "wildcards": 1
+ },
  "intigriti:liferay/liferay-vdp": {
   "barriers": [],
   "currency": "USD",
