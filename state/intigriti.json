@@ -4327,26 +4327,6 @@
   "url": "https://www.intigriti.com/programs/spp-storebrand/storebrand-rd/detail",
   "wildcards": 38
  },
- "intigriti:sqills/sqillscorporatewebsite": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.sqills.com",
-   "*.sqills.team"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:sqills/sqillscorporatewebsite",
-  "max_bounty": 2500.0,
-  "min_bounty": 0.0,
-  "name": "Sqills",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.sqills.com": "wildcard",
-   "*.sqills.team": "wildcard"
-  },
-  "url": "https://www.intigriti.com/programs/sqills/sqillscorporatewebsite/detail",
-  "wildcards": 2
- },
  "intigriti:tccc/coca-cola": {
   "barriers": [],
   "currency": "USD",
