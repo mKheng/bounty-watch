@@ -4175,6 +4175,7 @@
    "Luna",
    "Other",
    "Tablets",
+   "Vega OS",
    "a4k.amazon.com",
    "alexa.amazon.com",
    "alexaanswers.amazon.com",
@@ -4216,6 +4217,7 @@
    "Luna": "other",
    "Other": "other",
    "Tablets": "other",
+   "Vega OS": "other",
    "a4k.amazon.com": "domain",
    "alexa.amazon.com": "domain",
    "alexaanswers.amazon.com": "domain",
@@ -6981,32 +6983,6 @@
    "upload.box.com": "domain"
   },
   "url": "https://hackerone.com/box_private",
-  "wildcards": 0
- },
- "hackerone:brave": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "Brave Browser Desktop",
-   "Brave websites",
-   "com.brave.browser",
-   "com.brave.ios.browser",
-   "https://github.com/brave/*, https://github.com/brave-intl/*"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:brave",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Brave Software",
-  "platform": "hackerone",
-  "scope_types": {
-   "Brave Browser Desktop": "other",
-   "Brave websites": "other",
-   "com.brave.browser": "mobile",
-   "com.brave.ios.browser": "mobile",
-   "https://github.com/brave/*, https://github.com/brave-intl/*": "domain"
-  },
-  "url": "https://hackerone.com/brave",
   "wildcards": 0
  },
  "hackerone:braze_inc": {
@@ -64599,6 +64575,7 @@
    "*.prittworld.es",
    "*.proloctite.com",
    "*.raqn.io",
+   "*.raqnhub.cn",
    "*.researchatelm.com",
    "*.resistol.com.mx",
    "*.rubson.com",
@@ -64861,6 +64838,7 @@
    "*.prittworld.es": "wildcard",
    "*.proloctite.com": "wildcard",
    "*.raqn.io": "wildcard",
+   "*.raqnhub.cn": "wildcard",
    "*.researchatelm.com": "wildcard",
    "*.resistol.com.mx": "wildcard",
    "*.rubson.com": "wildcard",
@@ -64967,7 +64945,7 @@
    "www.joico.lat/": "domain"
   },
   "url": "https://hackerone.com/henkel_vdp",
-  "wildcards": 204
+  "wildcards": 205
  },
  "hackerone:hertz": {
   "barriers": [],
@@ -70269,6 +70247,7 @@
    "edi-self-service.deere.com",
    "edl-nlq.ae-edl-ingest-prod-vpn.us.e18.c01.johndeerecloud.com",
    "edl.services.wirtgen-group.com",
+   "edo-producttaxonomy.ghns-web-platform-prod-standalone4.us.e00.c01.johndeerecloud.com",
    "elink.surefireag.com",
    "email.bearflagrobotics.com",
    "email.bluerivert.com",
@@ -70731,6 +70710,7 @@
    "mfe-sc.expertconnect.deere.com",
    "mfg-devl-beta.deere.com",
    "midas.deere.com",
+   "migd-business-integration-api.deere.com",
    "mkt.unimil.com.br",
    "mktinfo.tal.deere.com",
    "mobile.benninghoven-gm.com",
@@ -72261,6 +72241,7 @@
    "edi-self-service.deere.com": "domain",
    "edl-nlq.ae-edl-ingest-prod-vpn.us.e18.c01.johndeerecloud.com": "domain",
    "edl.services.wirtgen-group.com": "domain",
+   "edo-producttaxonomy.ghns-web-platform-prod-standalone4.us.e00.c01.johndeerecloud.com": "domain",
    "elink.surefireag.com": "domain",
    "email.bearflagrobotics.com": "domain",
    "email.bluerivert.com": "domain",
@@ -72723,6 +72704,7 @@
    "mfe-sc.expertconnect.deere.com": "domain",
    "mfg-devl-beta.deere.com": "domain",
    "midas.deere.com": "domain",
+   "migd-business-integration-api.deere.com": "domain",
    "mkt.unimil.com.br": "domain",
    "mktinfo.tal.deere.com": "domain",
    "mobile.benninghoven-gm.com": "domain",
@@ -74066,15 +74048,7 @@
    "Klarna Android App (com.myklarnamobile)",
    "Klarna iOS App (com.klarna.app)",
    "Merchant Portal",
-   "api.klarna.com",
-   "app.klarna.com",
-   "js.klarna.com",
-   "klarna.com",
-   "klarna.net",
-   "klarnacdn.net",
-   "portal.openbanking.playground.klarna.com",
-   "pricerunner.com",
-   "xs2a.banking.playground.klarna.com"
+   "app.klarna.com"
   ],
   "is_vdp": false,
   "key": "hackerone:klarna",
@@ -74090,15 +74064,7 @@
    "Klarna Android App (com.myklarnamobile)": "mobile",
    "Klarna iOS App (com.klarna.app)": "mobile",
    "Merchant Portal": "other",
-   "api.klarna.com": "domain",
-   "app.klarna.com": "domain",
-   "js.klarna.com": "domain",
-   "klarna.com": "domain",
-   "klarna.net": "domain",
-   "klarnacdn.net": "domain",
-   "portal.openbanking.playground.klarna.com": "domain",
-   "pricerunner.com": "domain",
-   "xs2a.banking.playground.klarna.com": "domain"
+   "app.klarna.com": "domain"
   },
   "url": "https://hackerone.com/klarna",
   "wildcards": 4
@@ -84147,6 +84113,26 @@
   "url": "https://hackerone.com/snapchat",
   "wildcards": 2
  },
+ "hackerone:solidus": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://github.com/solidusio/solidus",
+   "https://github.com/solidusio/solidus_auth_devise"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:solidus",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Solidus",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://github.com/solidusio/solidus": "domain",
+   "https://github.com/solidusio/solidus_auth_devise": "domain"
+  },
+  "url": "https://hackerone.com/solidus",
+  "wildcards": 0
+ },
  "hackerone:sony": {
   "barriers": [],
   "currency": "",
@@ -87374,6 +87360,36 @@
   },
   "url": "https://hackerone.com/vodafone",
   "wildcards": 66
+ },
+ "hackerone:vodafone_oman": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "1589071345",
+   "apix.vodafone.om",
+   "om.vodafone.mva",
+   "vfo01.vodafone.om",
+   "vfo02.vodafone.om",
+   "vfo03.vodafone.om",
+   "www.vodafone.om"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:vodafone_oman",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Vodafone Oman",
+  "platform": "hackerone",
+  "scope_types": {
+   "1589071345": "mobile",
+   "apix.vodafone.om": "domain",
+   "om.vodafone.mva": "mobile",
+   "vfo01.vodafone.om": "domain",
+   "vfo02.vodafone.om": "domain",
+   "vfo03.vodafone.om": "domain",
+   "www.vodafone.om": "domain"
+  },
+  "url": "https://hackerone.com/vodafone_oman",
+  "wildcards": 0
  },
  "hackerone:vueling_vdp": {
   "barriers": [],

@@ -1113,6 +1113,7 @@
    "*.bz-berlin.de",
    "*.computerbild.de",
    "*.ein-herz-fuer-kinder.de",
+   "*.emarketer.com",
    "*.fitbook.de",
    "*.germany.politico.eu",
    "*.hey.bild.de",
@@ -1134,6 +1135,7 @@
    "dealer.prod.ps.axelspringer.de/purchases/*",
    "digital.welt.de",
    "editorial.one",
+   "emarketer.com",
    "epaper.welt.de",
    "go.welt.de",
    "m.bild.de",
@@ -1162,6 +1164,7 @@
    "*.bz-berlin.de": "wildcard",
    "*.computerbild.de": "wildcard",
    "*.ein-herz-fuer-kinder.de": "wildcard",
+   "*.emarketer.com": "wildcard",
    "*.fitbook.de": "wildcard",
    "*.germany.politico.eu": "wildcard",
    "*.hey.bild.de": "wildcard",
@@ -1183,6 +1186,7 @@
    "dealer.prod.ps.axelspringer.de/purchases/*": "wildcard",
    "digital.welt.de": "domain",
    "editorial.one": "domain",
+   "emarketer.com": "domain",
    "epaper.welt.de": "domain",
    "go.welt.de": "domain",
    "m.bild.de": "domain",
@@ -1195,7 +1199,7 @@
    "welt.de": "domain"
   },
   "url": "https://www.intigriti.com/programs/axelspringerse/nmt/detail",
-  "wildcards": 25
+  "wildcards": 26
  },
  "intigriti:bitvavo/bitvavovdp": {
   "barriers": [],
@@ -3056,6 +3060,40 @@
   },
   "url": "https://www.intigriti.com/programs/mv/mobilevikings/detail",
   "wildcards": 8
+ },
+ "intigriti:nederlandseloterij/dutchlotteryvdp": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "See the CSV file attached in the In-scope section for a full list of assets in scope",
+   "www.eurojackpot.nederlandseloterij.nl",
+   "www.krasloten.nederlandseloterij.nl",
+   "www.lotto.nederlandseloterij.nl",
+   "www.luckyday.nederlandseloterij.nl",
+   "www.miljoenenspel.nederlandseloterij.nl",
+   "www.nederlandseloterij.nl",
+   "www.staatsloterij.nederlandseloterij.nl",
+   "www.toto.nl"
+  ],
+  "is_vdp": true,
+  "key": "intigriti:nederlandseloterij/dutchlotteryvdp",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Dutch Lottery VDP",
+  "platform": "intigriti",
+  "scope_types": {
+   "See the CSV file attached in the In-scope section for a full list of assets in scope": "other",
+   "www.eurojackpot.nederlandseloterij.nl": "domain",
+   "www.krasloten.nederlandseloterij.nl": "domain",
+   "www.lotto.nederlandseloterij.nl": "domain",
+   "www.luckyday.nederlandseloterij.nl": "domain",
+   "www.miljoenenspel.nederlandseloterij.nl": "domain",
+   "www.nederlandseloterij.nl": "domain",
+   "www.staatsloterij.nederlandseloterij.nl": "domain",
+   "www.toto.nl": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/nederlandseloterij/dutchlotteryvdp/detail",
+  "wildcards": 0
  },
  "intigriti:nestlé/nestlévdp": {
   "barriers": [],
