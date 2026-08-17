@@ -2150,6 +2150,7 @@
   "currency": "EUR",
   "in_scope": [
    "*.libelle.nl",
+   "actie.libelle.nl",
    "www.libelle.nl"
   ],
   "is_vdp": false,
@@ -2160,6 +2161,7 @@
   "platform": "intigriti",
   "scope_types": {
    "*.libelle.nl": "wildcard",
+   "actie.libelle.nl": "domain",
    "www.libelle.nl": "domain"
   },
   "url": "https://www.intigriti.com/programs/dpgm/libelle/detail",
