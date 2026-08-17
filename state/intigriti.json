@@ -177,6 +177,38 @@
   "url": "https://www.intigriti.com/programs/arbonia/arboniavdpprogram/detail",
   "wildcards": 0
  },
+ "intigriti:arkane/arkanenetwork": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "api-wallet-sandbox.venly.io",
+   "api-wallet.venly.io",
+   "api.arkane.network",
+   "connect.arkane.network",
+   "connect.venly.io",
+   "login.arkane.network",
+   "login.venly.io",
+   "wallet.venly.io"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:arkane/arkanenetwork",
+  "max_bounty": 5000.0,
+  "min_bounty": 50.0,
+  "name": "Venly",
+  "platform": "intigriti",
+  "scope_types": {
+   "api-wallet-sandbox.venly.io": "domain",
+   "api-wallet.venly.io": "domain",
+   "api.arkane.network": "domain",
+   "connect.arkane.network": "domain",
+   "connect.venly.io": "domain",
+   "login.arkane.network": "domain",
+   "login.venly.io": "domain",
+   "wallet.venly.io": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/arkane/arkanenetwork/detail",
+  "wildcards": 0
+ },
  "intigriti:arm/arm": {
   "barriers": [],
   "currency": "USD",
@@ -1727,6 +1759,52 @@
    "Out of Scope": "other"
   },
   "url": "https://www.intigriti.com/programs/dashlane/dashlanevulnerabilitydisclosureprogram/detail",
+  "wildcards": 1
+ },
+ "intigriti:datacamp/datacamp": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.datacamp.com",
+   "app.datacamp.com/certification",
+   "app.datacamp.com/groups",
+   "app.datacamp.com/learn",
+   "assessment-api.datacamp.com",
+   "assessment-v2.datacamp.com",
+   "assessment.datacamp.com",
+   "campus.datacamp.com",
+   "com.datacamp",
+   "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087",
+   "practice.datacamp.com",
+   "profiles-api.datacamp.com",
+   "projects.datacamp.com",
+   "www.datacamp.com",
+   "www.datacamp.com/datalab"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:datacamp/datacamp",
+  "max_bounty": 1500.0,
+  "min_bounty": 25.0,
+  "name": "DataCamp",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.datacamp.com": "wildcard",
+   "app.datacamp.com/certification": "domain",
+   "app.datacamp.com/groups": "domain",
+   "app.datacamp.com/learn": "domain",
+   "assessment-api.datacamp.com": "domain",
+   "assessment-v2.datacamp.com": "domain",
+   "assessment.datacamp.com": "domain",
+   "campus.datacamp.com": "domain",
+   "com.datacamp": "mobile",
+   "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087": "mobile",
+   "practice.datacamp.com": "domain",
+   "profiles-api.datacamp.com": "domain",
+   "projects.datacamp.com": "domain",
+   "www.datacamp.com": "domain",
+   "www.datacamp.com/datalab": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/datacamp/datacamp/detail",
   "wildcards": 1
  },
  "intigriti:delenprivatebank/privatebankdelen": {
@@ -4326,6 +4404,26 @@
   },
   "url": "https://www.intigriti.com/programs/spp-storebrand/storebrand-rd/detail",
   "wildcards": 38
+ },
+ "intigriti:sqills/sqillscorporatewebsite": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.sqills.com",
+   "*.sqills.team"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:sqills/sqillscorporatewebsite",
+  "max_bounty": 2500.0,
+  "min_bounty": 0.0,
+  "name": "Sqills",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.sqills.com": "wildcard",
+   "*.sqills.team": "wildcard"
+  },
+  "url": "https://www.intigriti.com/programs/sqills/sqillscorporatewebsite/detail",
+  "wildcards": 2
  },
  "intigriti:tccc/coca-cola": {
   "barriers": [],
