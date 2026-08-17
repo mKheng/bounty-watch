@@ -77377,6 +77377,7 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "*.momoafrica.tech",
    "10.51.175.34",
    "102.37.59.117",
    "102.88.18.116",
@@ -77879,6 +77880,7 @@
   "name": "MTN Group",
   "platform": "hackerone",
   "scope_types": {
+   "*.momoafrica.tech": "wildcard",
    "10.51.175.34": "domain",
    "102.37.59.117": "domain",
    "102.88.18.116": "domain",
@@ -78375,7 +78377,7 @@
    "yelloworld.com": "domain"
   },
   "url": "https://hackerone.com/mtn_group",
-  "wildcards": 0
+  "wildcards": 1
  },
  "hackerone:mueller_water_products_vdp": {
   "barriers": [],
@@ -81331,24 +81333,6 @@
    "www.share.market": "domain"
   },
   "url": "https://hackerone.com/phonepe_vdp",
-  "wildcards": 0
- },
- "hackerone:phpbb": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "https://github.com/phpbb/phpbb"
-  ],
-  "is_vdp": true,
-  "key": "hackerone:phpbb",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "phpBB",
-  "platform": "hackerone",
-  "scope_types": {
-   "https://github.com/phpbb/phpbb": "domain"
-  },
-  "url": "https://hackerone.com/phpbb",
   "wildcards": 0
  },
  "hackerone:picsart": {
@@ -84715,7 +84699,6 @@
    "Superhuman Mail",
    "Superhuman Mail Chrome Extension",
    "Superhuman Mail Desktop App",
-   "app.grammarly.com",
    "coda.grammarly.com",
    "coda.io",
    "codacontent.io",
@@ -84723,6 +84706,7 @@
    "com.grammarly.android.keyboard",
    "com.grammarly.keyboard",
    "com.superhuman.mail",
+   "docs.superhuman.com",
    "gateway.superhuman.com",
    "id.superhuman.com",
    "io.coda",
@@ -84752,7 +84736,6 @@
    "Superhuman Mail": "other",
    "Superhuman Mail Chrome Extension": "other",
    "Superhuman Mail Desktop App": "other",
-   "app.grammarly.com": "domain",
    "coda.grammarly.com": "domain",
    "coda.io": "domain",
    "codacontent.io": "domain",
@@ -84760,6 +84743,7 @@
    "com.grammarly.android.keyboard": "mobile",
    "com.grammarly.keyboard": "mobile",
    "com.superhuman.mail": "mobile",
+   "docs.superhuman.com": "domain",
    "gateway.superhuman.com": "domain",
    "id.superhuman.com": "domain",
    "io.coda": "mobile",
