@@ -83659,24 +83659,6 @@
   "url": "https://hackerone.com/shutterfly_vdp",
   "wildcards": 6
  },
- "hackerone:sidefx": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "*.sidefx.com"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:sidefx",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "SideFX",
-  "platform": "hackerone",
-  "scope_types": {
-   "*.sidefx.com": "wildcard"
-  },
-  "url": "https://hackerone.com/sidefx",
-  "wildcards": 1
- },
  "hackerone:simple_poll": {
   "barriers": [],
   "currency": "",
