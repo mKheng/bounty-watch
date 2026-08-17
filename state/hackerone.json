@@ -75039,32 +75039,6 @@
   "url": "https://hackerone.com/malwarebytes",
   "wildcards": 8
  },
- "hackerone:mariadb": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "MariaDB Server & Connectors  - Denial of Service",
-   "MariaDB Server & Connectors - Access control bypass",
-   "MariaDB Server & Connectors - Data corruption, exfiltration, disclosure",
-   "MariaDB Server & Connectors - Remote Code Execution",
-   "mariadb.org"
-  ],
-  "is_vdp": true,
-  "key": "hackerone:mariadb",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "MariaDB",
-  "platform": "hackerone",
-  "scope_types": {
-   "MariaDB Server & Connectors  - Denial of Service": "other",
-   "MariaDB Server & Connectors - Access control bypass": "other",
-   "MariaDB Server & Connectors - Data corruption, exfiltration, disclosure": "other",
-   "MariaDB Server & Connectors - Remote Code Execution": "other",
-   "mariadb.org": "domain"
-  },
-  "url": "https://hackerone.com/mariadb",
-  "wildcards": 0
- },
  "hackerone:marriott": {
   "barriers": [],
   "currency": "",

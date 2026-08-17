@@ -1113,7 +1113,6 @@
    "*.bz-berlin.de",
    "*.computerbild.de",
    "*.ein-herz-fuer-kinder.de",
-   "*.emarketer.com",
    "*.fitbook.de",
    "*.germany.politico.eu",
    "*.hey.bild.de",
@@ -1164,7 +1163,6 @@
    "*.bz-berlin.de": "wildcard",
    "*.computerbild.de": "wildcard",
    "*.ein-herz-fuer-kinder.de": "wildcard",
-   "*.emarketer.com": "wildcard",
    "*.fitbook.de": "wildcard",
    "*.germany.politico.eu": "wildcard",
    "*.hey.bild.de": "wildcard",
@@ -1199,7 +1197,7 @@
    "welt.de": "domain"
   },
   "url": "https://www.intigriti.com/programs/axelspringerse/nmt/detail",
-  "wildcards": 26
+  "wildcards": 25
  },
  "intigriti:bitvavo/bitvavovdp": {
   "barriers": [],
