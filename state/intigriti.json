@@ -4661,6 +4661,26 @@
   "url": "https://www.intigriti.com/programs/uz%20leuven/ehealthhub%26meta-hubvznkul/detail",
   "wildcards": 2
  },
+ "intigriti:uz leuven/nexuzhealthwebpacs": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "idp-contact.nexuzhealth.be",
+   "media.nexuzhealth.be/patient/"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:uz leuven/nexuzhealthwebpacs",
+  "max_bounty": 1000.0,
+  "min_bounty": 0.0,
+  "name": "Nexuzhealth Web PACS",
+  "platform": "intigriti",
+  "scope_types": {
+   "idp-contact.nexuzhealth.be": "domain",
+   "media.nexuzhealth.be/patient/": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/uz%20leuven/nexuzhealthwebpacs/detail",
+  "wildcards": 0
+ },
  "intigriti:uz leuven/uzleuven": {
   "barriers": [],
   "currency": "EUR",
