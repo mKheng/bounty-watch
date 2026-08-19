@@ -78441,6 +78441,28 @@
   "url": "https://hackerone.com/mufg-vdp",
   "wildcards": 2
  },
+ "hackerone:myndr": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "*.myndr.net",
+   "*.myndr.nl",
+   "www.myndr.nl"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:myndr",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Myndr",
+  "platform": "hackerone",
+  "scope_types": {
+   "*.myndr.net": "wildcard",
+   "*.myndr.nl": "wildcard",
+   "www.myndr.nl": "domain"
+  },
+  "url": "https://hackerone.com/myndr",
+  "wildcards": 2
+ },
  "hackerone:navient_solutions": {
   "barriers": [],
   "currency": "",
