@@ -79578,7 +79578,7 @@
    "updates.nextcloud.com",
    "usercontent.apps.nextcloud.com"
   ],
-  "is_vdp": true,
+  "is_vdp": false,
   "key": "hackerone:nextcloud",
   "max_bounty": 0.0,
   "min_bounty": 0.0,
