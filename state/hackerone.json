@@ -85330,7 +85330,8 @@
   "currency": "",
   "in_scope": [
    "Tor",
-   "Tor Browser"
+   "Tor Browser",
+   "https://gitlab.torproject.org/tpo/core/arti"
   ],
   "is_vdp": false,
   "key": "hackerone:torproject",
@@ -85340,7 +85341,8 @@
   "platform": "hackerone",
   "scope_types": {
    "Tor": "other",
-   "Tor Browser": "other"
+   "Tor Browser": "other",
+   "https://gitlab.torproject.org/tpo/core/arti": "domain"
   },
   "url": "https://hackerone.com/torproject",
   "wildcards": 0
