@@ -87469,34 +87469,6 @@
   "url": "https://hackerone.com/wealthsimple",
   "wildcards": 2
  },
- "hackerone:weblate": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "hosted.weblate.org",
-   "https://github.com/WeblateOrg/docker",
-   "https://github.com/WeblateOrg/translation-finder",
-   "https://github.com/WeblateOrg/weblate",
-   "https://github.com/WeblateOrg/website",
-   "https://github.com/WeblateOrg/wlc"
-  ],
-  "is_vdp": true,
-  "key": "hackerone:weblate",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Weblate",
-  "platform": "hackerone",
-  "scope_types": {
-   "hosted.weblate.org": "domain",
-   "https://github.com/WeblateOrg/docker": "domain",
-   "https://github.com/WeblateOrg/translation-finder": "domain",
-   "https://github.com/WeblateOrg/weblate": "domain",
-   "https://github.com/WeblateOrg/website": "domain",
-   "https://github.com/WeblateOrg/wlc": "domain"
-  },
-  "url": "https://hackerone.com/weblate",
-  "wildcards": 0
- },
  "hackerone:wellhive": {
   "barriers": [],
   "currency": "",
