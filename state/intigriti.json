@@ -4495,6 +4495,46 @@
   "url": "https://www.intigriti.com/programs/spp-storebrand/storebrand-rd/detail",
   "wildcards": 38
  },
+ "intigriti:syb/soundtrackyourbrand": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "1114799709",
+   "1114800186",
+   "api.soundtrackyourbrand.com",
+   "billing.api.soundtrackyourbrand.com",
+   "builds.soundtrackyourbrand.com",
+   "business.soundtrackyourbrand.com",
+   "com.soundtrackyourbrand.soundtrack.player",
+   "https://auth.api.soundtrackyourbrand.com/",
+   "https://builds.soundtrackyourbrand.com/download/WIN32SOUNDTRACK/latest",
+   "https://radio.api.soundtrackyourbrand.com/",
+   "https://soundtrack.io",
+   "macOS app"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:syb/soundtrackyourbrand",
+  "max_bounty": 3500.0,
+  "min_bounty": 50.0,
+  "name": "Soundtrack Technologies",
+  "platform": "intigriti",
+  "scope_types": {
+   "1114799709": "mobile",
+   "1114800186": "mobile",
+   "api.soundtrackyourbrand.com": "domain",
+   "billing.api.soundtrackyourbrand.com": "domain",
+   "builds.soundtrackyourbrand.com": "domain",
+   "business.soundtrackyourbrand.com": "domain",
+   "com.soundtrackyourbrand.soundtrack.player": "mobile",
+   "https://auth.api.soundtrackyourbrand.com/": "domain",
+   "https://builds.soundtrackyourbrand.com/download/WIN32SOUNDTRACK/latest": "domain",
+   "https://radio.api.soundtrackyourbrand.com/": "domain",
+   "https://soundtrack.io": "domain",
+   "macOS app": "other"
+  },
+  "url": "https://www.intigriti.com/programs/syb/soundtrackyourbrand/detail",
+  "wildcards": 0
+ },
  "intigriti:tccc/coca-cola": {
   "barriers": [],
   "currency": "USD",
