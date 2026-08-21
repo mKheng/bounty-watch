@@ -84399,6 +84399,20 @@
   "url": "https://hackerone.com/starling_bank",
   "wildcards": 0
  },
+ "hackerone:stellar": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [],
+  "is_vdp": true,
+  "key": "hackerone:stellar",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Stellar.org",
+  "platform": "hackerone",
+  "scope_types": {},
+  "url": "https://hackerone.com/stellar",
+  "wildcards": 0
+ },
  "hackerone:streak_com": {
   "barriers": [],
   "currency": "",
