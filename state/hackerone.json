@@ -74485,6 +74485,7 @@
   "in_scope": [
    "acintra.appslatam.com",
    "airtalk.appslatam.com",
+   "andeslatam.tech",
    "chat.latamairlines.com",
    "cosmos-vision.appslatam.com",
    "crew-wallet.intg.appslatam.com",
@@ -74532,6 +74533,7 @@
   "scope_types": {
    "acintra.appslatam.com": "domain",
    "airtalk.appslatam.com": "domain",
+   "andeslatam.tech": "domain",
    "chat.latamairlines.com": "domain",
    "cosmos-vision.appslatam.com": "domain",
    "crew-wallet.intg.appslatam.com": "domain",
