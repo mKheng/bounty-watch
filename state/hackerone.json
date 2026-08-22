@@ -64472,6 +64472,7 @@
    "*.henkel.cn",
    "*.henkel.com",
    "*.henkeldx.com",
+   "*.henkeleconomato.es",
    "*.henkelgroup.cloud",
    "*.henkelgroup.net",
    "*.henkelhomecare.co.kr",
@@ -64736,6 +64737,7 @@
    "*.henkel.cn": "wildcard",
    "*.henkel.com": "wildcard",
    "*.henkeldx.com": "wildcard",
+   "*.henkeleconomato.es": "wildcard",
    "*.henkelgroup.cloud": "wildcard",
    "*.henkelgroup.net": "wildcard",
    "*.henkelhomecare.co.kr": "wildcard",
@@ -64943,7 +64945,7 @@
    "www.joico.lat/": "domain"
   },
   "url": "https://hackerone.com/henkel_vdp",
-  "wildcards": 206
+  "wildcards": 207
  },
  "hackerone:hertz": {
   "barriers": [],
