@@ -64576,6 +64576,7 @@
    "*.resistol.com.mx",
    "*.rubson.com",
    "*.salonory.com",
+   "*.sawope.com",
    "*.schwarzkopf.*",
    "*.schwarzkopf.de",
    "*.schwarzkopfclub.com.cn",
@@ -64839,6 +64840,7 @@
    "*.resistol.com.mx": "wildcard",
    "*.rubson.com": "wildcard",
    "*.salonory.com": "wildcard",
+   "*.sawope.com": "wildcard",
    "*.schwarzkopf.*": "wildcard",
    "*.schwarzkopf.de": "wildcard",
    "*.schwarzkopfclub.com.cn": "wildcard",
@@ -64941,7 +64943,7 @@
    "www.joico.lat/": "domain"
   },
   "url": "https://hackerone.com/henkel_vdp",
-  "wildcards": 205
+  "wildcards": 206
  },
  "hackerone:hertz": {
   "barriers": [],
