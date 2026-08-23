@@ -4907,42 +4907,6 @@
   "url": "https://www.intigriti.com/programs/vlerickbusinessschool/vlerickbusinessschool/detail",
   "wildcards": 1
  },
- "intigriti:voi/voiscooters": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.voi.com",
-   "*.voiscooters.com",
-   "Voi – e-scooter & e-bike hire",
-   "Voi – e-scooters & e-bikes",
-   "fm.voiapp.io",
-   "https://api.voiapp.io/",
-   "https://repair.voiweb.net",
-   "mds.voiapp.io",
-   "report.voi.com",
-   "voi.com"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:voi/voiscooters",
-  "max_bounty": 3500.0,
-  "min_bounty": 0.0,
-  "name": "Voi Scooters",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.voi.com": "wildcard",
-   "*.voiscooters.com": "wildcard",
-   "Voi – e-scooter & e-bike hire": "mobile",
-   "Voi – e-scooters & e-bikes": "mobile",
-   "fm.voiapp.io": "domain",
-   "https://api.voiapp.io/": "domain",
-   "https://repair.voiweb.net": "domain",
-   "mds.voiapp.io": "domain",
-   "report.voi.com": "domain",
-   "voi.com": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/voi/voiscooters/detail",
-  "wildcards": 2
- },
  "intigriti:voi/voivulnerabilitydisclosureprogram": {
   "barriers": [],
   "currency": "EUR",
