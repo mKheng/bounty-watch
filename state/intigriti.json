@@ -177,6 +177,38 @@
   "url": "https://www.intigriti.com/programs/arbonia/arboniavdpprogram/detail",
   "wildcards": 0
  },
+ "intigriti:arkane/arkanenetwork": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "api-wallet-sandbox.venly.io",
+   "api-wallet.venly.io",
+   "api.arkane.network",
+   "connect.arkane.network",
+   "connect.venly.io",
+   "login.arkane.network",
+   "login.venly.io",
+   "wallet.venly.io"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:arkane/arkanenetwork",
+  "max_bounty": 5000.0,
+  "min_bounty": 50.0,
+  "name": "Venly",
+  "platform": "intigriti",
+  "scope_types": {
+   "api-wallet-sandbox.venly.io": "domain",
+   "api-wallet.venly.io": "domain",
+   "api.arkane.network": "domain",
+   "connect.arkane.network": "domain",
+   "connect.venly.io": "domain",
+   "login.arkane.network": "domain",
+   "login.venly.io": "domain",
+   "wallet.venly.io": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/arkane/arkanenetwork/detail",
+  "wildcards": 0
+ },
  "intigriti:arm/arm": {
   "barriers": [],
   "currency": "USD",
@@ -4906,6 +4938,42 @@
   },
   "url": "https://www.intigriti.com/programs/vlerickbusinessschool/vlerickbusinessschool/detail",
   "wildcards": 1
+ },
+ "intigriti:voi/voiscooters": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.voi.com",
+   "*.voiscooters.com",
+   "Voi – e-scooter & e-bike hire",
+   "Voi – e-scooters & e-bikes",
+   "fm.voiapp.io",
+   "https://api.voiapp.io/",
+   "https://repair.voiweb.net",
+   "mds.voiapp.io",
+   "report.voi.com",
+   "voi.com"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:voi/voiscooters",
+  "max_bounty": 3500.0,
+  "min_bounty": 0.0,
+  "name": "Voi Scooters",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.voi.com": "wildcard",
+   "*.voiscooters.com": "wildcard",
+   "Voi – e-scooter & e-bike hire": "mobile",
+   "Voi – e-scooters & e-bikes": "mobile",
+   "fm.voiapp.io": "domain",
+   "https://api.voiapp.io/": "domain",
+   "https://repair.voiweb.net": "domain",
+   "mds.voiapp.io": "domain",
+   "report.voi.com": "domain",
+   "voi.com": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/voi/voiscooters/detail",
+  "wildcards": 2
  },
  "intigriti:voi/voivulnerabilitydisclosureprogram": {
   "barriers": [],
