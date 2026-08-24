@@ -66047,26 +66047,6 @@
   "url": "https://hackerone.com/hilton",
   "wildcards": 4
  },
- "hackerone:homebargains": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "https://hackerone-m1rtuq8orz.hbstaging.website/",
-   "https://signin-hackerone.hbstaging.website/"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:homebargains",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Home Bargains",
-  "platform": "hackerone",
-  "scope_types": {
-   "https://hackerone-m1rtuq8orz.hbstaging.website/": "domain",
-   "https://signin-hackerone.hbstaging.website/": "domain"
-  },
-  "url": "https://hackerone.com/homebargains",
-  "wildcards": 0
- },
  "hackerone:hostinger": {
   "barriers": [],
   "currency": "",
@@ -78154,6 +78134,7 @@
   "currency": "",
   "in_scope": [
    "*.hypermint.com",
+   "*.iron.xyz",
    "*.moonpay.com",
    "*.moonpaycloud.com",
    "api.moonpay.com",
@@ -78180,6 +78161,7 @@
   "platform": "hackerone",
   "scope_types": {
    "*.hypermint.com": "wildcard",
+   "*.iron.xyz": "wildcard",
    "*.moonpay.com": "wildcard",
    "*.moonpaycloud.com": "wildcard",
    "api.moonpay.com": "domain",
@@ -78199,7 +78181,7 @@
    "web3.moonpay.com": "domain"
   },
   "url": "https://hackerone.com/moonpay",
-  "wildcards": 3
+  "wildcards": 4
  },
  "hackerone:moov": {
   "barriers": [],
@@ -88601,6 +88583,48 @@
    "shop.whoop.com": "domain"
   },
   "url": "https://hackerone.com/whoop_bug_bounty",
+  "wildcards": 0
+ },
+ "hackerone:wickr": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "Wickr Me Android",
+   "Wickr Me Linux",
+   "Wickr Me OS X",
+   "Wickr Me Windows",
+   "Wickr Me iOS",
+   "Wickr Pro Android",
+   "Wickr Pro Linux",
+   "Wickr Pro OS X",
+   "Wickr Pro Windows",
+   "Wickr Pro iOS",
+   "Wickr Pro/Wickr Me (all related technical components) (up to)",
+   "admin.wickr.com",
+   "www.wickr.com"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:wickr",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Wickr",
+  "platform": "hackerone",
+  "scope_types": {
+   "Wickr Me Android": "other",
+   "Wickr Me Linux": "other",
+   "Wickr Me OS X": "other",
+   "Wickr Me Windows": "other",
+   "Wickr Me iOS": "other",
+   "Wickr Pro Android": "other",
+   "Wickr Pro Linux": "other",
+   "Wickr Pro OS X": "other",
+   "Wickr Pro Windows": "other",
+   "Wickr Pro iOS": "other",
+   "Wickr Pro/Wickr Me (all related technical components) (up to)": "other",
+   "admin.wickr.com": "domain",
+   "www.wickr.com": "domain"
+  },
+  "url": "https://hackerone.com/wickr",
   "wildcards": 0
  },
  "hackerone:wisdomtree": {
