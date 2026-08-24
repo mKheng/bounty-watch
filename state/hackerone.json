@@ -88009,7 +88009,6 @@
    "www.visa.com.az",
    "www.visa.com.bo",
    "www.visa.com.br",
-   "www.visa.com.cn",
    "www.visa.com.cy",
    "www.visa.com.ge",
    "www.visa.com.hk",
@@ -88056,14 +88055,11 @@
    "www.visabg.com",
    "www.visaeurope.at",
    "www.visaeurope.ch",
-   "www.visaeurope.es",
    "www.visaeurope.lu",
    "www.visaeurope.si",
-   "www.visainfinite.ca",
    "www.visaitalia.com",
    "www.visakorea.com",
-   "www.visasoutheasteurope.com",
-   "www.yellowpepper.com"
+   "www.visasoutheasteurope.com"
   ],
   "is_vdp": false,
   "key": "hackerone:visa",
@@ -88210,7 +88206,6 @@
    "www.visa.com.az": "domain",
    "www.visa.com.bo": "domain",
    "www.visa.com.br": "domain",
-   "www.visa.com.cn": "domain",
    "www.visa.com.cy": "domain",
    "www.visa.com.ge": "domain",
    "www.visa.com.hk": "domain",
@@ -88257,14 +88252,11 @@
    "www.visabg.com": "domain",
    "www.visaeurope.at": "domain",
    "www.visaeurope.ch": "domain",
-   "www.visaeurope.es": "domain",
    "www.visaeurope.lu": "domain",
    "www.visaeurope.si": "domain",
-   "www.visainfinite.ca": "domain",
    "www.visaitalia.com": "domain",
    "www.visakorea.com": "domain",
-   "www.visasoutheasteurope.com": "domain",
-   "www.yellowpepper.com": "domain"
+   "www.visasoutheasteurope.com": "domain"
   },
   "url": "https://hackerone.com/visa",
   "wildcards": 2
