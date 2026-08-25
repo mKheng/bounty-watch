@@ -87507,6 +87507,24 @@
   "url": "https://hackerone.com/valve",
   "wildcards": 1
  },
+ "hackerone:vanguard": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "Scope"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:vanguard",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Vanguard",
+  "platform": "hackerone",
+  "scope_types": {
+   "Scope": "other"
+  },
+  "url": "https://hackerone.com/vanguard",
+  "wildcards": 0
+ },
  "hackerone:varonis": {
   "barriers": [],
   "currency": "",
