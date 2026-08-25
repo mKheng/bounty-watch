@@ -3641,6 +3641,32 @@
   "url": "https://www.intigriti.com/programs/ourahealthoy/ouravulnerabilitydisclosureprogram/detail",
   "wildcards": 1
  },
+ "intigriti:pdq/pdqcomprivate": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "https://a.simplemdm.com/",
+   "https://app.pdq.com/",
+   "https://auth2.pdq.com/",
+   "https://library.pdq.com/",
+   "https://portal.pdq.com/"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:pdq/pdqcomprivate",
+  "max_bounty": 3500.0,
+  "min_bounty": 50.0,
+  "name": "PDQ bug bounty program",
+  "platform": "intigriti",
+  "scope_types": {
+   "https://a.simplemdm.com/": "domain",
+   "https://app.pdq.com/": "domain",
+   "https://auth2.pdq.com/": "domain",
+   "https://library.pdq.com/": "domain",
+   "https://portal.pdq.com/": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/pdq/pdqcomprivate/detail",
+  "wildcards": 0
+ },
  "intigriti:peoplecert/peoplecert": {
   "barriers": [],
   "currency": "EUR",
