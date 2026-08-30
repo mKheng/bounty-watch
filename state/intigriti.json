@@ -4247,26 +4247,6 @@
   "url": "https://www.intigriti.com/programs/simscale/simscale/detail",
   "wildcards": 0
  },
- "intigriti:skodaauto/skodaautoprivatebugbountyprogram": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "cz.skodaauto.myskoda",
-   "https://apps.apple.com/cz/app/my%C5%A1koda/id1632202810"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:skodaauto/skodaautoprivatebugbountyprogram",
-  "max_bounty": 5000.0,
-  "min_bounty": 200.0,
-  "name": "Skoda Auto Bug Bounty Program",
-  "platform": "intigriti",
-  "scope_types": {
-   "cz.skodaauto.myskoda": "mobile",
-   "https://apps.apple.com/cz/app/my%C5%A1koda/id1632202810": "mobile"
-  },
-  "url": "https://www.intigriti.com/programs/skodaauto/skodaautoprivatebugbountyprogram/detail",
-  "wildcards": 0
- },
  "intigriti:socialdeal/socialdeal": {
   "barriers": [],
   "currency": "EUR",
