@@ -3197,6 +3197,34 @@
   "url": "https://www.intigriti.com/programs/liferay/liferay-vdp/detail",
   "wildcards": 1
  },
+ "intigriti:monzobank/monzopublicbugbountyprogram": {
+  "barriers": [],
+  "currency": "GBP",
+  "in_scope": [
+   "*.monzo.com",
+   "*.prod-ffs.io",
+   "1052238659",
+   "co.uk.getmondo",
+   "monzo.com",
+   "www.monzo.com"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:monzobank/monzopublicbugbountyprogram",
+  "max_bounty": 12500.0,
+  "min_bounty": 50.0,
+  "name": "Monzo Public Bug Bounty Program",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.monzo.com": "wildcard",
+   "*.prod-ffs.io": "wildcard",
+   "1052238659": "mobile",
+   "co.uk.getmondo": "mobile",
+   "monzo.com": "domain",
+   "www.monzo.com": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/monzobank/monzopublicbugbountyprogram/detail",
+  "wildcards": 2
+ },
  "intigriti:moralis/moralisio": {
   "barriers": [],
   "currency": "EUR",
