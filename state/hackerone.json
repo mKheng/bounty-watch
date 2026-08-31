@@ -80821,7 +80821,8 @@
    "OKX Wallet Edge Add-ons",
    "OKX Wallet Safari Extension",
    "OKX iOS APP",
-   "Windows OS Executable"
+   "Windows OS Executable",
+   "https://github.com/okx/go-wallet-sdk"
   ],
   "is_vdp": false,
   "key": "hackerone:okg",
@@ -80838,7 +80839,8 @@
    "OKX Wallet Edge Add-ons": "other",
    "OKX Wallet Safari Extension": "other",
    "OKX iOS APP": "other",
-   "Windows OS Executable": "other"
+   "Windows OS Executable": "other",
+   "https://github.com/okx/go-wallet-sdk": "domain"
   },
   "url": "https://hackerone.com/okg",
   "wildcards": 2
@@ -86643,7 +86645,6 @@
    "*.vayama.com",
    "*.vliegwinkel.nl",
    "<locale>.trip.com",
-   "app.blueskytravelvietnam.com",
    "com.trip.android",
    "com.trip.ios"
   ],
@@ -86668,7 +86669,6 @@
    "*.vayama.com": "wildcard",
    "*.vliegwinkel.nl": "wildcard",
    "<locale>.trip.com": "domain",
-   "app.blueskytravelvietnam.com": "domain",
    "com.trip.android": "mobile",
    "com.trip.ios": "mobile"
   },
@@ -89046,6 +89046,24 @@
   },
   "url": "https://hackerone.com/yuga_labs",
   "wildcards": 4
+ },
+ "hackerone:zabbix": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://www.zabbix.com/download_sources"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:zabbix",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Zabbix",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://www.zabbix.com/download_sources": "domain"
+  },
+  "url": "https://hackerone.com/zabbix",
+  "wildcards": 0
  },
  "hackerone:zebra_vdp": {
   "barriers": [],
