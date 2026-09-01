@@ -61,6 +61,102 @@
   "url": "https://www.intigriti.com/programs/Uphold/upholdcom/detail",
   "wildcards": 4
  },
+ "intigriti:adobe/adobepublic": {
+  "barriers": [],
+  "currency": "USD",
+  "in_scope": [
+   "*.acrobat.adobe.com",
+   "*.lightroom.adobe.com",
+   "Acrobat AI Assistant",
+   "Acrobat Create Podcast",
+   "Acrobat Create Presentations",
+   "Acrobat PDF Spaces",
+   "Acrobat Reader Mobile App (Android)",
+   "Acrobat Reader Mobile App (iOS)",
+   "Adobe ColdFusion without ColdFusion Administrator",
+   "Adobe Commerce, Adobe Commerce B2B and Magento Open Source",
+   "Adobe Express AI Assistant",
+   "Adobe Firefly AI Features",
+   "Adobe Fresco (iOS)",
+   "Adobe Photoshop Express Mobile App (iOS)",
+   "Adobe Scan Mobile App (Android)",
+   "Adobe Scan Mobile App (iOS)",
+   "Adobe Stock AI Studio",
+   "ColdFusion Administrator",
+   "Frame.io iOS Application",
+   "Lightroom AI Features",
+   "Lightroom Video & Photo Editor (Android)",
+   "Photoshop AI Assistant",
+   "account.adobe.com",
+   "account.magento.com",
+   "adobeid-na1.services.adobe.com",
+   "auth.services.adobe.com",
+   "commercemarketplace.adobe.com",
+   "federatedid-na1.services.adobe.com",
+   "firefly.adobe.com",
+   "fonts.adobe.com",
+   "https://play.google.com/store/apps/details?id=com.adobe.lrmobile&hl=en_GB",
+   "ims-na1.adobelogin.com",
+   "learningmanagerstage4.adobe.com",
+   "magento.com",
+   "net.s2stagehance.com",
+   "new.express.adobe.com",
+   "photoshop.adobe.com",
+   "portfolio.ccpsx.com",
+   "repo.magento.com",
+   "stock.adobe.com"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:adobe/adobepublic",
+  "max_bounty": 15000.0,
+  "min_bounty": 75.0,
+  "name": "Adobe Public",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.acrobat.adobe.com": "wildcard",
+   "*.lightroom.adobe.com": "wildcard",
+   "Acrobat AI Assistant": "other",
+   "Acrobat Create Podcast": "other",
+   "Acrobat Create Presentations": "other",
+   "Acrobat PDF Spaces": "other",
+   "Acrobat Reader Mobile App (Android)": "mobile",
+   "Acrobat Reader Mobile App (iOS)": "mobile",
+   "Adobe ColdFusion without ColdFusion Administrator": "other",
+   "Adobe Commerce, Adobe Commerce B2B and Magento Open Source": "other",
+   "Adobe Express AI Assistant": "other",
+   "Adobe Firefly AI Features": "other",
+   "Adobe Fresco (iOS)": "mobile",
+   "Adobe Photoshop Express Mobile App (iOS)": "mobile",
+   "Adobe Scan Mobile App (Android)": "mobile",
+   "Adobe Scan Mobile App (iOS)": "mobile",
+   "Adobe Stock AI Studio": "other",
+   "ColdFusion Administrator": "other",
+   "Frame.io iOS Application": "mobile",
+   "Lightroom AI Features": "other",
+   "Lightroom Video & Photo Editor (Android)": "mobile",
+   "Photoshop AI Assistant": "other",
+   "account.adobe.com": "domain",
+   "account.magento.com": "domain",
+   "adobeid-na1.services.adobe.com": "domain",
+   "auth.services.adobe.com": "domain",
+   "commercemarketplace.adobe.com": "domain",
+   "federatedid-na1.services.adobe.com": "domain",
+   "firefly.adobe.com": "domain",
+   "fonts.adobe.com": "domain",
+   "https://play.google.com/store/apps/details?id=com.adobe.lrmobile&hl=en_GB": "mobile",
+   "ims-na1.adobelogin.com": "domain",
+   "learningmanagerstage4.adobe.com": "domain",
+   "magento.com": "domain",
+   "net.s2stagehance.com": "domain",
+   "new.express.adobe.com": "domain",
+   "photoshop.adobe.com": "domain",
+   "portfolio.ccpsx.com": "domain",
+   "repo.magento.com": "domain",
+   "stock.adobe.com": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/adobe/adobepublic/detail",
+  "wildcards": 2
+ },
  "intigriti:aikido/aikido": {
   "barriers": [],
   "currency": "EUR",
@@ -1995,7 +2091,6 @@
   "in_scope": [
    "*.ad.nl",
    "myaccount.ad.nl",
-   "webwinkel.ad.nl",
    "www.ad.nl",
    "www.ad.nl/abonnementen"
   ],
@@ -2008,7 +2103,6 @@
   "scope_types": {
    "*.ad.nl": "wildcard",
    "myaccount.ad.nl": "domain",
-   "webwinkel.ad.nl": "domain",
    "www.ad.nl": "domain",
    "www.ad.nl/abonnementen": "domain"
   },
@@ -2021,7 +2115,6 @@
   "in_scope": [
    "*.demorgen.be",
    "myaccount.demorgen.be",
-   "shop.demorgen.be",
    "www.demorgen.be",
    "www.demorgen.be/abonnementen"
   ],
@@ -2034,7 +2127,6 @@
   "scope_types": {
    "*.demorgen.be": "wildcard",
    "myaccount.demorgen.be": "domain",
-   "shop.demorgen.be": "domain",
    "www.demorgen.be": "domain",
    "www.demorgen.be/abonnementen": "domain"
   },
@@ -2047,8 +2139,6 @@
   "in_scope": [
    "*.volkskrant.nl",
    "myaccount.volkskrant.nl",
-   "shop.volkskrant.nl",
-   "webwinkel.volkskrant.nl",
    "www.volkskrant.nl",
    "www.volkskrant.nl/abonnementen"
   ],
@@ -2061,8 +2151,6 @@
   "scope_types": {
    "*.volkskrant.nl": "wildcard",
    "myaccount.volkskrant.nl": "domain",
-   "shop.volkskrant.nl": "domain",
-   "webwinkel.volkskrant.nl": "domain",
    "www.volkskrant.nl": "domain",
    "www.volkskrant.nl/abonnementen": "domain"
   },
@@ -3112,7 +3200,6 @@
   "currency": "EUR",
   "in_scope": [
    "*.lansweeper.com",
-   "Lansweeper Discovery",
    "api.lansweeper.com",
    "app.lansweeper.com",
    "app.lansweeper.com/trial",
@@ -3121,7 +3208,6 @@
    "docs.lansweeper.com",
    "edge.lansweeper.com",
    "fb.lansweeper.com",
-   "https://lsagentrelay.lansweeper.com/",
    "login.lansweeper.com",
    "www.lansweeper.com"
   ],
@@ -3133,7 +3219,6 @@
   "platform": "intigriti",
   "scope_types": {
    "*.lansweeper.com": "wildcard",
-   "Lansweeper Discovery": "domain",
    "api.lansweeper.com": "domain",
    "app.lansweeper.com": "domain",
    "app.lansweeper.com/trial": "domain",
@@ -3142,7 +3227,6 @@
    "docs.lansweeper.com": "domain",
    "edge.lansweeper.com": "domain",
    "fb.lansweeper.com": "domain",
-   "https://lsagentrelay.lansweeper.com/": "domain",
    "login.lansweeper.com": "domain",
    "www.lansweeper.com": "domain"
   },
@@ -4191,6 +4275,9 @@
   "in_scope": [
    "*.sbb.ch",
    "*.swisspass.ch",
+   "*elvetino.ch",
+   "*sbbcargo.com",
+   "*transsicura.ch",
    "All other SBB owned IT assets",
    "All other Web and mobile APPs owned by SBB",
    "Mobile Apps",
@@ -4208,6 +4295,9 @@
   "scope_types": {
    "*.sbb.ch": "wildcard",
    "*.swisspass.ch": "wildcard",
+   "*elvetino.ch": "wildcard",
+   "*sbbcargo.com": "wildcard",
+   "*transsicura.ch": "wildcard",
    "All other SBB owned IT assets": "other",
    "All other Web and mobile APPs owned by SBB": "other",
    "Mobile Apps": "other",
@@ -4217,7 +4307,7 @@
    "www.transsicura.ch": "domain"
   },
   "url": "https://www.intigriti.com/programs/sbb/sbbglobal/detail",
-  "wildcards": 2
+  "wildcards": 5
  },
  "intigriti:showpad/vdp": {
   "barriers": [],

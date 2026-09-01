@@ -66768,7 +66768,6 @@
    "co-cf.*.aws.indriverapp.com",
    "co-gw-cf.*.aws.indriverapp.com",
    "co-in-gw-cf.*.aws.indriverapp.com",
-   "coaching.supernovas.indrive.com",
    "courier-cf.*.aws.indriverapp.com",
    "couriers.indrive.com",
    "debug.clairvoyance.indrive.tech",
@@ -66859,8 +66858,7 @@
    "wd2*.indriverapp.com",
    "web.ryadom.kz",
    "wga.volans.tech",
-   "wlr-cf.*.aws.indriverapp.com",
-   "www.supernovas.indrive.com"
+   "wlr-cf.*.aws.indriverapp.com"
   ],
   "is_vdp": false,
   "key": "hackerone:indrive",
@@ -66894,7 +66892,6 @@
    "co-cf.*.aws.indriverapp.com": "wildcard",
    "co-gw-cf.*.aws.indriverapp.com": "wildcard",
    "co-in-gw-cf.*.aws.indriverapp.com": "wildcard",
-   "coaching.supernovas.indrive.com": "domain",
    "courier-cf.*.aws.indriverapp.com": "wildcard",
    "couriers.indrive.com": "domain",
    "debug.clairvoyance.indrive.tech": "domain",
@@ -66985,8 +66982,7 @@
    "wd2*.indriverapp.com": "wildcard",
    "web.ryadom.kz": "domain",
    "wga.volans.tech": "domain",
-   "wlr-cf.*.aws.indriverapp.com": "wildcard",
-   "www.supernovas.indrive.com": "domain"
+   "wlr-cf.*.aws.indriverapp.com": "wildcard"
   },
   "url": "https://hackerone.com/indrive",
   "wildcards": 81
