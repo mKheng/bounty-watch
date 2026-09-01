@@ -6811,6 +6811,7 @@
   "in_scope": [
    "Android Box Mobile App",
    "Box Drive",
+   "Box Tools",
    "account.box.com",
    "api.box.com",
    "app.box.com",
@@ -6832,6 +6833,7 @@
   "scope_types": {
    "Android Box Mobile App": "mobile",
    "Box Drive": "other",
+   "Box Tools": "other",
    "account.box.com": "domain",
    "api.box.com": "domain",
    "app.box.com": "domain",
