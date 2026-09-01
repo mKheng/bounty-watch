@@ -2945,24 +2945,6 @@
   "url": "https://www.intigriti.com/programs/intergamma/intergamma/detail",
   "wildcards": 20
  },
- "intigriti:intigriti/challenge0826": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "https://challenge-0826.challenges.intigriti.io"
-  ],
-  "is_vdp": true,
-  "key": "intigriti:intigriti/challenge0826",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Challenge 0826",
-  "platform": "intigriti",
-  "scope_types": {
-   "https://challenge-0826.challenges.intigriti.io": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/intigriti/challenge0826/detail",
-  "wildcards": 0
- },
  "intigriti:intigriti/intigriti": {
   "barriers": [],
   "currency": "EUR",
@@ -5254,58 +5236,6 @@
   },
   "url": "https://www.intigriti.com/programs/wpengine/wpengine/detail",
   "wildcards": 6
- },
- "intigriti:wpengine/wpenginebugbounty": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*. advancedcustomfields.com",
-   "*. bettersearchreplace.com",
-   "*.deliciousbrains.com",
-   "*.localwp.com",
-   "*.nitropack.io",
-   "*.studiopress.com",
-   "*.wpengine.io",
-   "*.wpesvc.net",
-   "WP Engine-developed WordPress Plugins and Themes",
-   "https://app.getflywheel.com",
-   "https://getflywheel.com",
-   "https://makeshift.film",
-   "https://my.wpengine.com",
-   "https://payments.wpengine.com",
-   "https://studiopress.blog",
-   "https://torquemag.io",
-   "https://velocitize.com",
-   "https://wpengine.com"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:wpengine/wpenginebugbounty",
-  "max_bounty": 2500.0,
-  "min_bounty": 0.0,
-  "name": "WP Engine Bug Bounty",
-  "platform": "intigriti",
-  "scope_types": {
-   "*. advancedcustomfields.com": "wildcard",
-   "*. bettersearchreplace.com": "wildcard",
-   "*.deliciousbrains.com": "wildcard",
-   "*.localwp.com": "wildcard",
-   "*.nitropack.io": "wildcard",
-   "*.studiopress.com": "wildcard",
-   "*.wpengine.io": "wildcard",
-   "*.wpesvc.net": "wildcard",
-   "WP Engine-developed WordPress Plugins and Themes": "other",
-   "https://app.getflywheel.com": "domain",
-   "https://getflywheel.com": "domain",
-   "https://makeshift.film": "domain",
-   "https://my.wpengine.com": "domain",
-   "https://payments.wpengine.com": "domain",
-   "https://studiopress.blog": "domain",
-   "https://torquemag.io": "domain",
-   "https://velocitize.com": "domain",
-   "https://wpengine.com": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/wpengine/wpenginebugbounty/detail",
-  "wildcards": 8
  },
  "intigriti:yahoo/yahoobugbounty": {
   "barriers": [],

@@ -2851,6 +2851,8 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "https://www.agoda.com/account/agodacash",
+   "https://www.agoda.com/account/cashback",
    "https://www.agoda.com/book/"
   ],
   "is_vdp": false,
@@ -2860,6 +2862,8 @@
   "name": "Agoda Public",
   "platform": "hackerone",
   "scope_types": {
+   "https://www.agoda.com/account/agodacash": "domain",
+   "https://www.agoda.com/account/cashback": "domain",
    "https://www.agoda.com/book/": "domain"
   },
   "url": "https://hackerone.com/agoda-public",
