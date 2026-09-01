@@ -35338,6 +35338,7 @@
   "currency": "",
   "in_scope": [
    "api.thecoalition.com",
+   "app.wirespeed.co",
    "coalitioninc.com",
    "platform.thecoalition.com"
   ],
@@ -35349,6 +35350,7 @@
   "platform": "hackerone",
   "scope_types": {
    "api.thecoalition.com": "domain",
+   "app.wirespeed.co": "domain",
    "coalitioninc.com": "domain",
    "platform.thecoalition.com": "domain"
   },
@@ -88842,10 +88844,7 @@
    "bbPress Core",
    "codex.wordpress.org,codex.bbpress.org,codex.buddypress.org",
    "doaction.org",
-   "irclogs.wordpress.org",
-   "lists.wordpress.org",
    "mercantile.wordpress.org",
-   "munin-*.wordpress.org",
    "planet.wordpress.org",
    "wordpressfoundation.org"
   ],
@@ -88871,15 +88870,12 @@
    "bbPress Core": "other",
    "codex.wordpress.org,codex.bbpress.org,codex.buddypress.org": "domain",
    "doaction.org": "domain",
-   "irclogs.wordpress.org": "domain",
-   "lists.wordpress.org": "domain",
    "mercantile.wordpress.org": "domain",
-   "munin-*.wordpress.org": "wildcard",
    "planet.wordpress.org": "domain",
    "wordpressfoundation.org": "domain"
   },
   "url": "https://hackerone.com/wordpress",
-  "wildcards": 6
+  "wildcards": 5
  },
  "hackerone:worklytics": {
   "barriers": [],
