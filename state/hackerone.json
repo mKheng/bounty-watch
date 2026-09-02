@@ -70893,6 +70893,7 @@
    "cafignition.mfg-mfgiot-prod-vpn.us.e11.c01.johndeerecloud.com",
    "cag.services.wirtgen-group.com",
    "cagnotoken.services.wirtgen-group.com",
+   "calculadora.deere.com.br",
    "calendar.harvestprofit.com",
    "calendar.sentera.com",
    "california.bluerivertech.com",
@@ -72905,6 +72906,7 @@
    "cafignition.mfg-mfgiot-prod-vpn.us.e11.c01.johndeerecloud.com": "domain",
    "cag.services.wirtgen-group.com": "domain",
    "cagnotoken.services.wirtgen-group.com": "domain",
+   "calculadora.deere.com.br": "domain",
    "calendar.harvestprofit.com": "domain",
    "calendar.sentera.com": "domain",
    "california.bluerivertech.com": "domain",
@@ -85955,6 +85957,7 @@
    "*.digital.canada.ca",
    "*.notification.canada.ca",
    "*.numerique.canada.ca",
+   "api.forms-formulaires.alpha.canada.ca",
    "api.login-connexion.canada.ca",
    "api.migration.login-connexion.canada.ca",
    "app.login-connexion.canada.ca",
@@ -85967,7 +85970,8 @@
    "forms-formulaires.alpha.canada.ca",
    "gciv-dvgc.alpha.canada.ca",
    "issue-verify.alpha.canada.ca",
-   "talent.canada.ca"
+   "talent.canada.ca",
+   "validate-email.cdssandbox.xyz"
   ],
   "is_vdp": true,
   "key": "hackerone:tbs-sct",
@@ -85980,6 +85984,7 @@
    "*.digital.canada.ca": "wildcard",
    "*.notification.canada.ca": "wildcard",
    "*.numerique.canada.ca": "wildcard",
+   "api.forms-formulaires.alpha.canada.ca": "domain",
    "api.login-connexion.canada.ca": "domain",
    "api.migration.login-connexion.canada.ca": "domain",
    "app.login-connexion.canada.ca": "domain",
@@ -85992,7 +85997,8 @@
    "forms-formulaires.alpha.canada.ca": "domain",
    "gciv-dvgc.alpha.canada.ca": "domain",
    "issue-verify.alpha.canada.ca": "domain",
-   "talent.canada.ca": "domain"
+   "talent.canada.ca": "domain",
+   "validate-email.cdssandbox.xyz": "domain"
   },
   "url": "https://hackerone.com/tbs-sct",
   "wildcards": 4
@@ -87056,8 +87062,7 @@
    "https://oneview.truist.com",
    "https://teammate.digitalcommerce.truist.com/",
    "https://trade.digitalcommerce.truist.com",
-   "https://trade.digitalcommerce.truist.com/",
-   "investments.truist.com"
+   "https://trade.digitalcommerce.truist.com/"
   ],
   "is_vdp": true,
   "key": "hackerone:truist_financial",
@@ -87079,8 +87084,7 @@
    "https://oneview.truist.com": "domain",
    "https://teammate.digitalcommerce.truist.com/": "domain",
    "https://trade.digitalcommerce.truist.com": "domain",
-   "https://trade.digitalcommerce.truist.com/": "domain",
-   "investments.truist.com": "domain"
+   "https://trade.digitalcommerce.truist.com/": "domain"
   },
   "url": "https://hackerone.com/truist_financial",
   "wildcards": 0
