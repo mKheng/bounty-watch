@@ -87749,24 +87749,6 @@
   "url": "https://hackerone.com/vercel-open-source",
   "wildcards": 0
  },
- "hackerone:vercel_sandbox": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "Vercel sandbox"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:vercel_sandbox",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Vercel Sandbox",
-  "platform": "hackerone",
-  "scope_types": {
-   "Vercel sandbox": "other"
-  },
-  "url": "https://hackerone.com/vercel_sandbox",
-  "wildcards": 0
- },
  "hackerone:verily_life_sciences": {
   "barriers": [],
   "currency": "",
