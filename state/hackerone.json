@@ -82409,6 +82409,24 @@
   "url": "https://hackerone.com/phonepe_vdp",
   "wildcards": 0
  },
+ "hackerone:phpbb": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://github.com/phpbb/phpbb"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:phpbb",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "phpBB",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://github.com/phpbb/phpbb": "domain"
+  },
+  "url": "https://hackerone.com/phpbb",
+  "wildcards": 0
+ },
  "hackerone:picsart": {
   "barriers": [],
   "currency": "",
