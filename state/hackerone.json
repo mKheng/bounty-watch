@@ -70759,6 +70759,7 @@
    "artifactory.bluerivertech.com",
    "asicprofile.deere.com",
    "asnpro.deere.com",
+   "asnpromcp-prod.deere.com",
    "assets.harvestprofit.com",
    "atlantis.spark.ai",
    "atpqual.tal.deere.com",
@@ -70822,6 +70823,7 @@
    "bhp.dev.myvirtualsuper.com",
    "bim-dev.witos.wirtgen-group.com",
    "bim.witos.wirtgen-group.com",
+   "biomcp.ghns-web-platform-prod-standalone4.us.e00.c01.johndeerecloud.com",
    "blueriver.ai",
    "bluerivert.com",
    "bluerivertech.com",
@@ -72777,6 +72779,7 @@
    "artifactory.bluerivertech.com": "domain",
    "asicprofile.deere.com": "domain",
    "asnpro.deere.com": "domain",
+   "asnpromcp-prod.deere.com": "domain",
    "assets.harvestprofit.com": "domain",
    "atlantis.spark.ai": "domain",
    "atpqual.tal.deere.com": "domain",
@@ -72840,6 +72843,7 @@
    "bhp.dev.myvirtualsuper.com": "domain",
    "bim-dev.witos.wirtgen-group.com": "domain",
    "bim.witos.wirtgen-group.com": "domain",
+   "biomcp.ghns-web-platform-prod-standalone4.us.e00.c01.johndeerecloud.com": "domain",
    "blueriver.ai": "domain",
    "bluerivert.com": "domain",
    "bluerivertech.com": "domain",
@@ -76709,13 +76713,11 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
-   "*.api.cx.metamask.io",
    "MetaMask Browser Extension",
    "MetaMask SDK",
    "Snaps",
    "Third Party Snaps",
    "api-wallet.web3auth.io",
-   "https://*.metamask.io",
    "https://metamask.github.io/phishing-warning/<vX.Y.Z>",
    "io.metamask",
    "io.metamask.Metamask",
@@ -76732,13 +76734,11 @@
   "name": "MetaMask",
   "platform": "hackerone",
   "scope_types": {
-   "*.api.cx.metamask.io": "wildcard",
    "MetaMask Browser Extension": "other",
    "MetaMask SDK": "other",
    "Snaps": "other",
    "Third Party Snaps": "other",
    "api-wallet.web3auth.io": "domain",
-   "https://*.metamask.io": "wildcard",
    "https://metamask.github.io/phishing-warning/<vX.Y.Z>": "domain",
    "io.metamask": "mobile",
    "io.metamask.Metamask": "mobile",
@@ -76749,7 +76749,7 @@
    "wallet.web3auth.io": "domain"
   },
   "url": "https://hackerone.com/metamask",
-  "wildcards": 2
+  "wildcards": 0
  },
  "hackerone:mintel": {
   "barriers": [],
