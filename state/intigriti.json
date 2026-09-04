@@ -3261,28 +3261,6 @@
   "url": "https://www.intigriti.com/programs/liferay/liferay-vdp/detail",
   "wildcards": 1
  },
- "intigriti:liferay/liferaydxp": {
-  "barriers": [],
-  "currency": "USD",
-  "in_scope": [
-   "Liferay DXP 2024.Q1",
-   "Liferay DXP 2025.Q1",
-   "Liferay DXP 2026.Q1"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:liferay/liferaydxp",
-  "max_bounty": 2000.0,
-  "min_bounty": 100.0,
-  "name": "Liferay DXP",
-  "platform": "intigriti",
-  "scope_types": {
-   "Liferay DXP 2024.Q1": "other",
-   "Liferay DXP 2025.Q1": "other",
-   "Liferay DXP 2026.Q1": "other"
-  },
-  "url": "https://www.intigriti.com/programs/liferay/liferaydxp/detail",
-  "wildcards": 0
- },
  "intigriti:monzobank/monzopublicbugbountyprogram": {
   "barriers": [],
   "currency": "GBP",
