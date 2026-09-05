@@ -6358,6 +6358,7 @@
    "fizzy.do",
    "hey-mail",
    "https://github.com/basecamp/once-campfire",
+   "https://github.com/basecamp/trix",
    "https://github.com/basecamp/writebook",
    "launchpad.37signals.com",
    "world.hey.com"
@@ -6382,6 +6383,7 @@
    "fizzy.do": "domain",
    "hey-mail": "other",
    "https://github.com/basecamp/once-campfire": "domain",
+   "https://github.com/basecamp/trix": "domain",
    "https://github.com/basecamp/writebook": "domain",
    "launchpad.37signals.com": "domain",
    "world.hey.com": "domain"
