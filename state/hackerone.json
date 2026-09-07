@@ -76515,6 +76515,7 @@
    "*.mercadolibre.com.mx",
    "*.mercadolibre.com.pe",
    "*.mercadolibre.com.uy",
+   "*.mercadolibre.com.ve",
    "*.mercadolivre.com.br",
    "*.mercadopago.cl",
    "*.mercadopago.com",
@@ -76525,6 +76526,7 @@
    "*.mercadopago.com.pe",
    "*.mercadopago.com.uy",
    "*.mlstatic.com",
+   "*.tucarro.com.ve",
    "Crypto",
    "Leaked Credentials",
    "Point Smart",
@@ -76568,6 +76570,7 @@
    "tucarro.com",
    "tucarro.com.co",
    "tumoto.com",
+   "www.ipbooster.com",
    "www.mercadolibre.co.cr",
    "www.mercadolibre.com.bo",
    "www.mercadolibre.com.do",
@@ -76596,6 +76599,7 @@
    "*.mercadolibre.com.mx": "wildcard",
    "*.mercadolibre.com.pe": "wildcard",
    "*.mercadolibre.com.uy": "wildcard",
+   "*.mercadolibre.com.ve": "wildcard",
    "*.mercadolivre.com.br": "wildcard",
    "*.mercadopago.cl": "wildcard",
    "*.mercadopago.com": "wildcard",
@@ -76606,6 +76610,7 @@
    "*.mercadopago.com.pe": "wildcard",
    "*.mercadopago.com.uy": "wildcard",
    "*.mlstatic.com": "wildcard",
+   "*.tucarro.com.ve": "wildcard",
    "Crypto": "other",
    "Leaked Credentials": "other",
    "Point Smart": "other",
@@ -76649,6 +76654,7 @@
    "tucarro.com": "domain",
    "tucarro.com.co": "domain",
    "tumoto.com": "domain",
+   "www.ipbooster.com": "domain",
    "www.mercadolibre.co.cr": "domain",
    "www.mercadolibre.com.bo": "domain",
    "www.mercadolibre.com.do": "domain",
@@ -76663,7 +76669,7 @@
    "www.mercadopago.com.ec": "domain"
   },
   "url": "https://hackerone.com/mercadolibre",
-  "wildcards": 18
+  "wildcards": 20
  },
  "hackerone:mergify": {
   "barriers": [],

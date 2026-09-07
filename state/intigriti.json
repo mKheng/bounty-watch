@@ -4395,26 +4395,6 @@
   "url": "https://www.intigriti.com/programs/simscale/simscale/detail",
   "wildcards": 0
  },
- "intigriti:skodaauto/skodaautoprivatebugbountyprogram": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "cz.skodaauto.myskoda",
-   "https://apps.apple.com/cz/app/my%C5%A1koda/id1632202810"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:skodaauto/skodaautoprivatebugbountyprogram",
-  "max_bounty": 5000.0,
-  "min_bounty": 200.0,
-  "name": "Skoda Auto Bug Bounty Program",
-  "platform": "intigriti",
-  "scope_types": {
-   "cz.skodaauto.myskoda": "mobile",
-   "https://apps.apple.com/cz/app/my%C5%A1koda/id1632202810": "mobile"
-  },
-  "url": "https://www.intigriti.com/programs/skodaauto/skodaautoprivatebugbountyprogram/detail",
-  "wildcards": 0
- },
  "intigriti:socialdeal/socialdeal": {
   "barriers": [],
   "currency": "EUR",
@@ -5055,62 +5035,6 @@
    "all": "domain"
   },
   "url": "https://www.intigriti.com/programs/visma/VismaResponsibleDisclosure/detail",
-  "wildcards": 0
- },
- "intigriti:visma/visma": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "564141518",
-   "accountsettings.connect.identity.stagaws.visma.com",
-   "admin.stage.vismaonline.com",
-   "ai-testing.maventa.com",
-   "aiassistant.stage.vismaonline.com",
-   "api.workbox.dk",
-   "app.workbox.dk",
-   "authz.workbox.dk",
-   "autointerface.stag.visma.net",
-   "ax-stage.maventa.com",
-   "com.visma.blue",
-   "connect.identity.stagaws.visma.com",
-   "eaccounting.stage.vismaonline.com",
-   "eaccountingprinting.stage.vismaonline.com",
-   "identity.stage.vismaonline.com",
-   "myservices-api.stage.vismaonline.com",
-   "myservices.stage.vismaonline.com",
-   "oauth.developers.stagaws.visma.com",
-   "photoservice.stage.vismaonline.com",
-   "testing.maventa.com"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:visma/visma",
-  "max_bounty": 7500.0,
-  "min_bounty": 100.0,
-  "name": "Visma",
-  "platform": "intigriti",
-  "scope_types": {
-   "564141518": "mobile",
-   "accountsettings.connect.identity.stagaws.visma.com": "domain",
-   "admin.stage.vismaonline.com": "domain",
-   "ai-testing.maventa.com": "domain",
-   "aiassistant.stage.vismaonline.com": "domain",
-   "api.workbox.dk": "domain",
-   "app.workbox.dk": "domain",
-   "authz.workbox.dk": "domain",
-   "autointerface.stag.visma.net": "domain",
-   "ax-stage.maventa.com": "domain",
-   "com.visma.blue": "mobile",
-   "connect.identity.stagaws.visma.com": "domain",
-   "eaccounting.stage.vismaonline.com": "domain",
-   "eaccountingprinting.stage.vismaonline.com": "domain",
-   "identity.stage.vismaonline.com": "domain",
-   "myservices-api.stage.vismaonline.com": "domain",
-   "myservices.stage.vismaonline.com": "domain",
-   "oauth.developers.stagaws.visma.com": "domain",
-   "photoservice.stage.vismaonline.com": "domain",
-   "testing.maventa.com": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/visma/visma/detail",
   "wildcards": 0
  },
  "intigriti:vlerickbusinessschool/vlerickbusinessschool": {
