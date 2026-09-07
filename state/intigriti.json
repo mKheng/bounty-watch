@@ -4045,6 +4045,30 @@
   "url": "https://www.intigriti.com/programs/qualified/qualifiedresponsibledisclosureprogram/detail",
   "wildcards": 0
  },
+ "intigriti:randstad/randstad": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.randstad.*",
+   "*.randstadrisesmart.*",
+   "*.risesmart.*",
+   "Any related Randstad domain"
+  ],
+  "is_vdp": true,
+  "key": "intigriti:randstad/randstad",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Randstad",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.randstad.*": "wildcard",
+   "*.randstadrisesmart.*": "wildcard",
+   "*.risesmart.*": "wildcard",
+   "Any related Randstad domain": "other"
+  },
+  "url": "https://www.intigriti.com/programs/randstad/randstad/detail",
+  "wildcards": 3
+ },
  "intigriti:redbull/redbull": {
   "barriers": [],
   "currency": "EUR",
@@ -5324,6 +5348,58 @@
   },
   "url": "https://www.intigriti.com/programs/wpengine/wpengine/detail",
   "wildcards": 6
+ },
+ "intigriti:wpengine/wpenginebugbounty": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*. advancedcustomfields.com",
+   "*. bettersearchreplace.com",
+   "*.deliciousbrains.com",
+   "*.localwp.com",
+   "*.nitropack.io",
+   "*.studiopress.com",
+   "*.wpengine.io",
+   "*.wpesvc.net",
+   "WP Engine-developed WordPress Plugins and Themes",
+   "https://app.getflywheel.com",
+   "https://getflywheel.com",
+   "https://makeshift.film",
+   "https://my.wpengine.com",
+   "https://payments.wpengine.com",
+   "https://studiopress.blog",
+   "https://torquemag.io",
+   "https://velocitize.com",
+   "https://wpengine.com"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:wpengine/wpenginebugbounty",
+  "max_bounty": 2500.0,
+  "min_bounty": 0.0,
+  "name": "WP Engine Bug Bounty",
+  "platform": "intigriti",
+  "scope_types": {
+   "*. advancedcustomfields.com": "wildcard",
+   "*. bettersearchreplace.com": "wildcard",
+   "*.deliciousbrains.com": "wildcard",
+   "*.localwp.com": "wildcard",
+   "*.nitropack.io": "wildcard",
+   "*.studiopress.com": "wildcard",
+   "*.wpengine.io": "wildcard",
+   "*.wpesvc.net": "wildcard",
+   "WP Engine-developed WordPress Plugins and Themes": "other",
+   "https://app.getflywheel.com": "domain",
+   "https://getflywheel.com": "domain",
+   "https://makeshift.film": "domain",
+   "https://my.wpengine.com": "domain",
+   "https://payments.wpengine.com": "domain",
+   "https://studiopress.blog": "domain",
+   "https://torquemag.io": "domain",
+   "https://velocitize.com": "domain",
+   "https://wpengine.com": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/wpengine/wpenginebugbounty/detail",
+  "wildcards": 8
  },
  "intigriti:yahoo/yahoobugbounty": {
   "barriers": [],
