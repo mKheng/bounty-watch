@@ -64737,10 +64737,7 @@
    "https://satcomdirect.com.br",
    "https://satcomsimple.com",
    "https://satcomtest.com",
-   "https://www.sdgov.gogoair.com",
-   "www.*.gogoair.*.com",
-   "www.aeroxr.com",
-   "www.gogoair.com"
+   "www.aeroxr.com"
   ],
   "is_vdp": true,
   "key": "hackerone:gogo_vdp",
@@ -64755,13 +64752,10 @@
    "https://satcomdirect.com.br": "domain",
    "https://satcomsimple.com": "domain",
    "https://satcomtest.com": "domain",
-   "https://www.sdgov.gogoair.com": "domain",
-   "www.*.gogoair.*.com": "wildcard",
-   "www.aeroxr.com": "domain",
-   "www.gogoair.com": "domain"
+   "www.aeroxr.com": "domain"
   },
   "url": "https://hackerone.com/gogo_vdp",
-  "wildcards": 1
+  "wildcards": 0
  },
  "hackerone:goldmansachs": {
   "barriers": [],
