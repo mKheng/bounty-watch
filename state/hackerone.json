@@ -84472,6 +84472,7 @@
    "*vpn*.semtech.com",
    "Airlink ALEOS",
    "Airlink XR/RX (>=AOS 6.1)",
+   "Any LoRa Software product",
    "Any Semtech Hardware Product",
    "Any Semtech Mobile Application",
    "Any Semtech Software Product",
@@ -84523,6 +84524,7 @@
    "*vpn*.semtech.com": "wildcard",
    "Airlink ALEOS": "other",
    "Airlink XR/RX (>=AOS 6.1)": "other",
+   "Any LoRa Software product": "other",
    "Any Semtech Hardware Product": "other",
    "Any Semtech Mobile Application": "other",
    "Any Semtech Software Product": "other",
@@ -85856,14 +85858,24 @@
  "hackerone:taxwell-vdp": {
   "barriers": [],
   "currency": "",
-  "in_scope": [],
+  "in_scope": [
+   "1040.com",
+   "securefilepro.com",
+   "taxwell.com",
+   "taxwell.org"
+  ],
   "is_vdp": true,
   "key": "hackerone:taxwell-vdp",
   "max_bounty": 0.0,
   "min_bounty": 0.0,
   "name": "Taxwell VDP",
   "platform": "hackerone",
-  "scope_types": {},
+  "scope_types": {
+   "1040.com": "domain",
+   "securefilepro.com": "domain",
+   "taxwell.com": "domain",
+   "taxwell.org": "domain"
+  },
   "url": "https://hackerone.com/taxwell-vdp",
   "wildcards": 0
  },
@@ -86531,6 +86543,7 @@
    "217.68.20.116",
    "admin.prd-idfapi.aws3.ezshield.ws",
    "admin.stg-idfapi.aws3.ezshield.ws",
+   "administracionpreaprobadomovil.cifin.co",
    "alertinfo.link",
    "altra-identitytheft911.org",
    "amfamprotect.com",
@@ -86684,6 +86697,7 @@
    "217.68.20.116": "domain",
    "admin.prd-idfapi.aws3.ezshield.ws": "domain",
    "admin.stg-idfapi.aws3.ezshield.ws": "domain",
+   "administracionpreaprobadomovil.cifin.co": "domain",
    "alertinfo.link": "domain",
    "altra-identitytheft911.org": "domain",
    "amfamprotect.com": "domain",
