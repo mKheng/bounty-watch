@@ -42600,7 +42600,10 @@
   "currency": "",
   "in_scope": [
    "Anker",
+   "Anker soundcore Work D3200",
+   "Liberty 5 Pro Max D1204",
    "Solarbank 2 E1600 Pro",
+   "anker-nebula/id1319092174",
    "com.anker.AnkerMake",
    "com.anker.charging",
    "com.oceanwing.FDMPrint",
@@ -42611,7 +42614,10 @@
    "https://us.eufy.com/products/e8213181",
    "https://us.eufy.com/products/t8410121",
    "https://us.eufy.com/products/t88511d1",
-   "https://us.eufy.com/products/t88711w1"
+   "https://us.eufy.com/products/t88711w1",
+   "id=com.oceanwing.soundcore",
+   "id=com.zhixin.controller",
+   "soundcore/id1331876603"
   ],
   "is_vdp": false,
   "key": "hackerone:eufy_security",
@@ -42621,7 +42627,10 @@
   "platform": "hackerone",
   "scope_types": {
    "Anker": "mobile",
+   "Anker soundcore Work D3200": "other",
+   "Liberty 5 Pro Max D1204": "other",
    "Solarbank 2 E1600 Pro": "other",
+   "anker-nebula/id1319092174": "mobile",
    "com.anker.AnkerMake": "mobile",
    "com.anker.charging": "mobile",
    "com.oceanwing.FDMPrint": "mobile",
@@ -42632,7 +42641,10 @@
    "https://us.eufy.com/products/e8213181": "domain",
    "https://us.eufy.com/products/t8410121": "domain",
    "https://us.eufy.com/products/t88511d1": "domain",
-   "https://us.eufy.com/products/t88711w1": "domain"
+   "https://us.eufy.com/products/t88711w1": "domain",
+   "id=com.oceanwing.soundcore": "mobile",
+   "id=com.zhixin.controller": "mobile",
+   "soundcore/id1331876603": "mobile"
   },
   "url": "https://hackerone.com/eufy_security",
   "wildcards": 0
