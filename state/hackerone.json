@@ -36630,6 +36630,7 @@
   "currency": "",
   "in_scope": [
    "Databricks Free Edition",
+   "Lakebase-Supported extensions",
    "Open Scope",
    "accounts.cloud.databricks.com",
    "databricks.com",
@@ -36643,6 +36644,7 @@
   "platform": "hackerone",
   "scope_types": {
    "Databricks Free Edition": "other",
+   "Lakebase-Supported extensions": "other",
    "Open Scope": "other",
    "accounts.cloud.databricks.com": "domain",
    "databricks.com": "domain",
@@ -42923,8 +42925,10 @@
    "403546234",
    "427916203",
    "483394780",
+   "506426310",
    "531549799",
    "566635048",
+   "642441300",
    "880759727",
    "987675995",
    "com.carrentals",
@@ -43004,8 +43008,10 @@
    "403546234": "mobile",
    "427916203": "mobile",
    "483394780": "mobile",
+   "506426310": "mobile",
    "531549799": "mobile",
    "566635048": "mobile",
+   "642441300": "mobile",
    "880759727": "mobile",
    "987675995": "mobile",
    "com.carrentals": "mobile",
@@ -80303,6 +80309,7 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "Neon-supported extensions",
    "https://console-stage.neon.build/",
    "https://console.neon.tech/",
    "https://console.neon.tech/api/v2/"
@@ -80314,6 +80321,7 @@
   "name": "Neon",
   "platform": "hackerone",
   "scope_types": {
+   "Neon-supported extensions": "other",
    "https://console-stage.neon.build/": "domain",
    "https://console.neon.tech/": "domain",
    "https://console.neon.tech/api/v2/": "domain"
