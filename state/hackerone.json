@@ -2889,7 +2889,6 @@
    "www.aig.",
    "www.aig.co.il",
    "www.aig.com.br",
-   "www.aigportal.de",
    "www.americanhome.co.jp",
    "www.glatfelters.com",
    "www.rapidcover.ie",
@@ -2916,7 +2915,6 @@
    "www.aig.": "domain",
    "www.aig.co.il": "domain",
    "www.aig.com.br": "domain",
-   "www.aigportal.de": "domain",
    "www.americanhome.co.jp": "domain",
    "www.glatfelters.com": "domain",
    "www.rapidcover.ie": "domain",
@@ -43083,7 +43081,6 @@
    "6740879082",
    "com.fanduel.android.self",
    "com.fanduel.casino",
-   "com.fanduel.flywheelnativecontainer.picks",
    "com.fanduel.racing",
    "com.fanduel.sportsbook",
    "login-4ngbets.us.betfair.com",
@@ -43111,7 +43108,6 @@
    "6740879082": "mobile",
    "com.fanduel.android.self": "mobile",
    "com.fanduel.casino": "mobile",
-   "com.fanduel.flywheelnativecontainer.picks": "mobile",
    "com.fanduel.racing": "mobile",
    "com.fanduel.sportsbook": "mobile",
    "login-4ngbets.us.betfair.com": "domain",
@@ -64793,13 +64789,7 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
-   "gogogenius.stage.gogoair.cloud",
-   "https://gogo.aero",
-   "https://gosatcom.net",
-   "https://satcomdirect.com.br",
-   "https://satcomsimple.com",
-   "https://satcomtest.com",
-   "www.aeroxr.com"
+   "gogogenius.stage.gogoair.cloud"
   ],
   "is_vdp": true,
   "key": "hackerone:gogo_vdp",
@@ -64808,13 +64798,7 @@
   "name": "Gogo VDP",
   "platform": "hackerone",
   "scope_types": {
-   "gogogenius.stage.gogoair.cloud": "domain",
-   "https://gogo.aero": "domain",
-   "https://gosatcom.net": "domain",
-   "https://satcomdirect.com.br": "domain",
-   "https://satcomsimple.com": "domain",
-   "https://satcomtest.com": "domain",
-   "www.aeroxr.com": "domain"
+   "gogogenius.stage.gogoair.cloud": "domain"
   },
   "url": "https://hackerone.com/gogo_vdp",
   "wildcards": 0
@@ -76628,8 +76612,7 @@
    "meliplay.com.uy",
    "mercadobackoffice.com",
    "mercadoenvios.com.ve",
-   "mercadolibreexperience.cl",
-   "mercadolivreexperience.com.br/",
+   "mercadolibreexperience.com.*",
    "mercadopago.com.ve",
    "mercadoplay.co",
    "mercadoplay.com.pe",
@@ -76712,8 +76695,7 @@
    "meliplay.com.uy": "domain",
    "mercadobackoffice.com": "domain",
    "mercadoenvios.com.ve": "domain",
-   "mercadolibreexperience.cl": "domain",
-   "mercadolivreexperience.com.br/": "domain",
+   "mercadolibreexperience.com.*": "wildcard",
    "mercadopago.com.ve": "domain",
    "mercadoplay.co": "domain",
    "mercadoplay.com.pe": "domain",
@@ -76743,7 +76725,7 @@
    "www.mercadopago.com.ec": "domain"
   },
   "url": "https://hackerone.com/mercadolibre",
-  "wildcards": 20
+  "wildcards": 21
  },
  "hackerone:mergify": {
   "barriers": [],
@@ -88558,24 +88540,6 @@
   },
   "url": "https://hackerone.com/vodafone_oman",
   "wildcards": 0
- },
- "hackerone:vueling_vdp": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "*.vueling.com"
-  ],
-  "is_vdp": true,
-  "key": "hackerone:vueling_vdp",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Vueling",
-  "platform": "hackerone",
-  "scope_types": {
-   "*.vueling.com": "wildcard"
-  },
-  "url": "https://hackerone.com/vueling_vdp",
-  "wildcards": 1
  },
  "hackerone:wakatime": {
   "barriers": [],
