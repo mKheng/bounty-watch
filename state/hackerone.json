@@ -6809,6 +6809,32 @@
   "url": "https://hackerone.com/box_private",
   "wildcards": 0
  },
+ "hackerone:brave": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "Brave Browser Desktop",
+   "Brave websites",
+   "com.brave.browser",
+   "com.brave.ios.browser",
+   "https://github.com/brave/*, https://github.com/brave-intl/*"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:brave",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Brave Software",
+  "platform": "hackerone",
+  "scope_types": {
+   "Brave Browser Desktop": "other",
+   "Brave websites": "other",
+   "com.brave.browser": "mobile",
+   "com.brave.ios.browser": "mobile",
+   "https://github.com/brave/*, https://github.com/brave-intl/*": "domain"
+  },
+  "url": "https://hackerone.com/brave",
+  "wildcards": 0
+ },
  "hackerone:braze_inc": {
   "barriers": [],
   "currency": "",
@@ -77283,6 +77309,7 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "Leaked Credentials",
    "admit-it-win.cadbury.co.uk",
    "admit-it.cadbury.co.uk",
    "admit-it.cadbury.ie",
@@ -77632,6 +77659,7 @@
   "name": "Mondelēz International",
   "platform": "hackerone",
   "scope_types": {
+   "Leaked Credentials": "other",
    "admit-it-win.cadbury.co.uk": "domain",
    "admit-it.cadbury.co.uk": "domain",
    "admit-it.cadbury.ie": "domain",
@@ -85742,6 +85770,7 @@
    "https://napoleondice.be",
    "https://napoleongames.be",
    "https://napoleonsports.be",
+   "https://super.xyz",
    "https://superbet.pl",
    "https://superbet.ro",
    "https://superbet.rs",
@@ -85777,6 +85806,7 @@
    "https://napoleondice.be": "domain",
    "https://napoleongames.be": "domain",
    "https://napoleonsports.be": "domain",
+   "https://super.xyz": "domain",
    "https://superbet.pl": "domain",
    "https://superbet.ro": "domain",
    "https://superbet.rs": "domain",
