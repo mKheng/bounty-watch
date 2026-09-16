@@ -75037,6 +75037,38 @@
   "url": "https://hackerone.com/kkr_vdp",
   "wildcards": 4
  },
+ "hackerone:klarna": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "*.klarna.com",
+   "*.klarna.net",
+   "*.klarnacdn.net",
+   "*.pricerunner.com",
+   "Klarna Android App (com.myklarnamobile)",
+   "Klarna iOS App (com.klarna.app)",
+   "Merchant Portal",
+   "app.klarna.com"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:klarna",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Klarna",
+  "platform": "hackerone",
+  "scope_types": {
+   "*.klarna.com": "wildcard",
+   "*.klarna.net": "wildcard",
+   "*.klarnacdn.net": "wildcard",
+   "*.pricerunner.com": "wildcard",
+   "Klarna Android App (com.myklarnamobile)": "mobile",
+   "Klarna iOS App (com.klarna.app)": "mobile",
+   "Merchant Portal": "other",
+   "app.klarna.com": "domain"
+  },
+  "url": "https://hackerone.com/klarna",
+  "wildcards": 4
+ },
  "hackerone:koho": {
   "barriers": [],
   "currency": "",
