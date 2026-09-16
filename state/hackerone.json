@@ -35513,6 +35513,36 @@
   "url": "https://hackerone.com/coinspot",
   "wildcards": 0
  },
+ "hackerone:common_codes": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "d-you Wallet Android Test",
+   "d-you Wallet iOS Test",
+   "https://wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com/v1/mdvm",
+   "https://wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com/v1/pns",
+   "https://wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com/v1/rwsca",
+   "https://wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com/v1/status-lists",
+   "https://wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com/v1/wpb"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:common_codes",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "d-you App & German EUDI Wallet Ecosystem",
+  "platform": "hackerone",
+  "scope_types": {
+   "d-you Wallet Android Test": "mobile",
+   "d-you Wallet iOS Test": "other",
+   "https://wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com/v1/mdvm": "domain",
+   "https://wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com/v1/pns": "domain",
+   "https://wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com/v1/rwsca": "domain",
+   "https://wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com/v1/status-lists": "domain",
+   "https://wallet-backend-sandbox.apps.sandbox.nwb.youniqx.com/v1/wpb": "domain"
+  },
+  "url": "https://hackerone.com/common_codes",
+  "wildcards": 0
+ },
  "hackerone:compass-bbp": {
   "barriers": [],
   "currency": "",
@@ -64060,6 +64090,7 @@
    "https://play.google.com/store/apps/dev?id=9151483005769461618&gl=GB",
    "https://play.google.com/store/apps/developer?id=Sky+Betting+and+Gaming+Apps&gl=uk",
    "itv7.itv.com",
+   "metrocompetitions.com",
    "rafflee.co.uk",
    "super6.skysports.com"
   ],
@@ -64111,6 +64142,7 @@
    "https://play.google.com/store/apps/dev?id=9151483005769461618&gl=GB": "mobile",
    "https://play.google.com/store/apps/developer?id=Sky+Betting+and+Gaming+Apps&gl=uk": "mobile",
    "itv7.itv.com": "domain",
+   "metrocompetitions.com": "domain",
    "rafflee.co.uk": "domain",
    "super6.skysports.com": "domain"
   },
@@ -76042,6 +76074,32 @@
   },
   "url": "https://hackerone.com/malwarebytes",
   "wildcards": 8
+ },
+ "hackerone:mariadb": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "MariaDB Server & Connectors  - Denial of Service",
+   "MariaDB Server & Connectors - Access control bypass",
+   "MariaDB Server & Connectors - Data corruption, exfiltration, disclosure",
+   "MariaDB Server & Connectors - Remote Code Execution",
+   "mariadb.org"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:mariadb",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "MariaDB",
+  "platform": "hackerone",
+  "scope_types": {
+   "MariaDB Server & Connectors  - Denial of Service": "other",
+   "MariaDB Server & Connectors - Access control bypass": "other",
+   "MariaDB Server & Connectors - Data corruption, exfiltration, disclosure": "other",
+   "MariaDB Server & Connectors - Remote Code Execution": "other",
+   "mariadb.org": "domain"
+  },
+  "url": "https://hackerone.com/mariadb",
+  "wildcards": 0
  },
  "hackerone:marriott": {
   "barriers": [],
