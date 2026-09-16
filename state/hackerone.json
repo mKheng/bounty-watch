@@ -64896,7 +64896,6 @@
    "*.nextcapital.com",
    "*.nnip.com",
    "*.qaglobal-liquidity.gs.com",
-   "*.vennhypotheken.nl",
    "GS Select iOS app",
    "api.foliofn.com",
    "apigw.foliofn.com",
@@ -64950,7 +64949,6 @@
    "*.nextcapital.com": "wildcard",
    "*.nnip.com": "wildcard",
    "*.qaglobal-liquidity.gs.com": "wildcard",
-   "*.vennhypotheken.nl": "wildcard",
    "GS Select iOS app": "mobile",
    "api.foliofn.com": "domain",
    "apigw.foliofn.com": "domain",
@@ -64971,7 +64969,7 @@
    "research.gs.com": "domain"
   },
   "url": "https://hackerone.com/goldmansachs",
-  "wildcards": 28
+  "wildcards": 27
  },
  "hackerone:goodrx": {
   "barriers": [],
@@ -71380,6 +71378,7 @@
    "ip92wh.witos.wirtgen-group.com",
    "isg-comms-support.johndeere.com",
    "isg-component-library.deere.com/",
+   "isg-digital-context-extraction-mcp.isg-et-tag-qual-floating.us.e01.c01.johndeerecloud.com",
    "isg-op-int-ob.deere.com",
    "isgcareers.deere.com",
    "isgsupport.deere.com",
@@ -71863,6 +71862,7 @@
    "remote.wirtgen.co.uk",
    "remoteaccess.deere.com",
    "reports-service-qual.ghns-web-platform-prod-standalone5.us.e00.c01.johndeerecloud.com",
+   "resiliency-api.supplymgmt-compliance-risk-devl-vpn2.us.e15.c01.johndeerecloud.com",
    "resiliency-digital-assistant-devl.deere.com",
    "revalwebinterface.deere.com",
    "rewards.deere.com",
@@ -73403,6 +73403,7 @@
    "ip92wh.witos.wirtgen-group.com": "domain",
    "isg-comms-support.johndeere.com": "domain",
    "isg-component-library.deere.com/": "domain",
+   "isg-digital-context-extraction-mcp.isg-et-tag-qual-floating.us.e01.c01.johndeerecloud.com": "domain",
    "isg-op-int-ob.deere.com": "domain",
    "isgcareers.deere.com": "domain",
    "isgsupport.deere.com": "domain",
@@ -73886,6 +73887,7 @@
    "remote.wirtgen.co.uk": "domain",
    "remoteaccess.deere.com": "domain",
    "reports-service-qual.ghns-web-platform-prod-standalone5.us.e00.c01.johndeerecloud.com": "domain",
+   "resiliency-api.supplymgmt-compliance-risk-devl-vpn2.us.e15.c01.johndeerecloud.com": "domain",
    "resiliency-digital-assistant-devl.deere.com": "domain",
    "revalwebinterface.deere.com": "domain",
    "rewards.deere.com": "domain",
