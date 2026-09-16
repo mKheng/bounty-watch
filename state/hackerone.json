@@ -4804,7 +4804,7 @@
   "key": "hackerone:arc-bbp",
   "max_bounty": 0.0,
   "min_bounty": 0.0,
-  "name": "Arc BBP",
+  "name": "Arc",
   "platform": "hackerone",
   "scope_types": {
    "*.arc.io": "wildcard",
@@ -24982,7 +24982,7 @@
   "key": "hackerone:circle-bbp",
   "max_bounty": 0.0,
   "min_bounty": 0.0,
-  "name": "Circle BBP",
+  "name": "Circle",
   "platform": "hackerone",
   "scope_types": {
    "api.circle.com": "domain",
