@@ -4789,6 +4789,34 @@
   "url": "https://hackerone.com/apnic",
   "wildcards": 5
  },
+ "hackerone:arc-bbp": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "*.arc.io",
+   "https://github.com/circlefin/arc-node",
+   "https://github.com/circlefin/arc-remote-signer",
+   "https://github.com/circlefin/malachite",
+   "rpc.drpc.testnet.arc.network",
+   "rpc.testnet.arc.network"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:arc-bbp",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Arc BBP",
+  "platform": "hackerone",
+  "scope_types": {
+   "*.arc.io": "wildcard",
+   "https://github.com/circlefin/arc-node": "domain",
+   "https://github.com/circlefin/arc-remote-signer": "domain",
+   "https://github.com/circlefin/malachite": "domain",
+   "rpc.drpc.testnet.arc.network": "domain",
+   "rpc.testnet.arc.network": "domain"
+  },
+  "url": "https://hackerone.com/arc-bbp",
+  "wildcards": 1
+ },
  "hackerone:arkadiyt-projects": {
   "barriers": [],
   "currency": "",
@@ -30050,8 +30078,7 @@
    "zxframework.org",
    "zxsavvy.org",
    "zykadia.ca",
-   "zyllium.com",
-   "zyngapoker.fr"
+   "zyllium.com"
   ],
   "is_vdp": true,
   "key": "hackerone:clarivate",
@@ -35085,8 +35112,7 @@
    "zxframework.org": "domain",
    "zxsavvy.org": "domain",
    "zykadia.ca": "domain",
-   "zyllium.com": "domain",
-   "zyngapoker.fr": "domain"
+   "zyllium.com": "domain"
   },
   "url": "https://hackerone.com/clarivate",
   "wildcards": 0
@@ -40886,7 +40912,6 @@
    "https://www.lotushygiene.com/be-fr/",
    "https://www.lotushygiene.com/be-nl/",
    "https://www.medical.essitylatam.com/",
-   "https://www.monbienetrerecompense.fr/",
    "https://www.nana-me.com/ar-ae/",
    "https://www.nana-me.com/ar-jo/",
    "https://www.nana-me.com/ar-kw/",
@@ -41376,7 +41401,6 @@
    "https://www.lotushygiene.com/be-fr/": "domain",
    "https://www.lotushygiene.com/be-nl/": "domain",
    "https://www.medical.essitylatam.com/": "domain",
-   "https://www.monbienetrerecompense.fr/": "domain",
    "https://www.nana-me.com/ar-ae/": "domain",
    "https://www.nana-me.com/ar-jo/": "domain",
    "https://www.nana-me.com/ar-kw/": "domain",
@@ -44231,7 +44255,8 @@
    "Files.com SDKs and MCP",
    "app.files.com",
    "www.files.com",
-   "your-assigned-subdomain.files.com"
+   "your-assigned-subdomain.files.com",
+   "your-assigned-subdomain.hosted-by-files.com"
   ],
   "is_vdp": false,
   "key": "hackerone:files",
@@ -44248,7 +44273,8 @@
    "Files.com SDKs and MCP": "other",
    "app.files.com": "domain",
    "www.files.com": "domain",
-   "your-assigned-subdomain.files.com": "domain"
+   "your-assigned-subdomain.files.com": "domain",
+   "your-assigned-subdomain.hosted-by-files.com": "domain"
   },
   "url": "https://hackerone.com/files",
   "wildcards": 0
@@ -64604,8 +64630,10 @@
    "Global Payments Integrated",
    "Globalpayments.com",
    "Greater Giving",
+   "Heartland Developer Portal",
    "Heartland Payment Systems",
    "Heartland Restaurant / Retail / Human Capital Management (Get Hired)",
+   "Merchant Portal",
    "MerchantWare",
    "Micropayments",
    "MineralTree",
@@ -64623,8 +64651,13 @@
    "developer.globalpay.com",
    "eWay",
    "http://cloud-sbox.storman.com",
+   "http://heartland.us",
    "http://portal-staging.storman.com",
-   "pcamerica.com"
+   "pcamerica.com",
+   "test.revaluemycard.com",
+   "testadmin.revaluemycard.com",
+   "testmobile.revaluemycard.com",
+   "testprovider.revaluemycard.com"
   ],
   "is_vdp": true,
   "key": "hackerone:global-payments",
@@ -64648,8 +64681,10 @@
    "Global Payments Integrated": "other",
    "Globalpayments.com": "domain",
    "Greater Giving": "other",
+   "Heartland Developer Portal": "other",
    "Heartland Payment Systems": "other",
    "Heartland Restaurant / Retail / Human Capital Management (Get Hired)": "other",
+   "Merchant Portal": "other",
    "MerchantWare": "other",
    "Micropayments": "other",
    "MineralTree": "other",
@@ -64667,8 +64702,13 @@
    "developer.globalpay.com": "domain",
    "eWay": "other",
    "http://cloud-sbox.storman.com": "domain",
+   "http://heartland.us": "domain",
    "http://portal-staging.storman.com": "domain",
-   "pcamerica.com": "domain"
+   "pcamerica.com": "domain",
+   "test.revaluemycard.com": "domain",
+   "testadmin.revaluemycard.com": "domain",
+   "testmobile.revaluemycard.com": "domain",
+   "testprovider.revaluemycard.com": "domain"
   },
   "url": "https://hackerone.com/global-payments",
   "wildcards": 0
@@ -71283,6 +71323,7 @@
    "ims.tal.deere.com",
    "ims.tcms.tal.deere.com",
    "india-digitalization-pocs.apps-devl-vpn.us.e06.c01.johndeerecloud.com",
+   "india-sam-spm-api-prod.channel-dss-r1-india-spm-prod-vpn.ap.e06.c01.johndeerecloud.com",
    "indiabranchitapps.deere.com",
    "info.sentera.com",
    "infohub-devl.deere.com",
@@ -71683,6 +71724,7 @@
    "partscatalog.deere.com",
    "partscheckout.deere.com",
    "partsdesk.deere.com",
+   "patchflow.deere.com",
    "paving-administration-dev.witos.wirtgen-group.com",
    "paving-administration.witos.wirtgen-group.com",
    "pay-qual.deere.com",
@@ -73304,6 +73346,7 @@
    "ims.tal.deere.com": "domain",
    "ims.tcms.tal.deere.com": "domain",
    "india-digitalization-pocs.apps-devl-vpn.us.e06.c01.johndeerecloud.com": "domain",
+   "india-sam-spm-api-prod.channel-dss-r1-india-spm-prod-vpn.ap.e06.c01.johndeerecloud.com": "domain",
    "indiabranchitapps.deere.com": "domain",
    "info.sentera.com": "domain",
    "infohub-devl.deere.com": "domain",
@@ -73704,6 +73747,7 @@
    "partscatalog.deere.com": "domain",
    "partscheckout.deere.com": "domain",
    "partsdesk.deere.com": "domain",
+   "patchflow.deere.com": "domain",
    "paving-administration-dev.witos.wirtgen-group.com": "domain",
    "paving-administration.witos.wirtgen-group.com": "domain",
    "pay-qual.deere.com": "domain",
@@ -76783,7 +76827,6 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
-   "*.comperemedia.com",
    "*.gnpd.com",
    "*.mintel.cloud",
    "*.mintel.co.uk",
@@ -76798,7 +76841,6 @@
    "https://lon-dc-ppt.mintel.com",
    "https://marketsizes.mintel.com/",
    "https://oauth.mintel.com/",
-   "https://omni.comperemedia.com/",
    "https://policy-agent.mintel.com",
    "https://portal.mintel.com/",
    "https://qa-server-inventory.mintel.com/",
@@ -76806,7 +76848,6 @@
    "https://shibboleth.mintel.com",
    "https://store.mintel.com/",
    "https://whoswho.mintel.com/",
-   "https://www.comperemedia.com",
    "https://www.gnpd.com/",
    "https://www.mintel.com/"
   ],
@@ -76817,7 +76858,6 @@
   "name": "Mintel",
   "platform": "hackerone",
   "scope_types": {
-   "*.comperemedia.com": "wildcard",
    "*.gnpd.com": "wildcard",
    "*.mintel.cloud": "wildcard",
    "*.mintel.co.uk": "wildcard",
@@ -76832,7 +76872,6 @@
    "https://lon-dc-ppt.mintel.com": "domain",
    "https://marketsizes.mintel.com/": "domain",
    "https://oauth.mintel.com/": "domain",
-   "https://omni.comperemedia.com/": "domain",
    "https://policy-agent.mintel.com": "domain",
    "https://portal.mintel.com/": "domain",
    "https://qa-server-inventory.mintel.com/": "domain",
@@ -76840,12 +76879,11 @@
    "https://shibboleth.mintel.com": "domain",
    "https://store.mintel.com/": "domain",
    "https://whoswho.mintel.com/": "domain",
-   "https://www.comperemedia.com": "domain",
    "https://www.gnpd.com/": "domain",
    "https://www.mintel.com/": "domain"
   },
   "url": "https://hackerone.com/mintel",
-  "wildcards": 5
+  "wildcards": 4
  },
  "hackerone:mod_supply_chain_vdp": {
   "barriers": [],
