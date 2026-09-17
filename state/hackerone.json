@@ -42943,6 +42943,8 @@
    "*.expediagroup.com",
    "*.expediapartnercentral.com",
    "*.expediapartnersolutions.com",
+   "*.expediataap.com",
+   "*.expediataaprewards.com",
    "*.fewo-direkt.de",
    "*.flights.com",
    "*.hotels.com",
@@ -43026,6 +43028,8 @@
    "*.expediagroup.com": "wildcard",
    "*.expediapartnercentral.com": "wildcard",
    "*.expediapartnersolutions.com": "wildcard",
+   "*.expediataap.com": "wildcard",
+   "*.expediataaprewards.com": "wildcard",
    "*.fewo-direkt.de": "wildcard",
    "*.flights.com": "wildcard",
    "*.hotels.com": "wildcard",
@@ -43091,7 +43095,7 @@
    "www.wotif.com": "domain"
   },
   "url": "https://hackerone.com/expediagroup_bbp",
-  "wildcards": 26
+  "wildcards": 28
  },
  "hackerone:experian": {
   "barriers": [],
@@ -43105,6 +43109,20 @@
   "platform": "hackerone",
   "scope_types": {},
   "url": "https://hackerone.com/experian",
+  "wildcards": 0
+ },
+ "hackerone:expressionengine": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [],
+  "is_vdp": true,
+  "key": "hackerone:expressionengine",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "ExpressionEngine",
+  "platform": "hackerone",
+  "scope_types": {},
+  "url": "https://hackerone.com/expressionengine",
   "wildcards": 0
  },
  "hackerone:fanduel": {
