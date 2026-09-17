@@ -2951,6 +2951,30 @@
   "url": "https://www.intigriti.com/programs/innovapost/innovapost/detail",
   "wildcards": 4
  },
+ "intigriti:intel/intelvulnerabilitydisclosureprogram": {
+  "barriers": [],
+  "currency": "USD",
+  "in_scope": [
+   "Firmware",
+   "Hardware",
+   "Services",
+   "Software"
+  ],
+  "is_vdp": true,
+  "key": "intigriti:intel/intelvulnerabilitydisclosureprogram",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Intel® Vulnerability Disclosure Program ",
+  "platform": "intigriti",
+  "scope_types": {
+   "Firmware": "other",
+   "Hardware": "other",
+   "Services": "other",
+   "Software": "other"
+  },
+  "url": "https://www.intigriti.com/programs/intel/intelvulnerabilitydisclosureprogram/detail",
+  "wildcards": 0
+ },
  "intigriti:intergamma/intergamma": {
   "barriers": [],
   "currency": "EUR",
