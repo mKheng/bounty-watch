@@ -295,6 +295,38 @@
   "url": "https://www.intigriti.com/programs/arbonia/arboniavdpprogram/detail",
   "wildcards": 0
  },
+ "intigriti:arkane/arkanenetwork": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "api-wallet-sandbox.venly.io",
+   "api-wallet.venly.io",
+   "api.arkane.network",
+   "connect.arkane.network",
+   "connect.venly.io",
+   "login.arkane.network",
+   "login.venly.io",
+   "wallet.venly.io"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:arkane/arkanenetwork",
+  "max_bounty": 5000.0,
+  "min_bounty": 50.0,
+  "name": "Venly",
+  "platform": "intigriti",
+  "scope_types": {
+   "api-wallet-sandbox.venly.io": "domain",
+   "api-wallet.venly.io": "domain",
+   "api.arkane.network": "domain",
+   "connect.arkane.network": "domain",
+   "connect.venly.io": "domain",
+   "login.arkane.network": "domain",
+   "login.venly.io": "domain",
+   "wallet.venly.io": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/arkane/arkanenetwork/detail",
+  "wildcards": 0
+ },
  "intigriti:arm/arm": {
   "barriers": [],
   "currency": "USD",
@@ -4030,6 +4062,38 @@
   },
   "url": "https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail",
   "wildcards": 2
+ },
+ "intigriti:postenbringas/vdp": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "Digipost Android app",
+   "Digipost iOS app",
+   "https://*.bring.com",
+   "https://*.digipost.no",
+   "https://*.digipostdata.no",
+   "https://*.mybring.com",
+   "https://*.posten.no",
+   "https://github.com/digipost"
+  ],
+  "is_vdp": true,
+  "key": "intigriti:postenbringas/vdp",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Posten Bring Responsible Disclosure",
+  "platform": "intigriti",
+  "scope_types": {
+   "Digipost Android app": "mobile",
+   "Digipost iOS app": "mobile",
+   "https://*.bring.com": "wildcard",
+   "https://*.digipost.no": "wildcard",
+   "https://*.digipostdata.no": "wildcard",
+   "https://*.mybring.com": "wildcard",
+   "https://*.posten.no": "wildcard",
+   "https://github.com/digipost": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/postenbringas/vdp/detail",
+  "wildcards": 5
  },
  "intigriti:posti/postibugbounty": {
   "barriers": [],
