@@ -66003,17 +66003,18 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
-   "H5G",
+   "H5G/Agency",
    "Managed OpenClaw",
    "agents.hostinger.com",
    "builder.hostinger.com",
    "cpanel.hostinger.com",
+   "ecommerce.hostinger.com",
    "horizons.hostinger.com",
+   "hostinger.com",
    "hpanel.hostinger.com",
-   "http://payments.hostinger.com",
-   "mail.hostinger.com/v2",
-   "reach.hostinger.com",
-   "www.hostinger.com"
+   "mail.hostinger.com",
+   "payments.hostinger.com",
+   "reach.hostinger.com"
   ],
   "is_vdp": false,
   "key": "hackerone:hostinger",
@@ -66022,17 +66023,18 @@
   "name": "hostinger ",
   "platform": "hackerone",
   "scope_types": {
-   "H5G": "other",
+   "H5G/Agency": "other",
    "Managed OpenClaw": "other",
    "agents.hostinger.com": "domain",
    "builder.hostinger.com": "domain",
    "cpanel.hostinger.com": "domain",
+   "ecommerce.hostinger.com": "domain",
    "horizons.hostinger.com": "domain",
+   "hostinger.com": "domain",
    "hpanel.hostinger.com": "domain",
-   "http://payments.hostinger.com": "domain",
-   "mail.hostinger.com/v2": "other",
-   "reach.hostinger.com": "domain",
-   "www.hostinger.com": "domain"
+   "mail.hostinger.com": "domain",
+   "payments.hostinger.com": "domain",
+   "reach.hostinger.com": "domain"
   },
   "url": "https://hackerone.com/hostinger",
   "wildcards": 0
