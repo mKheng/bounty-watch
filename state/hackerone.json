@@ -6837,6 +6837,32 @@
   "url": "https://hackerone.com/box_private",
   "wildcards": 0
  },
+ "hackerone:brave": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "Brave Browser Desktop",
+   "Brave websites",
+   "com.brave.browser",
+   "com.brave.ios.browser",
+   "https://github.com/brave/*, https://github.com/brave-intl/*"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:brave",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Brave Software",
+  "platform": "hackerone",
+  "scope_types": {
+   "Brave Browser Desktop": "other",
+   "Brave websites": "other",
+   "com.brave.browser": "mobile",
+   "com.brave.ios.browser": "mobile",
+   "https://github.com/brave/*, https://github.com/brave-intl/*": "domain"
+  },
+  "url": "https://hackerone.com/brave",
+  "wildcards": 0
+ },
  "hackerone:braze_inc": {
   "barriers": [],
   "currency": "",
@@ -87861,16 +87887,17 @@
   "url": "https://hackerone.com/vendasta",
   "wildcards": 3
  },
- "hackerone:vercel-open-source": {
+ "hackerone:vercel": {
   "barriers": [],
   "currency": "",
   "in_scope": [
-   "Tier 1 OSS",
-   "Tier 2 OSS",
-   "Tier 3 OSS",
+   "*.vercel.com",
+   "*.vercel.live",
+   "Vercel sandbox",
    "https://github.com/nitrojs/nitro",
    "https://github.com/nuxt/nuxt",
    "https://github.com/sveltejs/svelte",
+   "https://github.com/vercel",
    "https://github.com/vercel-labs/agent-skills",
    "https://github.com/vercel-labs/skills",
    "https://github.com/vercel/ai",
@@ -87883,21 +87910,26 @@
    "https://github.com/vercel/swr",
    "https://github.com/vercel/turborepo",
    "https://github.com/vercel/vercel",
-   "https://github.com/vercel/workflow"
+   "https://github.com/vercel/workflow",
+   "v0.app",
+   "v0.dev",
+   "vercel.app",
+   "vercel.com"
   ],
   "is_vdp": false,
-  "key": "hackerone:vercel-open-source",
+  "key": "hackerone:vercel",
   "max_bounty": 0.0,
   "min_bounty": 0.0,
-  "name": "Vercel Open Source",
+  "name": "Vercel",
   "platform": "hackerone",
   "scope_types": {
-   "Tier 1 OSS": "other",
-   "Tier 2 OSS": "other",
-   "Tier 3 OSS": "other",
+   "*.vercel.com": "wildcard",
+   "*.vercel.live": "wildcard",
+   "Vercel sandbox": "other",
    "https://github.com/nitrojs/nitro": "domain",
    "https://github.com/nuxt/nuxt": "domain",
    "https://github.com/sveltejs/svelte": "domain",
+   "https://github.com/vercel": "domain",
    "https://github.com/vercel-labs/agent-skills": "domain",
    "https://github.com/vercel-labs/skills": "domain",
    "https://github.com/vercel/ai": "domain",
@@ -87910,10 +87942,14 @@
    "https://github.com/vercel/swr": "domain",
    "https://github.com/vercel/turborepo": "domain",
    "https://github.com/vercel/vercel": "domain",
-   "https://github.com/vercel/workflow": "domain"
+   "https://github.com/vercel/workflow": "domain",
+   "v0.app": "domain",
+   "v0.dev": "domain",
+   "vercel.app": "domain",
+   "vercel.com": "domain"
   },
-  "url": "https://hackerone.com/vercel-open-source",
-  "wildcards": 0
+  "url": "https://hackerone.com/vercel",
+  "wildcards": 2
  },
  "hackerone:verily_life_sciences": {
   "barriers": [],
