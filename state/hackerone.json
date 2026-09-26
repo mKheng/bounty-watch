@@ -73467,26 +73467,6 @@
   "url": "https://hackerone.com/judgeme",
   "wildcards": 0
  },
- "hackerone:kaltura": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "kmc.kaltura.com",
-   "mediaspace.kaltura.com"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:kaltura",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Kaltura",
-  "platform": "hackerone",
-  "scope_types": {
-   "kmc.kaltura.com": "domain",
-   "mediaspace.kaltura.com": "domain"
-  },
-  "url": "https://hackerone.com/kaltura",
-  "wildcards": 0
- },
  "hackerone:kaseya": {
   "barriers": [],
   "currency": "",
