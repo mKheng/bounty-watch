@@ -3059,24 +3059,6 @@
   "url": "https://www.intigriti.com/programs/intergamma/intergamma/detail",
   "wildcards": 20
  },
- "intigriti:intigriti/challenge0926": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "https://challenge-0926.challenges.intigriti.io"
-  ],
-  "is_vdp": true,
-  "key": "intigriti:intigriti/challenge0926",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Challenge 0926",
-  "platform": "intigriti",
-  "scope_types": {
-   "https://challenge-0926.challenges.intigriti.io": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/intigriti/challenge0926/detail",
-  "wildcards": 0
- },
  "intigriti:intigriti/intigriti": {
   "barriers": [],
   "currency": "EUR",
@@ -4352,30 +4334,6 @@
   },
   "url": "https://www.intigriti.com/programs/randstad/gulp/detail",
   "wildcards": 2
- },
- "intigriti:randstad/randstad": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.randstad.*",
-   "*.randstadrisesmart.*",
-   "*.risesmart.*",
-   "Any related Randstad domain"
-  ],
-  "is_vdp": true,
-  "key": "intigriti:randstad/randstad",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Randstad",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.randstad.*": "wildcard",
-   "*.randstadrisesmart.*": "wildcard",
-   "*.risesmart.*": "wildcard",
-   "Any related Randstad domain": "other"
-  },
-  "url": "https://www.intigriti.com/programs/randstad/randstad/detail",
-  "wildcards": 3
  },
  "intigriti:randstad/tempo-team": {
   "barriers": [],
