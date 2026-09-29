@@ -4335,6 +4335,30 @@
   "url": "https://www.intigriti.com/programs/randstad/gulp/detail",
   "wildcards": 2
  },
+ "intigriti:randstad/randstad": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.randstad.*",
+   "*.randstadrisesmart.*",
+   "*.risesmart.*",
+   "Any related Randstad domain"
+  ],
+  "is_vdp": true,
+  "key": "intigriti:randstad/randstad",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Randstad",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.randstad.*": "wildcard",
+   "*.randstadrisesmart.*": "wildcard",
+   "*.risesmart.*": "wildcard",
+   "Any related Randstad domain": "other"
+  },
+  "url": "https://www.intigriti.com/programs/randstad/randstad/detail",
+  "wildcards": 3
+ },
  "intigriti:randstad/tempo-team": {
   "barriers": [],
   "currency": "EUR",

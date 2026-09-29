@@ -40679,7 +40679,6 @@
    "https://apps.apple.com/us/app/nosotras-v-app/id1577849733",
    "https://apps.apple.com/us/app/tork-vision-install/id6753860641",
    "https://apps.apple.com/uy/app/nosotras-v-app/id1577849733",
-   "https://babybrandcenter.essity.com",
    "https://bodyform.co.uk",
    "https://brand.tena.com",
    "https://brandzone.essity.com",
@@ -41168,7 +41167,6 @@
    "https://apps.apple.com/us/app/nosotras-v-app/id1577849733": "mobile",
    "https://apps.apple.com/us/app/tork-vision-install/id6753860641": "mobile",
    "https://apps.apple.com/uy/app/nosotras-v-app/id1577849733": "mobile",
-   "https://babybrandcenter.essity.com": "domain",
    "https://bodyform.co.uk": "domain",
    "https://brand.tena.com": "domain",
    "https://brandzone.essity.com": "domain",
@@ -52406,6 +52404,7 @@
    "pix-webhook-picpay.softwareexpress.com.br",
    "pix-webhook-tribanco.softwareexpress.com.br",
    "pix.fiservapp.com",
+   "pizzahut.gift.solutions",
    "pizzahut.wgiftcard.com",
    "pizzahutstore.wgiftcard.com",
    "pizzerialocalestore.wgiftcard.com",
@@ -61937,6 +61936,7 @@
    "pix-webhook-picpay.softwareexpress.com.br": "domain",
    "pix-webhook-tribanco.softwareexpress.com.br": "domain",
    "pix.fiservapp.com": "domain",
+   "pizzahut.gift.solutions": "domain",
    "pizzahut.wgiftcard.com": "domain",
    "pizzahutstore.wgiftcard.com": "domain",
    "pizzerialocalestore.wgiftcard.com": "domain",
@@ -88359,34 +88359,40 @@
   "url": "https://hackerone.com/wakatime",
   "wildcards": 0
  },
- "hackerone:wallet_on_telegram": {
+ "hackerone:walt_io": {
   "barriers": [],
   "currency": "",
   "in_scope": [
    "Crypto infrastructure for cold and hot wallets",
+   "http://t.me/wallet",
+   "http://t.me/walt",
    "p2p.walletbot.me",
    "pay.wallet.tg",
    "wallet.tg",
    "walletbot.me",
    "wallettg.com",
-   "wallettg.net"
+   "wallettg.net",
+   "walt.io"
   ],
   "is_vdp": false,
-  "key": "hackerone:wallet_on_telegram",
+  "key": "hackerone:walt_io",
   "max_bounty": 0.0,
   "min_bounty": 0.0,
-  "name": "Wallet on Telegram",
+  "name": "Walt.io",
   "platform": "hackerone",
   "scope_types": {
    "Crypto infrastructure for cold and hot wallets": "other",
+   "http://t.me/wallet": "domain",
+   "http://t.me/walt": "domain",
    "p2p.walletbot.me": "domain",
    "pay.wallet.tg": "domain",
    "wallet.tg": "domain",
    "walletbot.me": "domain",
    "wallettg.com": "domain",
-   "wallettg.net": "domain"
+   "wallettg.net": "domain",
+   "walt.io": "domain"
   },
-  "url": "https://hackerone.com/wallet_on_telegram",
+  "url": "https://hackerone.com/walt_io",
   "wildcards": 0
  },
  "hackerone:wealthsimple": {
