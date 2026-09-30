@@ -85637,7 +85637,6 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
-   "alfred-uat-31.nonprod.syfe.com",
    "alfred.syfe.com",
    "api-uat-bugbounty.nonprod.syfe.com",
    "api.syfe.com",
@@ -85654,7 +85653,6 @@
   "name": "Syfe",
   "platform": "hackerone",
   "scope_types": {
-   "alfred-uat-31.nonprod.syfe.com": "domain",
    "alfred.syfe.com": "domain",
    "api-uat-bugbounty.nonprod.syfe.com": "domain",
    "api.syfe.com": "domain",
