@@ -86988,7 +86988,9 @@
   "currency": "",
   "in_scope": [
    "1040.com",
+   "drakesoftware.com",
    "securefilepro.com",
+   "taxact.com",
    "taxwell.com",
    "taxwell.org"
   ],
@@ -87000,7 +87002,9 @@
   "platform": "hackerone",
   "scope_types": {
    "1040.com": "domain",
+   "drakesoftware.com": "domain",
    "securefilepro.com": "domain",
+   "taxact.com": "domain",
    "taxwell.com": "domain",
    "taxwell.org": "domain"
   },
