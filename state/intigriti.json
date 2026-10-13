@@ -3907,30 +3907,6 @@
   "url": "https://www.intigriti.com/programs/ourahealthoy/ouravulnerabilitydisclosureprogram/detail",
   "wildcards": 1
  },
- "intigriti:pdq/pdqcomprivate": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "https://app.pdq.com/",
-   "https://auth2.pdq.com/",
-   "https://library.pdq.com/",
-   "https://portal.pdq.com/"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:pdq/pdqcomprivate",
-  "max_bounty": 3500.0,
-  "min_bounty": 50.0,
-  "name": "PDQ bug bounty program",
-  "platform": "intigriti",
-  "scope_types": {
-   "https://app.pdq.com/": "domain",
-   "https://auth2.pdq.com/": "domain",
-   "https://library.pdq.com/": "domain",
-   "https://portal.pdq.com/": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/pdq/pdqcomprivate/detail",
-  "wildcards": 0
- },
  "intigriti:peoplecert/peoplecert": {
   "barriers": [],
   "currency": "EUR",
@@ -4946,26 +4922,6 @@
   },
   "url": "https://www.intigriti.com/programs/spp-storebrand/storebrand-rd/detail",
   "wildcards": 38
- },
- "intigriti:sqills/sqillscorporatewebsite": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.sqills.com",
-   "*.sqills.team"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:sqills/sqillscorporatewebsite",
-  "max_bounty": 2500.0,
-  "min_bounty": 0.0,
-  "name": "Sqills",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.sqills.com": "wildcard",
-   "*.sqills.team": "wildcard"
-  },
-  "url": "https://www.intigriti.com/programs/sqills/sqillscorporatewebsite/detail",
-  "wildcards": 2
  },
  "intigriti:tccc/coca-cola": {
   "barriers": [],
