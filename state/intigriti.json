@@ -2373,30 +2373,6 @@
   "url": "https://www.intigriti.com/programs/dropbox/dropbox-vdp/detail",
   "wildcards": 0
  },
- "intigriti:dstny/dstnybugbounty": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1208823298#gid=1208823298",
-   "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1281087877#gid=1281087877",
-   "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1767553194#gid=1767553194",
-   "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1817816238#gid=1817816238"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:dstny/dstnybugbounty",
-  "max_bounty": 1697.0,
-  "min_bounty": 0.0,
-  "name": "Dstny",
-  "platform": "intigriti",
-  "scope_types": {
-   "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1208823298#gid=1208823298": "domain",
-   "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1281087877#gid=1281087877": "domain",
-   "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1767553194#gid=1767553194": "domain",
-   "https://docs.google.com/spreadsheets/d/1CzscF67guNFMy-L_v79ng2mW36dQWb2rQSbK540j-ys/edit?gid=1817816238#gid=1817816238": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/dstny/dstnybugbounty/detail",
-  "wildcards": 0
- },
  "intigriti:eurid/eurid": {
   "barriers": [],
   "currency": "EUR",
