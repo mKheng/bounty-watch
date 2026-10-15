@@ -30,9 +30,14 @@
    "1w.cash",
    "1w.run",
    "1win.com",
+   "1wintoken.com",
+   "1wtoken.com",
    "Deposit/Withdraw",
    "https://1win.com/betting",
-   "https://1win.com/casino"
+   "https://1win.com/casino",
+   "https://solscan.io/account/B2RFzpckwjtHXHMrPMKarg6Cj6xkSdT6mru4gJiJE87L",
+   "https://solscan.io/account/GWvQinGBRa7ZUzhXY23MrLjdsx3KfRGxH8yXURBwrz1R",
+   "https://solscan.io/account/sxzuA7TuRvjVbrXkJUgrYq2hfjVf3RFd8WFaSxt2rYm"
   ],
   "is_vdp": false,
   "key": "hackerone:1win_com",
@@ -44,9 +49,14 @@
    "1w.cash": "domain",
    "1w.run": "domain",
    "1win.com": "domain",
+   "1wintoken.com": "domain",
+   "1wtoken.com": "domain",
    "Deposit/Withdraw": "other",
    "https://1win.com/betting": "domain",
-   "https://1win.com/casino": "domain"
+   "https://1win.com/casino": "domain",
+   "https://solscan.io/account/B2RFzpckwjtHXHMrPMKarg6Cj6xkSdT6mru4gJiJE87L": "domain",
+   "https://solscan.io/account/GWvQinGBRa7ZUzhXY23MrLjdsx3KfRGxH8yXURBwrz1R": "domain",
+   "https://solscan.io/account/sxzuA7TuRvjVbrXkJUgrYq2hfjVf3RFd8WFaSxt2rYm": "domain"
   },
   "url": "https://hackerone.com/1win_com",
   "wildcards": 0
@@ -43653,6 +43663,7 @@
    "*.cheaptickets.com",
    "*.ean.com",
    "*.expedia-aarp.com",
+   "*.expedia.biz",
    "*.expedia.com",
    "*.expediaagents.com",
    "*.expediacruises.com",
@@ -43740,6 +43751,7 @@
    "*.cheaptickets.com": "wildcard",
    "*.ean.com": "wildcard",
    "*.expedia-aarp.com": "wildcard",
+   "*.expedia.biz": "wildcard",
    "*.expedia.com": "wildcard",
    "*.expediaagents.com": "wildcard",
    "*.expediacruises.com": "wildcard",
@@ -43815,7 +43827,7 @@
    "www.wotif.com": "domain"
   },
   "url": "https://hackerone.com/expediagroup_bbp",
-  "wildcards": 28
+  "wildcards": 29
  },
  "hackerone:experian": {
   "barriers": [],
@@ -79201,6 +79213,32 @@
    "dicey.com": "domain"
   },
   "url": "https://hackerone.com/magic-eden",
+  "wildcards": 0
+ },
+ "hackerone:mariadb": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "MariaDB Server & Connectors  - Denial of Service",
+   "MariaDB Server & Connectors - Access control bypass",
+   "MariaDB Server & Connectors - Data corruption, exfiltration, disclosure",
+   "MariaDB Server & Connectors - Remote Code Execution",
+   "mariadb.org"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:mariadb",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "MariaDB",
+  "platform": "hackerone",
+  "scope_types": {
+   "MariaDB Server & Connectors  - Denial of Service": "other",
+   "MariaDB Server & Connectors - Access control bypass": "other",
+   "MariaDB Server & Connectors - Data corruption, exfiltration, disclosure": "other",
+   "MariaDB Server & Connectors - Remote Code Execution": "other",
+   "mariadb.org": "domain"
+  },
+  "url": "https://hackerone.com/mariadb",
   "wildcards": 0
  },
  "hackerone:marriott": {
