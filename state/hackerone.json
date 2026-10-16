@@ -4797,7 +4797,11 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
-   "Fable 5.1"
+   "Fable 5.1",
+   "Haiku Class Models",
+   "Opus 5.5",
+   "Other Opus Class Models",
+   "Sonnet Class Models"
   ],
   "is_vdp": true,
   "key": "hackerone:anthropic-cyber-jailbreak",
@@ -4806,7 +4810,11 @@
   "name": "Anthropic Cyber Jailbreak",
   "platform": "hackerone",
   "scope_types": {
-   "Fable 5.1": "other"
+   "Fable 5.1": "other",
+   "Haiku Class Models": "other",
+   "Opus 5.5": "other",
+   "Other Opus Class Models": "other",
+   "Sonnet Class Models": "other"
   },
   "url": "https://hackerone.com/anthropic-cyber-jailbreak",
   "wildcards": 0
@@ -7505,32 +7513,6 @@
    "upload.box.com": "domain"
   },
   "url": "https://hackerone.com/box_private",
-  "wildcards": 0
- },
- "hackerone:brave": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "Brave Browser Desktop",
-   "Brave websites",
-   "com.brave.browser",
-   "com.brave.ios.browser",
-   "https://github.com/brave/*, https://github.com/brave-intl/*"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:brave",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Brave Software",
-  "platform": "hackerone",
-  "scope_types": {
-   "Brave Browser Desktop": "other",
-   "Brave websites": "other",
-   "com.brave.browser": "mobile",
-   "com.brave.ios.browser": "mobile",
-   "https://github.com/brave/*, https://github.com/brave-intl/*": "domain"
-  },
-  "url": "https://hackerone.com/brave",
   "wildcards": 0
  },
  "hackerone:braze_inc": {
@@ -74235,6 +74217,7 @@
    "dx-divops-dependency-track-ui.apps-devl-vpn.us.e29.c01.johndeerecloud.com",
    "e-marketing.deere.com",
    "easyadjust.monosem.com",
+   "ecm-overview.deere.com",
    "ecommerce-product-experience-cert.cps-johndeerestore-cert-vpn3.us.e32.c01.johndeerecloud.com",
    "ecs-admin-dev.sentera.com",
    "ecsobj.johndeereandco.com",
@@ -76274,6 +76257,7 @@
    "dx-divops-dependency-track-ui.apps-devl-vpn.us.e29.c01.johndeerecloud.com": "domain",
    "e-marketing.deere.com": "domain",
    "easyadjust.monosem.com": "domain",
+   "ecm-overview.deere.com": "domain",
    "ecommerce-product-experience-cert.cps-johndeerestore-cert-vpn3.us.e32.c01.johndeerecloud.com": "domain",
    "ecs-admin-dev.sentera.com": "domain",
    "ecsobj.johndeereandco.com": "domain",
@@ -79259,7 +79243,6 @@
    "*.dcfgateway.marriott.com",
    "*.gateway.marriott.com",
    "*.mgs.marriott.com",
-   "*.sba.marriott.com",
    "*gateway-apc.marriott.com",
    "*uat.marriott.com",
    "455004730",
@@ -79304,6 +79287,7 @@
    "sso.marriott.com",
    "travelagents.marriott.com/",
    "traveler.marriott.com",
+   "uat.marriott.com",
    "uber.marriott.com",
    "university.marriott.com",
    "vacation.marriott.com",
@@ -79326,9 +79310,8 @@
    "*.dcfgateway.marriott.com": "wildcard",
    "*.gateway.marriott.com": "wildcard",
    "*.mgs.marriott.com": "wildcard",
-   "*.sba.marriott.com": "wildcard",
    "*gateway-apc.marriott.com": "wildcard",
-   "*uat.marriott.com": "domain",
+   "*uat.marriott.com": "wildcard",
    "455004730": "mobile",
    "apcgateway.marriott.com": "domain",
    "app-insiders.marriott.com": "domain",
@@ -79371,6 +79354,7 @@
    "sso.marriott.com": "domain",
    "travelagents.marriott.com/": "domain",
    "traveler.marriott.com": "domain",
+   "uat.marriott.com": "domain",
    "uber.marriott.com": "domain",
    "university.marriott.com": "domain",
    "vacation.marriott.com": "domain",
@@ -79818,6 +79802,7 @@
    "*.mercadopago.com.pe",
    "*.mercadopago.com.uy",
    "*.mlstatic.com",
+   "*.modoblack.mercadolivre.com.br",
    "*.tucarro.com.ve",
    "Crypto",
    "Leaked Credentials",
@@ -79839,6 +79824,7 @@
    "com.mercadolibre.android.mplay_tv",
    "com.mercadopago.MercadoPago",
    "com.mercadopago.wallet",
+   "fullbarhomologa.modoblackfullbar.com.br",
    "furycloud.io",
    "furydocs.io",
    "logistica.redelcom.cl",
@@ -79848,6 +79834,7 @@
    "mercadobackoffice.com",
    "mercadoenvios.com.ve",
    "mercadolibreexperience.com.*",
+   "mercadolivreexperience.mercadolivre.com.br",
    "mercadopago.com.ve",
    "mercadoplay.co",
    "mercadoplay.com.pe",
@@ -79902,6 +79889,7 @@
    "*.mercadopago.com.pe": "wildcard",
    "*.mercadopago.com.uy": "wildcard",
    "*.mlstatic.com": "wildcard",
+   "*.modoblack.mercadolivre.com.br": "wildcard",
    "*.tucarro.com.ve": "wildcard",
    "Crypto": "other",
    "Leaked Credentials": "other",
@@ -79923,6 +79911,7 @@
    "com.mercadolibre.android.mplay_tv": "mobile",
    "com.mercadopago.MercadoPago": "mobile",
    "com.mercadopago.wallet": "mobile",
+   "fullbarhomologa.modoblackfullbar.com.br": "domain",
    "furycloud.io": "domain",
    "furydocs.io": "domain",
    "logistica.redelcom.cl": "domain",
@@ -79932,6 +79921,7 @@
    "mercadobackoffice.com": "domain",
    "mercadoenvios.com.ve": "domain",
    "mercadolibreexperience.com.*": "wildcard",
+   "mercadolivreexperience.mercadolivre.com.br": "domain",
    "mercadopago.com.ve": "domain",
    "mercadoplay.co": "domain",
    "mercadoplay.com.pe": "domain",
@@ -79961,7 +79951,7 @@
    "www.mercadopago.com.ec": "domain"
   },
   "url": "https://hackerone.com/mercadolibre",
-  "wildcards": 21
+  "wildcards": 22
  },
  "hackerone:mergify": {
   "barriers": [],
