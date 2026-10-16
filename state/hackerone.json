@@ -68172,6 +68172,8 @@
    "https://ctf.hackthebox.com",
    "https://enterprise.hackthebox.com",
    "https://jobs.hackthebox.com/",
+   "https://profile.hackthebox.com",
+   "https://range.hackthebox.ai/",
    "https://status.hackthebox.com/",
    "labs.hackthebox.com"
   ],
@@ -68189,6 +68191,8 @@
    "https://ctf.hackthebox.com": "domain",
    "https://enterprise.hackthebox.com": "domain",
    "https://jobs.hackthebox.com/": "domain",
+   "https://profile.hackthebox.com": "domain",
+   "https://range.hackthebox.ai/": "domain",
    "https://status.hackthebox.com/": "domain",
    "labs.hackthebox.com": "domain"
   },
