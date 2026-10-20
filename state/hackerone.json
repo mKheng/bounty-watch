@@ -6966,7 +6966,10 @@
    "*.bancoplata.mx",
    "*.platacard.mx",
    "dif.tech.plata",
-   "id6443932656"
+   "id6443932656",
+   "people.plata.team",
+   "plata.co",
+   "prime.plata.co"
   ],
   "is_vdp": false,
   "key": "hackerone:banco_plata",
@@ -6978,7 +6981,10 @@
    "*.bancoplata.mx": "wildcard",
    "*.platacard.mx": "wildcard",
    "dif.tech.plata": "mobile",
-   "id6443932656": "mobile"
+   "id6443932656": "mobile",
+   "people.plata.team": "domain",
+   "plata.co": "domain",
+   "prime.plata.co": "domain"
   },
   "url": "https://hackerone.com/banco_plata",
   "wildcards": 2
@@ -7038,6 +7044,56 @@
   },
   "url": "https://hackerone.com/bankunited",
   "wildcards": 0
+ },
+ "hackerone:basecamp": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "*.hey.com",
+   "Basecamp.app",
+   "HEY.app",
+   "HEY.exe",
+   "app.basecamp.com",
+   "app.fizzy.do",
+   "basecamp-setup.exe",
+   "com.basecamp.bc3",
+   "com.basecamp.bc3-ios",
+   "com.basecamp.hey",
+   "com.hey.app.ios",
+   "hey-mail",
+   "https://github.com/basecamp/once-campfire",
+   "https://github.com/basecamp/trix",
+   "https://github.com/basecamp/writebook",
+   "launchpad.37signals.com",
+   "world.hey.com"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:basecamp",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Basecamp",
+  "platform": "hackerone",
+  "scope_types": {
+   "*.hey.com": "wildcard",
+   "Basecamp.app": "domain",
+   "HEY.app": "domain",
+   "HEY.exe": "domain",
+   "app.basecamp.com": "domain",
+   "app.fizzy.do": "domain",
+   "basecamp-setup.exe": "domain",
+   "com.basecamp.bc3": "mobile",
+   "com.basecamp.bc3-ios": "mobile",
+   "com.basecamp.hey": "mobile",
+   "com.hey.app.ios": "mobile",
+   "hey-mail": "other",
+   "https://github.com/basecamp/once-campfire": "domain",
+   "https://github.com/basecamp/trix": "domain",
+   "https://github.com/basecamp/writebook": "domain",
+   "launchpad.37signals.com": "domain",
+   "world.hey.com": "domain"
+  },
+  "url": "https://hackerone.com/basecamp",
+  "wildcards": 1
  },
  "hackerone:bcny": {
   "barriers": [],
