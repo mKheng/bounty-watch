@@ -36023,7 +36023,7 @@
    "*.windsurf.com",
    "Devin CLI",
    "Devin Desktop",
-   "Windsurf Plugins",
+   "Jetbrains IDE Plugin",
    "deepwiki.com"
   ],
   "is_vdp": true,
@@ -36039,7 +36039,7 @@
    "*.windsurf.com": "wildcard",
    "Devin CLI": "other",
    "Devin Desktop": "other",
-   "Windsurf Plugins": "other",
+   "Jetbrains IDE Plugin": "other",
    "deepwiki.com": "domain"
   },
   "url": "https://hackerone.com/cognition",
