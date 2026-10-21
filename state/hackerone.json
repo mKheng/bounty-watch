@@ -81435,6 +81435,7 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "*.dflow.net",
    "*.hypermint.com",
    "*.iron.xyz",
    "*.moonpay.com",
@@ -81463,6 +81464,7 @@
   "name": "MoonPay ",
   "platform": "hackerone",
   "scope_types": {
+   "*.dflow.net": "wildcard",
    "*.hypermint.com": "wildcard",
    "*.iron.xyz": "wildcard",
    "*.moonpay.com": "wildcard",
@@ -81485,7 +81487,7 @@
    "web3.moonpay.com": "domain"
   },
   "url": "https://hackerone.com/moonpay",
-  "wildcards": 5
+  "wildcards": 6
  },
  "hackerone:moov": {
   "barriers": [],
