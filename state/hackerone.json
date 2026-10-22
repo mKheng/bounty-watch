@@ -43583,8 +43583,6 @@
    "*.expedia-aarp.com",
    "*.expedia.biz",
    "*.expedia.com",
-   "*.expediaagents.com",
-   "*.expediacruises.com",
    "*.expediagroup.com",
    "*.expediapartnercentral.com",
    "*.expediapartnersolutions.com",
@@ -43638,7 +43636,6 @@
    "www.ebookers.fi",
    "www.expedia-aarp.com",
    "www.expedia.com",
-   "www.expediacruises.com",
    "www.expediagroup.com",
    "www.expediapartnercentral.com",
    "www.expediataap.com",
@@ -43671,8 +43668,6 @@
    "*.expedia-aarp.com": "wildcard",
    "*.expedia.biz": "wildcard",
    "*.expedia.com": "wildcard",
-   "*.expediaagents.com": "wildcard",
-   "*.expediacruises.com": "wildcard",
    "*.expediagroup.com": "wildcard",
    "*.expediapartnercentral.com": "wildcard",
    "*.expediapartnersolutions.com": "wildcard",
@@ -43726,7 +43721,6 @@
    "www.ebookers.fi": "domain",
    "www.expedia-aarp.com": "domain",
    "www.expedia.com": "domain",
-   "www.expediacruises.com": "domain",
    "www.expediagroup.com": "domain",
    "www.expediapartnercentral.com": "domain",
    "www.expediataap.com": "domain",
@@ -43745,7 +43739,7 @@
    "www.wotif.com": "domain"
   },
   "url": "https://hackerone.com/expediagroup_bbp",
-  "wildcards": 29
+  "wildcards": 27
  },
  "hackerone:experian": {
   "barriers": [],
