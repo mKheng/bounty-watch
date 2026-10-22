@@ -7075,16 +7075,11 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
-   "Arc on Mac",
-   "Arc on Windows",
    "Dia Assistant",
    "Dia on MacOS",
    "Dia on Windows",
-   "arc.net",
    "bcny.com",
-   "company.thebrowser.arc",
    "diabrowser.com",
-   "id6472513080",
    "thebrowser.company"
   ],
   "is_vdp": false,
@@ -7094,16 +7089,11 @@
   "name": "The Browser Company of NYC",
   "platform": "hackerone",
   "scope_types": {
-   "Arc on Mac": "other",
-   "Arc on Windows": "other",
    "Dia Assistant": "other",
    "Dia on MacOS": "other",
    "Dia on Windows": "other",
-   "arc.net": "domain",
    "bcny.com": "domain",
-   "company.thebrowser.arc": "mobile",
    "diabrowser.com": "domain",
-   "id6472513080": "mobile",
    "thebrowser.company": "domain"
   },
   "url": "https://hackerone.com/bcny",
