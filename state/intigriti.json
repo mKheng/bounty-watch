@@ -4627,46 +4627,6 @@
   "url": "https://www.intigriti.com/programs/saltosystems/saltovulnerabilitydisclosure/detail",
   "wildcards": 30
  },
- "intigriti:sbb/sbbglobal": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.sbb.ch",
-   "*.swisspass.ch",
-   "*elvetino.ch",
-   "*sbbcargo.com",
-   "*transsicura.ch",
-   "All other SBB owned IT assets",
-   "All other Web and mobile APPs owned by SBB",
-   "Mobile Apps",
-   "www.elvetino.ch",
-   "www.sbb.ch",
-   "www.sbbcargo.com",
-   "www.transsicura.ch"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:sbb/sbbglobal",
-  "max_bounty": 6666.0,
-  "min_bounty": 25.0,
-  "name": "SBB - Swiss Federal Railways",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.sbb.ch": "wildcard",
-   "*.swisspass.ch": "wildcard",
-   "*elvetino.ch": "wildcard",
-   "*sbbcargo.com": "wildcard",
-   "*transsicura.ch": "wildcard",
-   "All other SBB owned IT assets": "other",
-   "All other Web and mobile APPs owned by SBB": "other",
-   "Mobile Apps": "other",
-   "www.elvetino.ch": "domain",
-   "www.sbb.ch": "domain",
-   "www.sbbcargo.com": "domain",
-   "www.transsicura.ch": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/sbb/sbbglobal/detail",
-  "wildcards": 5
- },
  "intigriti:showpad/vdp": {
   "barriers": [],
   "currency": "EUR",
