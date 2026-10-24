@@ -87525,32 +87525,6 @@
   "url": "https://hackerone.com/roblox",
   "wildcards": 3
  },
- "hackerone:rocket_chat": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "cloud.rocket.chat",
-   "https://github.com/RocketChat/Rocket.Chat",
-   "https://github.com/RocketChat/Rocket.Chat.Electron",
-   "https://github.com/RocketChat/Rocket.Chat.ReactNative",
-   "rocket.chat"
-  ],
-  "is_vdp": true,
-  "key": "hackerone:rocket_chat",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Rocket.Chat",
-  "platform": "hackerone",
-  "scope_types": {
-   "cloud.rocket.chat": "domain",
-   "https://github.com/RocketChat/Rocket.Chat": "domain",
-   "https://github.com/RocketChat/Rocket.Chat.Electron": "domain",
-   "https://github.com/RocketChat/Rocket.Chat.ReactNative": "domain",
-   "rocket.chat": "domain"
-  },
-  "url": "https://hackerone.com/rocket_chat",
-  "wildcards": 0
- },
  "hackerone:rockstargames": {
   "barriers": [],
   "currency": "",
