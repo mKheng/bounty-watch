@@ -1,4 +1,74 @@
 {
+ "intigriti:Uphold/upholdcom": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.optimuscards.com",
+   "*.topperpay.com",
+   "*.uphold.com",
+   "Uphold: Buy BTC, ETH and 300+",
+   "Uphold: Buy BTC, ETH and 360+",
+   "api-sandbox.uphold.com",
+   "api-sandbox.uphold.com/graphql",
+   "api.portal.enterprise.uphold.com",
+   "api.sandbox.topperpay.com",
+   "app.sandbox.topperpay.com",
+   "docs.optimuscards.com",
+   "docs.topperpay.com",
+   "docs.uphold.com",
+   "github.com/uphold/*",
+   "graphql.sandbox.topperpay.com/graphql",
+   "https://api.enterprise.sandbox.uphold.com/core",
+   "https://api.enterprise.sandbox.uphold.com/kyc-connector",
+   "https://api.enterprise.sandbox.uphold.com/market-pulse",
+   "https://api.enterprise.sandbox.uphold.com/topper",
+   "https://api.enterprise.sandbox.uphold.com/trading",
+   "https://api.enterprise.sandbox.uphold.com/widgets",
+   "portal.enterprise.uphold.com",
+   "uatcms.optimuscards.com",
+   "wallet-sandbox.uphold.com",
+   "www.optimuscards.com",
+   "www.topperpay.com",
+   "www.uphold.com"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:Uphold/upholdcom",
+  "max_bounty": 6000.0,
+  "min_bounty": 0.0,
+  "name": "Uphold",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.optimuscards.com": "wildcard",
+   "*.topperpay.com": "wildcard",
+   "*.uphold.com": "wildcard",
+   "Uphold: Buy BTC, ETH and 300+": "mobile",
+   "Uphold: Buy BTC, ETH and 360+": "mobile",
+   "api-sandbox.uphold.com": "domain",
+   "api-sandbox.uphold.com/graphql": "domain",
+   "api.portal.enterprise.uphold.com": "domain",
+   "api.sandbox.topperpay.com": "domain",
+   "app.sandbox.topperpay.com": "domain",
+   "docs.optimuscards.com": "domain",
+   "docs.topperpay.com": "domain",
+   "docs.uphold.com": "domain",
+   "github.com/uphold/*": "wildcard",
+   "graphql.sandbox.topperpay.com/graphql": "domain",
+   "https://api.enterprise.sandbox.uphold.com/core": "domain",
+   "https://api.enterprise.sandbox.uphold.com/kyc-connector": "domain",
+   "https://api.enterprise.sandbox.uphold.com/market-pulse": "domain",
+   "https://api.enterprise.sandbox.uphold.com/topper": "domain",
+   "https://api.enterprise.sandbox.uphold.com/trading": "domain",
+   "https://api.enterprise.sandbox.uphold.com/widgets": "domain",
+   "portal.enterprise.uphold.com": "domain",
+   "uatcms.optimuscards.com": "domain",
+   "wallet-sandbox.uphold.com": "domain",
+   "www.optimuscards.com": "domain",
+   "www.topperpay.com": "domain",
+   "www.uphold.com": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/Uphold/upholdcom/detail",
+  "wildcards": 4
+ },
  "intigriti:adac/adacvulnerabilitydisclosureprogram": {
   "barriers": [],
   "currency": "EUR",
@@ -111,6 +181,38 @@
    "https://tuerenhandbuch.garant.de": "domain"
   },
   "url": "https://www.intigriti.com/programs/arbonia/arboniavdpprogram/detail",
+  "wildcards": 0
+ },
+ "intigriti:arkane/arkanenetwork": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "api-wallet-sandbox.venly.io",
+   "api-wallet.venly.io",
+   "api.arkane.network",
+   "connect.arkane.network",
+   "connect.venly.io",
+   "login.arkane.network",
+   "login.venly.io",
+   "wallet.venly.io"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:arkane/arkanenetwork",
+  "max_bounty": 5000.0,
+  "min_bounty": 50.0,
+  "name": "Venly",
+  "platform": "intigriti",
+  "scope_types": {
+   "api-wallet-sandbox.venly.io": "domain",
+   "api-wallet.venly.io": "domain",
+   "api.arkane.network": "domain",
+   "connect.arkane.network": "domain",
+   "connect.venly.io": "domain",
+   "login.arkane.network": "domain",
+   "login.venly.io": "domain",
+   "wallet.venly.io": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/arkane/arkanenetwork/detail",
   "wildcards": 0
  },
  "intigriti:arm/arm": {
@@ -1639,6 +1741,52 @@
    "Out of Scope": "other"
   },
   "url": "https://www.intigriti.com/programs/dashlane/dashlanevulnerabilitydisclosureprogram/detail",
+  "wildcards": 1
+ },
+ "intigriti:datacamp/datacamp": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.datacamp.com",
+   "app.datacamp.com/certification",
+   "app.datacamp.com/groups",
+   "app.datacamp.com/learn",
+   "assessment-api.datacamp.com",
+   "assessment-v2.datacamp.com",
+   "assessment.datacamp.com",
+   "campus.datacamp.com",
+   "com.datacamp",
+   "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087",
+   "practice.datacamp.com",
+   "profiles-api.datacamp.com",
+   "projects.datacamp.com",
+   "www.datacamp.com",
+   "www.datacamp.com/datalab"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:datacamp/datacamp",
+  "max_bounty": 1500.0,
+  "min_bounty": 25.0,
+  "name": "DataCamp",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.datacamp.com": "wildcard",
+   "app.datacamp.com/certification": "domain",
+   "app.datacamp.com/groups": "domain",
+   "app.datacamp.com/learn": "domain",
+   "assessment-api.datacamp.com": "domain",
+   "assessment-v2.datacamp.com": "domain",
+   "assessment.datacamp.com": "domain",
+   "campus.datacamp.com": "domain",
+   "com.datacamp": "mobile",
+   "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087": "mobile",
+   "practice.datacamp.com": "domain",
+   "profiles-api.datacamp.com": "domain",
+   "projects.datacamp.com": "domain",
+   "www.datacamp.com": "domain",
+   "www.datacamp.com/datalab": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/datacamp/datacamp/detail",
   "wildcards": 1
  },
  "intigriti:delenprivatebank/privatebankdelen": {
@@ -3237,6 +3385,32 @@
   "url": "https://www.intigriti.com/programs/liferay/liferay-vdp/detail",
   "wildcards": 1
  },
+ "intigriti:liferay/liferaydxp": {
+  "barriers": [],
+  "currency": "USD",
+  "in_scope": [
+   "Liferay DXP 2024.Q1",
+   "Liferay DXP 2025.Q1",
+   "Liferay DXP 2026.Q1",
+   "Liferay DXP 2026.Q2",
+   "Liferay DXP 2026.Q3"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:liferay/liferaydxp",
+  "max_bounty": 2000.0,
+  "min_bounty": 100.0,
+  "name": "Liferay DXP",
+  "platform": "intigriti",
+  "scope_types": {
+   "Liferay DXP 2024.Q1": "other",
+   "Liferay DXP 2025.Q1": "other",
+   "Liferay DXP 2026.Q1": "other",
+   "Liferay DXP 2026.Q2": "other",
+   "Liferay DXP 2026.Q3": "other"
+  },
+  "url": "https://www.intigriti.com/programs/liferay/liferaydxp/detail",
+  "wildcards": 0
+ },
  "intigriti:mateco/matecovdp": {
   "barriers": [],
   "currency": "EUR",
@@ -3826,6 +4000,30 @@
   },
   "url": "https://www.intigriti.com/programs/ourahealthoy/ouravulnerabilitydisclosureprogram/detail",
   "wildcards": 1
+ },
+ "intigriti:pdq/pdqcomprivate": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "https://app.pdq.com/",
+   "https://auth2.pdq.com/",
+   "https://library.pdq.com/",
+   "https://portal.pdq.com/"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:pdq/pdqcomprivate",
+  "max_bounty": 3500.0,
+  "min_bounty": 50.0,
+  "name": "PDQ bug bounty program",
+  "platform": "intigriti",
+  "scope_types": {
+   "https://app.pdq.com/": "domain",
+   "https://auth2.pdq.com/": "domain",
+   "https://library.pdq.com/": "domain",
+   "https://portal.pdq.com/": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/pdq/pdqcomprivate/detail",
+  "wildcards": 0
  },
  "intigriti:peoplecert/peoplecert": {
   "barriers": [],
@@ -5452,6 +5650,42 @@
   },
   "url": "https://www.intigriti.com/programs/vlerickbusinessschool/vlerickbusinessschool/detail",
   "wildcards": 1
+ },
+ "intigriti:voi/voiscooters": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "*.voi.com",
+   "*.voiscooters.com",
+   "Voi – e-scooter & e-bike hire",
+   "Voi – e-scooters & e-bikes",
+   "fm.voiapp.io",
+   "https://api.voiapp.io/",
+   "https://repair.voiweb.net",
+   "mds.voiapp.io",
+   "report.voi.com",
+   "voi.com"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:voi/voiscooters",
+  "max_bounty": 3500.0,
+  "min_bounty": 0.0,
+  "name": "Voi Scooters",
+  "platform": "intigriti",
+  "scope_types": {
+   "*.voi.com": "wildcard",
+   "*.voiscooters.com": "wildcard",
+   "Voi – e-scooter & e-bike hire": "mobile",
+   "Voi – e-scooters & e-bikes": "mobile",
+   "fm.voiapp.io": "domain",
+   "https://api.voiapp.io/": "domain",
+   "https://repair.voiweb.net": "domain",
+   "mds.voiapp.io": "domain",
+   "report.voi.com": "domain",
+   "voi.com": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/voi/voiscooters/detail",
+  "wildcards": 2
  },
  "intigriti:voi/voivulnerabilitydisclosureprogram": {
   "barriers": [],
