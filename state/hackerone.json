@@ -88617,26 +88617,6 @@
   "url": "https://hackerone.com/snapchat",
   "wildcards": 2
  },
- "hackerone:solidus": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "https://github.com/solidusio/solidus",
-   "https://github.com/solidusio/solidus_auth_devise"
-  ],
-  "is_vdp": true,
-  "key": "hackerone:solidus",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Solidus",
-  "platform": "hackerone",
-  "scope_types": {
-   "https://github.com/solidusio/solidus": "domain",
-   "https://github.com/solidusio/solidus_auth_devise": "domain"
-  },
-  "url": "https://hackerone.com/solidus",
-  "wildcards": 0
- },
  "hackerone:sony": {
   "barriers": [],
   "currency": "",
