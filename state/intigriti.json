@@ -3749,6 +3749,44 @@
   "url": "https://www.intigriti.com/programs/nexuzhealth/nexuzhealthvdp/detail",
   "wildcards": 0
  },
+ "intigriti:nvidia/nvidiapublicbugbounty": {
+  "barriers": [],
+  "currency": "USD",
+  "in_scope": [
+   "All Other NVIDIA Container Toolkit Assets",
+   "CUDA Driver APIs",
+   "CUDA Libraries",
+   "CUDA Runtime APIs",
+   "NVCC",
+   "NVIDIA Nsight Developer Tools",
+   "NVRTC library",
+   "Nsight Systems",
+   "libNVVM API",
+   "new CDI-based architecture",
+   "nvJitLink APIs"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:nvidia/nvidiapublicbugbounty",
+  "max_bounty": 15000.0,
+  "min_bounty": 150.0,
+  "name": "NVIDIA Public Bug Bounty",
+  "platform": "intigriti",
+  "scope_types": {
+   "All Other NVIDIA Container Toolkit Assets": "other",
+   "CUDA Driver APIs": "other",
+   "CUDA Libraries": "other",
+   "CUDA Runtime APIs": "domain",
+   "NVCC": "other",
+   "NVIDIA Nsight Developer Tools": "other",
+   "NVRTC library": "other",
+   "Nsight Systems": "other",
+   "libNVVM API": "other",
+   "new CDI-based architecture": "other",
+   "nvJitLink APIs": "other"
+  },
+  "url": "https://www.intigriti.com/programs/nvidia/nvidiapublicbugbounty/detail",
+  "wildcards": 0
+ },
  "intigriti:nvidia/nvidiavdp": {
   "barriers": [],
   "currency": "USD",
@@ -4937,46 +4975,6 @@
   "url": "https://www.intigriti.com/programs/sqills/sqillscorporatewebsite/detail",
   "wildcards": 2
  },
- "intigriti:syb/soundtrackyourbrand": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "1114799709",
-   "1114800186",
-   "api.soundtrackyourbrand.com",
-   "billing.api.soundtrackyourbrand.com",
-   "builds.soundtrackyourbrand.com",
-   "business.soundtrackyourbrand.com",
-   "com.soundtrackyourbrand.soundtrack.player",
-   "https://auth.api.soundtrackyourbrand.com/",
-   "https://builds.soundtrackyourbrand.com/download/WIN32SOUNDTRACK/latest",
-   "https://radio.api.soundtrackyourbrand.com/",
-   "https://soundtrack.io",
-   "macOS app"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:syb/soundtrackyourbrand",
-  "max_bounty": 3500.0,
-  "min_bounty": 50.0,
-  "name": "Soundtrack Technologies",
-  "platform": "intigriti",
-  "scope_types": {
-   "1114799709": "mobile",
-   "1114800186": "mobile",
-   "api.soundtrackyourbrand.com": "domain",
-   "billing.api.soundtrackyourbrand.com": "domain",
-   "builds.soundtrackyourbrand.com": "domain",
-   "business.soundtrackyourbrand.com": "domain",
-   "com.soundtrackyourbrand.soundtrack.player": "mobile",
-   "https://auth.api.soundtrackyourbrand.com/": "domain",
-   "https://builds.soundtrackyourbrand.com/download/WIN32SOUNDTRACK/latest": "domain",
-   "https://radio.api.soundtrackyourbrand.com/": "domain",
-   "https://soundtrack.io": "domain",
-   "macOS app": "other"
-  },
-  "url": "https://www.intigriti.com/programs/syb/soundtrackyourbrand/detail",
-  "wildcards": 0
- },
  "intigriti:tccc/coca-cola": {
   "barriers": [],
   "currency": "USD",
@@ -5318,34 +5316,6 @@
   },
   "url": "https://www.intigriti.com/programs/universityofbasel/universityofbaselvdp/detail",
   "wildcards": 1
- },
- "intigriti:uz leuven/ehealthhub&meta-hubvznkul": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "hub.vznkul.be/*",
-   "hub.vznkul.be/services/interhub/InterHubService",
-   "hub.vznkul.be/services/intrahub/IntraHubService",
-   "hubacc.vznkul.be/*",
-   "hubacc.vznkul.be/services/acceptance/interhub/InterHubService",
-   "hubacc.vznkul.be/services/acceptance/intrahub/IntraHubService"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:uz leuven/ehealthhub&meta-hubvznkul",
-  "max_bounty": 2000.0,
-  "min_bounty": 0.0,
-  "name": "eHealth Hub VZN KUL",
-  "platform": "intigriti",
-  "scope_types": {
-   "hub.vznkul.be/*": "wildcard",
-   "hub.vznkul.be/services/interhub/InterHubService": "domain",
-   "hub.vznkul.be/services/intrahub/IntraHubService": "domain",
-   "hubacc.vznkul.be/*": "wildcard",
-   "hubacc.vznkul.be/services/acceptance/interhub/InterHubService": "domain",
-   "hubacc.vznkul.be/services/acceptance/intrahub/IntraHubService": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/uz%20leuven/ehealthhub%26meta-hubvznkul/detail",
-  "wildcards": 2
  },
  "intigriti:uz leuven/nexuzhealthwebpacs": {
   "barriers": [],
