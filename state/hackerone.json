@@ -74074,6 +74074,7 @@
    "auth.dev.myvirtualsuper.com",
    "auth.kreisel-cloud.com",
    "auth.myvirtualsuper.com",
+   "auth.node.kreisel-cloud.com",
    "auth.prod.myvirtualsuper.com",
    "auth.spark.ai",
    "auth.voegele.info",
@@ -74155,6 +74156,7 @@
    "ccmscert.deere.com",
    "ccmssearch-mfe-ext.apps-prod-vpn.us.e06.c01.johndeerecloud.com",
    "ccmssearchspa.apps-prod-vpn.us.e06.c01.johndeerecloud.com",
+   "ccshignition.mfg-mfgiot-prod-vpn.us.e11.c01.johndeerecloud.com",
    "cdp.services.wirtgen-group.com",
    "cert.harvestprofit.com",
    "cert.myvirtualsuper.com",
@@ -76123,6 +76125,7 @@
    "auth.dev.myvirtualsuper.com": "domain",
    "auth.kreisel-cloud.com": "domain",
    "auth.myvirtualsuper.com": "domain",
+   "auth.node.kreisel-cloud.com": "domain",
    "auth.prod.myvirtualsuper.com": "domain",
    "auth.spark.ai": "domain",
    "auth.voegele.info": "domain",
@@ -76204,6 +76207,7 @@
    "ccmscert.deere.com": "domain",
    "ccmssearch-mfe-ext.apps-prod-vpn.us.e06.c01.johndeerecloud.com": "domain",
    "ccmssearchspa.apps-prod-vpn.us.e06.c01.johndeerecloud.com": "domain",
+   "ccshignition.mfg-mfgiot-prod-vpn.us.e11.c01.johndeerecloud.com": "domain",
    "cdp.services.wirtgen-group.com": "domain",
    "cert.harvestprofit.com": "domain",
    "cert.myvirtualsuper.com": "domain",
@@ -92839,6 +92843,50 @@
   "url": "https://hackerone.com/xiaomi",
   "wildcards": 43
  },
+ "hackerone:xp_inc_vdp": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "clear.com.br",
+   "expertxp.com.br",
+   "https://apps.apple.com/br/app/clear/id6447694643",
+   "https://apps.apple.com/br/app/xp-empresas-conta-pj/id1566254578",
+   "https://apps.apple.com/br/app/xp-investimentos/id1300713021",
+   "https://play.google.com/store/apps/details?id=br.com.xp.carteira",
+   "https://play.google.com/store/apps/details?id=br.com.xpinc.clear.app.android",
+   "https://play.google.com/store/apps/details?id=br.com.xpinc.xpempresas",
+   "infomoney.com.br",
+   "modalmais.com.br",
+   "rico.com.vc",
+   "xpeducacao.com.br",
+   "xpempresas.com.br",
+   "xpi.com.br"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:xp_inc_vdp",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "XP Inc Vulnerability Disclosure",
+  "platform": "hackerone",
+  "scope_types": {
+   "clear.com.br": "domain",
+   "expertxp.com.br": "domain",
+   "https://apps.apple.com/br/app/clear/id6447694643": "mobile",
+   "https://apps.apple.com/br/app/xp-empresas-conta-pj/id1566254578": "mobile",
+   "https://apps.apple.com/br/app/xp-investimentos/id1300713021": "mobile",
+   "https://play.google.com/store/apps/details?id=br.com.xp.carteira": "mobile",
+   "https://play.google.com/store/apps/details?id=br.com.xpinc.clear.app.android": "mobile",
+   "https://play.google.com/store/apps/details?id=br.com.xpinc.xpempresas": "mobile",
+   "infomoney.com.br": "domain",
+   "modalmais.com.br": "domain",
+   "rico.com.vc": "domain",
+   "xpeducacao.com.br": "domain",
+   "xpempresas.com.br": "domain",
+   "xpi.com.br": "domain"
+  },
+  "url": "https://hackerone.com/xp_inc_vdp",
+  "wildcards": 0
+ },
  "hackerone:xvideos": {
   "barriers": [],
   "currency": "",
@@ -93142,6 +93190,7 @@
    "*.zurich.com.ar",
    "*.zurich.com.au",
    "*.zurich.com.br",
+   "*.zurich.com.cn",
    "*.zurich.com.hk",
    "*.zurich.com.my",
    "*.zurich.com.sg",
@@ -93192,6 +93241,7 @@
    "*.zurich.com.ar": "wildcard",
    "*.zurich.com.au": "wildcard",
    "*.zurich.com.br": "wildcard",
+   "*.zurich.com.cn": "wildcard",
    "*.zurich.com.hk": "wildcard",
    "*.zurich.com.my": "wildcard",
    "*.zurich.com.sg": "wildcard",
@@ -93207,6 +93257,6 @@
    "Zurich Insurance": "other"
   },
   "url": "https://hackerone.com/zurich-insurance",
-  "wildcards": 40
+  "wildcards": 41
  }
 }

@@ -5317,6 +5317,34 @@
   "url": "https://www.intigriti.com/programs/universityofbasel/universityofbaselvdp/detail",
   "wildcards": 1
  },
+ "intigriti:uz leuven/ehealthhub&meta-hubvznkul": {
+  "barriers": [],
+  "currency": "EUR",
+  "in_scope": [
+   "hub.vznkul.be/*",
+   "hub.vznkul.be/services/interhub/InterHubService",
+   "hub.vznkul.be/services/intrahub/IntraHubService",
+   "hubacc.vznkul.be/*",
+   "hubacc.vznkul.be/services/acceptance/interhub/InterHubService",
+   "hubacc.vznkul.be/services/acceptance/intrahub/IntraHubService"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:uz leuven/ehealthhub&meta-hubvznkul",
+  "max_bounty": 2000.0,
+  "min_bounty": 0.0,
+  "name": "eHealth Hub VZN KUL",
+  "platform": "intigriti",
+  "scope_types": {
+   "hub.vznkul.be/*": "wildcard",
+   "hub.vznkul.be/services/interhub/InterHubService": "domain",
+   "hub.vznkul.be/services/intrahub/IntraHubService": "domain",
+   "hubacc.vznkul.be/*": "wildcard",
+   "hubacc.vznkul.be/services/acceptance/interhub/InterHubService": "domain",
+   "hubacc.vznkul.be/services/acceptance/intrahub/IntraHubService": "domain"
+  },
+  "url": "https://www.intigriti.com/programs/uz%20leuven/ehealthhub%26meta-hubvznkul/detail",
+  "wildcards": 2
+ },
  "intigriti:uz leuven/nexuzhealthwebpacs": {
   "barriers": [],
   "currency": "EUR",
