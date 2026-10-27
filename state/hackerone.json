@@ -7417,7 +7417,9 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "*.bose.io",
    "*.bose.xx",
+   "Bose Automotive",
    "Bose Credentials",
    "Bose Hardware",
    "Bose Source Code",
@@ -7425,6 +7427,7 @@
    "Sonus Faber",
    "Stream Unlimited",
    "bose.xx",
+   "btu.bose.com",
    "support.bose.xx"
   ],
   "is_vdp": true,
@@ -7434,7 +7437,9 @@
   "name": "Bose (VDP)",
   "platform": "hackerone",
   "scope_types": {
+   "*.bose.io": "wildcard",
    "*.bose.xx": "wildcard",
+   "Bose Automotive": "other",
    "Bose Credentials": "other",
    "Bose Hardware": "other",
    "Bose Source Code": "other",
@@ -7442,10 +7447,11 @@
    "Sonus Faber": "other",
    "Stream Unlimited": "other",
    "bose.xx": "domain",
+   "btu.bose.com": "domain",
    "support.bose.xx": "domain"
   },
   "url": "https://hackerone.com/bose_vdp",
-  "wildcards": 1
+  "wildcards": 2
  },
  "hackerone:box_private": {
   "barriers": [],
