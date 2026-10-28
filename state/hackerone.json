@@ -37345,6 +37345,7 @@
    "accounts.cloud.databricks.com",
    "databricks.com",
    "https://dbc-9a3f8ed1-7608.cloud.databricks.com",
+   "https://github.com/databricks/*",
    "login.databricks.com",
    "ui-assets.cloud.databricks.com"
   ],
@@ -37361,11 +37362,12 @@
    "accounts.cloud.databricks.com": "domain",
    "databricks.com": "domain",
    "https://dbc-9a3f8ed1-7608.cloud.databricks.com": "domain",
+   "https://github.com/databricks/*": "wildcard",
    "login.databricks.com": "domain",
    "ui-assets.cloud.databricks.com": "domain"
   },
   "url": "https://hackerone.com/databricks",
-  "wildcards": 0
+  "wildcards": 1
  },
  "hackerone:defectdojo": {
   "barriers": [],
