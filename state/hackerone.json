@@ -68951,8 +68951,11 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "*.dollar.com",
    "*.hertz.com",
-   "*hertz.io"
+   "*.hertz.io",
+   "*.oromobility.com",
+   "*.thrifty.com"
   ],
   "is_vdp": true,
   "key": "hackerone:hertz",
@@ -68961,11 +68964,14 @@
   "name": "Hertz VDP",
   "platform": "hackerone",
   "scope_types": {
+   "*.dollar.com": "wildcard",
    "*.hertz.com": "wildcard",
-   "*hertz.io": "wildcard"
+   "*.hertz.io": "wildcard",
+   "*.oromobility.com": "wildcard",
+   "*.thrifty.com": "wildcard"
   },
   "url": "https://hackerone.com/hertz",
-  "wildcards": 2
+  "wildcards": 5
  },
  "hackerone:hex": {
   "barriers": [],
