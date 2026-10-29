@@ -88583,6 +88583,32 @@
   "url": "https://hackerone.com/slack",
   "wildcards": 1
  },
+ "hackerone:smartsheet_vdp": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "api.smartsheet.com",
+   "app.smartsheet.com",
+   "com.smartsheet.android",
+   "com.smartsheet.smartsheet",
+   "www.smartsheet.com"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:smartsheet_vdp",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Smartsheet (VDP)",
+  "platform": "hackerone",
+  "scope_types": {
+   "api.smartsheet.com": "domain",
+   "app.smartsheet.com": "domain",
+   "com.smartsheet.android": "mobile",
+   "com.smartsheet.smartsheet": "mobile",
+   "www.smartsheet.com": "domain"
+  },
+  "url": "https://hackerone.com/smartsheet_vdp",
+  "wildcards": 0
+ },
  "hackerone:smtp2go": {
   "barriers": [],
   "currency": "",
@@ -90850,6 +90876,7 @@
    "UniFi Talk",
    "UniFi Wireless Access Points",
    "UniFi-Play",
+   "WiFiman",
    "account.ui.com",
    "airFiber",
    "airMAX",
@@ -90910,6 +90937,7 @@
    "UniFi Talk": "other",
    "UniFi Wireless Access Points": "other",
    "UniFi-Play": "other",
+   "WiFiman": "other",
    "account.ui.com": "domain",
    "airFiber": "other",
    "airMAX": "other",
