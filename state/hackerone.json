@@ -36257,6 +36257,24 @@
   "url": "https://hackerone.com/compass-bbp",
   "wildcards": 0
  },
+ "hackerone:concretecms": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://github.com/concrete5/concrete5"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:concretecms",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Concrete CMS",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://github.com/concrete5/concrete5": "domain"
+  },
+  "url": "https://hackerone.com/concretecms",
+  "wildcards": 0
+ },
  "hackerone:corebridge_financial": {
   "barriers": [],
   "currency": "",
@@ -80723,7 +80741,6 @@
    "gethalls.com",
    "gewinnspiel.milka.de",
    "gifting.twistandmake.com",
-   "gifts.tatesbakeshop.com",
    "give-a-little-thanks.cadbury.co.za",
    "giveawaygiveaway-claim.cadbury.co.uk",
    "giveawaygiveaway.cadbury.co.uk",
@@ -81103,7 +81120,6 @@
    "gethalls.com": "domain",
    "gewinnspiel.milka.de": "domain",
    "gifting.twistandmake.com": "domain",
-   "gifts.tatesbakeshop.com": "domain",
    "give-a-little-thanks.cadbury.co.za": "domain",
    "giveawaygiveaway-claim.cadbury.co.uk": "domain",
    "giveawaygiveaway.cadbury.co.uk": "domain",
@@ -81801,6 +81817,7 @@
    "https://apiportal.chenosis.io/",
    "https://appbiz.momo.africa/content/v1_1/",
    "https://appbiz.momo.africa/content/v2_0_0/",
+   "https://appx.developers.mtn.com/",
    "https://auth.chenosis.io/",
    "https://businessonboardinguat.momo.africa/",
    "https://chenosis.io",
@@ -81814,6 +81831,7 @@
    "https://cms.momo.africa/v2_2_0/user/login",
    "https://cms.momo.africa/v2_3_0/user/login",
    "https://dep.mtn.co.za/",
+   "https://dev-appx.developers.mtn.com/",
    "https://digitalpartners.mtn.co.za/",
    "https://econnect-preprod.mtn.co.za/business/employee-connect",
    "https://kibana.infra.prod.westeurope.api.mtn.com/login",
@@ -81839,6 +81857,7 @@
    "https://portals-preprod.mtn.co.za:443",
    "https://portalsso.mtn.co.za",
    "https://prebiz.momo.africa/content/",
+   "https://preprod-appx.developers.mtn.com/",
    "https://preprod.api.mtn.com",
    "https://proxy.momoapi.mtn.com",
    "https://ringtune.mtn.co.za/",
@@ -82304,6 +82323,7 @@
    "https://apiportal.chenosis.io/": "domain",
    "https://appbiz.momo.africa/content/v1_1/": "domain",
    "https://appbiz.momo.africa/content/v2_0_0/": "domain",
+   "https://appx.developers.mtn.com/": "domain",
    "https://auth.chenosis.io/": "domain",
    "https://businessonboardinguat.momo.africa/": "domain",
    "https://chenosis.io": "domain",
@@ -82317,6 +82337,7 @@
    "https://cms.momo.africa/v2_2_0/user/login": "domain",
    "https://cms.momo.africa/v2_3_0/user/login": "domain",
    "https://dep.mtn.co.za/": "domain",
+   "https://dev-appx.developers.mtn.com/": "domain",
    "https://digitalpartners.mtn.co.za/": "domain",
    "https://econnect-preprod.mtn.co.za/business/employee-connect": "domain",
    "https://kibana.infra.prod.westeurope.api.mtn.com/login": "domain",
@@ -82342,6 +82363,7 @@
    "https://portals-preprod.mtn.co.za:443": "domain",
    "https://portalsso.mtn.co.za": "domain",
    "https://prebiz.momo.africa/content/": "domain",
+   "https://preprod-appx.developers.mtn.com/": "domain",
    "https://preprod.api.mtn.com": "domain",
    "https://proxy.momoapi.mtn.com": "domain",
    "https://ringtune.mtn.co.za/": "domain",
