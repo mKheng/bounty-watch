@@ -3813,6 +3813,44 @@
   "url": "https://www.intigriti.com/programs/nexuzhealth/nexuzhealthvdp/detail",
   "wildcards": 0
  },
+ "intigriti:nvidia/nvidiapublicbugbounty": {
+  "barriers": [],
+  "currency": "USD",
+  "in_scope": [
+   "All Other NVIDIA Container Toolkit Assets",
+   "CUDA Driver APIs",
+   "CUDA Libraries",
+   "CUDA Runtime APIs",
+   "NVCC",
+   "NVIDIA Nsight Developer Tools",
+   "NVRTC library",
+   "Nsight Systems",
+   "libNVVM API",
+   "new CDI-based architecture",
+   "nvJitLink APIs"
+  ],
+  "is_vdp": false,
+  "key": "intigriti:nvidia/nvidiapublicbugbounty",
+  "max_bounty": 15000.0,
+  "min_bounty": 150.0,
+  "name": "NVIDIA Public Bug Bounty",
+  "platform": "intigriti",
+  "scope_types": {
+   "All Other NVIDIA Container Toolkit Assets": "other",
+   "CUDA Driver APIs": "other",
+   "CUDA Libraries": "other",
+   "CUDA Runtime APIs": "domain",
+   "NVCC": "other",
+   "NVIDIA Nsight Developer Tools": "other",
+   "NVRTC library": "other",
+   "Nsight Systems": "other",
+   "libNVVM API": "other",
+   "new CDI-based architecture": "other",
+   "nvJitLink APIs": "other"
+  },
+  "url": "https://www.intigriti.com/programs/nvidia/nvidiapublicbugbounty/detail",
+  "wildcards": 0
+ },
  "intigriti:nvidia/nvidiavdp": {
   "barriers": [],
   "currency": "USD",
