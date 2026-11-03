@@ -1647,52 +1647,6 @@
   "url": "https://www.intigriti.com/programs/dashlane/dashlanevulnerabilitydisclosureprogram/detail",
   "wildcards": 1
  },
- "intigriti:datacamp/datacamp": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.datacamp.com",
-   "app.datacamp.com/certification",
-   "app.datacamp.com/groups",
-   "app.datacamp.com/learn",
-   "assessment-api.datacamp.com",
-   "assessment-v2.datacamp.com",
-   "assessment.datacamp.com",
-   "campus.datacamp.com",
-   "com.datacamp",
-   "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087",
-   "practice.datacamp.com",
-   "profiles-api.datacamp.com",
-   "projects.datacamp.com",
-   "www.datacamp.com",
-   "www.datacamp.com/datalab"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:datacamp/datacamp",
-  "max_bounty": 1500.0,
-  "min_bounty": 25.0,
-  "name": "DataCamp",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.datacamp.com": "wildcard",
-   "app.datacamp.com/certification": "domain",
-   "app.datacamp.com/groups": "domain",
-   "app.datacamp.com/learn": "domain",
-   "assessment-api.datacamp.com": "domain",
-   "assessment-v2.datacamp.com": "domain",
-   "assessment.datacamp.com": "domain",
-   "campus.datacamp.com": "domain",
-   "com.datacamp": "mobile",
-   "https://apps.apple.com/au/app/datacamp-learn-data-science/id1263413087": "mobile",
-   "practice.datacamp.com": "domain",
-   "profiles-api.datacamp.com": "domain",
-   "projects.datacamp.com": "domain",
-   "www.datacamp.com": "domain",
-   "www.datacamp.com/datalab": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/datacamp/datacamp/detail",
-  "wildcards": 1
- },
  "intigriti:delenprivatebank/privatebankdelen": {
   "barriers": [],
   "currency": "EUR",
@@ -2861,24 +2815,6 @@
   "url": "https://www.intigriti.com/programs/intergamma/intergamma/detail",
   "wildcards": 21
  },
- "intigriti:intigriti/challengebrp": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "https://challenge-brp.challenges.intigriti.io"
-  ],
-  "is_vdp": true,
-  "key": "intigriti:intigriti/challengebrp",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "BRP Challenge",
-  "platform": "intigriti",
-  "scope_types": {
-   "https://challenge-brp.challenges.intigriti.io": "domain"
-  },
-  "url": "https://www.intigriti.com/programs/intigriti/challengebrp/detail",
-  "wildcards": 0
- },
  "intigriti:intigriti/intigriti": {
   "barriers": [],
   "currency": "EUR",
@@ -3046,34 +2982,6 @@
   },
   "url": "https://www.intigriti.com/programs/kinepolis/website/detail",
   "wildcards": 10
- },
- "intigriti:kiwa/kiwavdp": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.kiwa.com",
-   "*.kiwa.info",
-   "*.kiwa.nl",
-   "*.kiwa.no",
-   "*.kiwa.se",
-   "*.kiwaimpact.com"
-  ],
-  "is_vdp": true,
-  "key": "intigriti:kiwa/kiwavdp",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Kiwa Vulnerability Disclosure Program",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.kiwa.com": "wildcard",
-   "*.kiwa.info": "wildcard",
-   "*.kiwa.nl": "wildcard",
-   "*.kiwa.no": "wildcard",
-   "*.kiwa.se": "wildcard",
-   "*.kiwaimpact.com": "wildcard"
-  },
-  "url": "https://www.intigriti.com/programs/kiwa/kiwavdp/detail",
-  "wildcards": 6
  },
  "intigriti:kuleuven/huisvesting": {
   "barriers": [],
@@ -4635,7 +4543,8 @@
   "in_scope": [
    "Dokobit",
    "ReadID",
-   "Signicat"
+   "Signicat",
+   "Signicat VideoID and SignatureID"
   ],
   "is_vdp": true,
   "key": "intigriti:signicat/signicatresponsibledisclosure",
@@ -4646,7 +4555,8 @@
   "scope_types": {
    "Dokobit": "other",
    "ReadID": "other",
-   "Signicat": "other"
+   "Signicat": "other",
+   "Signicat VideoID and SignatureID": "other"
   },
   "url": "https://www.intigriti.com/programs/signicat/signicatresponsibledisclosure/detail",
   "wildcards": 0
