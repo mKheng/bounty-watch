@@ -88970,8 +88970,11 @@
    "api.taxjar.com",
    "app.taxjar.com",
    "com.stripe.android.dashboard",
+   "files.stripe.com",
    "js.stripe.com",
    "mcp.stripe.com",
+   "stripe.com",
+   "stripe.dev",
    "www.stripe.partners"
   ],
   "is_vdp": false,
@@ -89030,8 +89033,11 @@
    "api.taxjar.com": "domain",
    "app.taxjar.com": "domain",
    "com.stripe.android.dashboard": "mobile",
+   "files.stripe.com": "domain",
    "js.stripe.com": "domain",
    "mcp.stripe.com": "domain",
+   "stripe.com": "domain",
+   "stripe.dev": "domain",
    "www.stripe.partners": "domain"
   },
   "url": "https://hackerone.com/stripe",
