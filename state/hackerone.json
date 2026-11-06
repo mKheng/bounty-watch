@@ -7747,7 +7747,13 @@
    "http://www.bybit.com/trade/tradfi/",
    "http://www.byreal.io",
    "https://apps.apple.com/us/app/bybit-app/id1488296980",
-   "https://play.google.com/store/apps/details?id=com.bybit.app&hl=en"
+   "https://play.google.com/store/apps/details?id=com.bybit.app&hl=en",
+   "https://testnet.bybit.com/en/earn/rwa/",
+   "https://testnet.bybit.com/en/trade/odds/",
+   "https://testnet.bybit.com/en/trade/option/usdt/spcx",
+   "https://testnet.bybit.com/en/trade/usdt/btcusdt",
+   "https://www.bybit.com/en/ai-bot/home",
+   "https://www.bybit.com/en/stocks"
   ],
   "is_vdp": false,
   "key": "hackerone:bybit_fintech",
@@ -7764,7 +7770,13 @@
    "http://www.bybit.com/trade/tradfi/": "domain",
    "http://www.byreal.io": "domain",
    "https://apps.apple.com/us/app/bybit-app/id1488296980": "mobile",
-   "https://play.google.com/store/apps/details?id=com.bybit.app&hl=en": "mobile"
+   "https://play.google.com/store/apps/details?id=com.bybit.app&hl=en": "mobile",
+   "https://testnet.bybit.com/en/earn/rwa/": "domain",
+   "https://testnet.bybit.com/en/trade/odds/": "domain",
+   "https://testnet.bybit.com/en/trade/option/usdt/spcx": "domain",
+   "https://testnet.bybit.com/en/trade/usdt/btcusdt": "domain",
+   "https://www.bybit.com/en/ai-bot/home": "domain",
+   "https://www.bybit.com/en/stocks": "domain"
   },
   "url": "https://hackerone.com/bybit_fintech",
   "wildcards": 3
@@ -68410,8 +68422,11 @@
    "*.neutrex.es",
    "*.nomasclavos.cl",
    "*.notyourmothers.com",
+   "*.nymbrand.{com,co.uk,uk,}",
    "*.nymbrands.com,uk,co.uk",
+   "*.nymbrands.{com,co.uk,uk,}",
    "*.nymhair.co.uk,.com,.uk",
+   "*.nymhair.{com,co.uk,uk,}",
    "*.olaplex-dev.com",
    "*.olaplex-test.com",
    "*.olaplex.co.nz",
@@ -68694,8 +68709,11 @@
    "*.neutrex.es": "wildcard",
    "*.nomasclavos.cl": "wildcard",
    "*.notyourmothers.com": "wildcard",
+   "*.nymbrand.{com,co.uk,uk,}": "wildcard",
    "*.nymbrands.com,uk,co.uk": "wildcard",
+   "*.nymbrands.{com,co.uk,uk,}": "wildcard",
    "*.nymhair.co.uk,.com,.uk": "wildcard",
+   "*.nymhair.{com,co.uk,uk,}": "wildcard",
    "*.olaplex-dev.com": "wildcard",
    "*.olaplex-test.com": "wildcard",
    "*.olaplex.co.nz": "wildcard",
@@ -68843,7 +68861,7 @@
    "www.joico.lat/": "domain"
   },
   "url": "https://hackerone.com/henkel_vdp",
-  "wildcards": 217
+  "wildcards": 220
  },
  "hackerone:hertz": {
   "barriers": [],
