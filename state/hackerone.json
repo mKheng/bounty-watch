@@ -6344,6 +6344,7 @@
    "https://github.com/aws/aws-cdk",
    "https://github.com/aws/aws-cli",
    "https://github.com/aws/aws-sdk",
+   "https://github.com/aws/s2n-quic",
    "https://github.com/aws/s2n-tls",
    "https://github.com/awslabs/*",
    "https://github.com/deepjavalibrary/*",
@@ -6905,6 +6906,7 @@
    "https://github.com/aws/aws-cdk": "domain",
    "https://github.com/aws/aws-cli": "domain",
    "https://github.com/aws/aws-sdk": "domain",
+   "https://github.com/aws/s2n-quic": "domain",
    "https://github.com/aws/s2n-tls": "domain",
    "https://github.com/awslabs/*": "wildcard",
    "https://github.com/deepjavalibrary/*": "wildcard",
@@ -79247,6 +79249,32 @@
    "dicey.com": "domain"
   },
   "url": "https://hackerone.com/magic-eden",
+  "wildcards": 0
+ },
+ "hackerone:mariadb": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "MariaDB Server & Connectors  - Denial of Service",
+   "MariaDB Server & Connectors - Access control bypass",
+   "MariaDB Server & Connectors - Data corruption, exfiltration, disclosure",
+   "MariaDB Server & Connectors - Remote Code Execution",
+   "mariadb.org"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:mariadb",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "MariaDB",
+  "platform": "hackerone",
+  "scope_types": {
+   "MariaDB Server & Connectors  - Denial of Service": "other",
+   "MariaDB Server & Connectors - Access control bypass": "other",
+   "MariaDB Server & Connectors - Data corruption, exfiltration, disclosure": "other",
+   "MariaDB Server & Connectors - Remote Code Execution": "other",
+   "mariadb.org": "domain"
+  },
+  "url": "https://hackerone.com/mariadb",
   "wildcards": 0
  },
  "hackerone:marriott": {
