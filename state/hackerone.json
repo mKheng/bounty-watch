@@ -84223,6 +84223,48 @@
   "url": "https://hackerone.com/oanda",
   "wildcards": 5
  },
+ "hackerone:oasisprotocol": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "github.com/oasisprotocol/explorer",
+   "http://emerald.oasis.dev",
+   "http://grpc.oasis.dev",
+   "http://rosetta.oasis.dev/api/mainnet",
+   "http://sapphire.oasis.io",
+   "https://github.com/oasisprotocol/curve25519-voi",
+   "https://github.com/oasisprotocol/deoxysii",
+   "https://github.com/oasisprotocol/deoxysii-rust",
+   "https://github.com/oasisprotocol/oasis-core",
+   "https://github.com/oasisprotocol/oasis-sdk",
+   "https://github.com/oasisprotocol/oasis-wallet-web",
+   "status.oasis.io",
+   "wallet.oasis.io"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:oasisprotocol",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Oasis Protocol Foundation",
+  "platform": "hackerone",
+  "scope_types": {
+   "github.com/oasisprotocol/explorer": "other",
+   "http://emerald.oasis.dev": "domain",
+   "http://grpc.oasis.dev": "domain",
+   "http://rosetta.oasis.dev/api/mainnet": "domain",
+   "http://sapphire.oasis.io": "domain",
+   "https://github.com/oasisprotocol/curve25519-voi": "domain",
+   "https://github.com/oasisprotocol/deoxysii": "domain",
+   "https://github.com/oasisprotocol/deoxysii-rust": "domain",
+   "https://github.com/oasisprotocol/oasis-core": "domain",
+   "https://github.com/oasisprotocol/oasis-sdk": "domain",
+   "https://github.com/oasisprotocol/oasis-wallet-web": "domain",
+   "status.oasis.io": "domain",
+   "wallet.oasis.io": "domain"
+  },
+  "url": "https://hackerone.com/oasisprotocol",
+  "wildcards": 0
+ },
  "hackerone:octopus-energy": {
   "barriers": [],
   "currency": "",
