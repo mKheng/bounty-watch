@@ -4526,7 +4526,6 @@
    "amazon.speech.sim",
    "amazonpayinsurance.in",
    "com.amazon.aba.application",
-   "com.amazon.amazonone.androidapp",
    "com.amazon.amazonvideo.livingroom",
    "com.amazon.astro",
    "com.amazon.avod.thirdpartyclient",
@@ -4655,7 +4654,6 @@
    "amazon.speech.sim": "mobile",
    "amazonpayinsurance.in": "domain",
    "com.amazon.aba.application": "mobile",
-   "com.amazon.amazonone.androidapp": "mobile",
    "com.amazon.amazonvideo.livingroom": "mobile",
    "com.amazon.astro": "mobile",
    "com.amazon.avod.thirdpartyclient": "mobile",
@@ -7491,6 +7489,32 @@
    "upload.box.com": "domain"
   },
   "url": "https://hackerone.com/box_private",
+  "wildcards": 0
+ },
+ "hackerone:brave": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "Brave Browser Desktop",
+   "Brave websites",
+   "com.brave.browser",
+   "com.brave.ios.browser",
+   "https://github.com/brave/*, https://github.com/brave-intl/*"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:brave",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Brave Software",
+  "platform": "hackerone",
+  "scope_types": {
+   "Brave Browser Desktop": "other",
+   "Brave websites": "other",
+   "com.brave.browser": "mobile",
+   "com.brave.ios.browser": "mobile",
+   "https://github.com/brave/*, https://github.com/brave-intl/*": "domain"
+  },
+  "url": "https://hackerone.com/brave",
   "wildcards": 0
  },
  "hackerone:braze_inc": {
@@ -12089,6 +12113,7 @@
    "maps.cbre.com.sg",
    "maps.luna.cbre.de",
    "mapsuat.cbre.com",
+   "market-survey.cbre.com",
    "market.gallileo-frankfurt.com",
    "marketcanvas-dev.cbre.com",
    "marketcanvas-qa.cbre.com",
@@ -14127,6 +14152,7 @@
    "temp.fmpilot2.com",
    "temp.gallileo-frankfurt.com",
    "temp.jjwws.com",
+   "tenant-tour.cbre.com",
    "test-agile.cbre.com",
    "test-apacbi.cbre.com.au",
    "test-api-gateway.cbre.es",
@@ -20783,6 +20809,7 @@
    "maps.cbre.com.sg": "domain",
    "maps.luna.cbre.de": "domain",
    "mapsuat.cbre.com": "domain",
+   "market-survey.cbre.com": "domain",
    "market.gallileo-frankfurt.com": "domain",
    "marketcanvas-dev.cbre.com": "domain",
    "marketcanvas-qa.cbre.com": "domain",
@@ -22821,6 +22848,7 @@
    "temp.fmpilot2.com": "domain",
    "temp.gallileo-frankfurt.com": "domain",
    "temp.jjwws.com": "domain",
+   "tenant-tour.cbre.com": "domain",
    "test-agile.cbre.com": "domain",
    "test-apacbi.cbre.com.au": "domain",
    "test-api-gateway.cbre.es": "domain",
@@ -37366,24 +37394,6 @@
   },
   "url": "https://hackerone.com/databricks",
   "wildcards": 1
- },
- "hackerone:defectdojo": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "https://github.com/DefectDojo/django-DefectDojo"
-  ],
-  "is_vdp": true,
-  "key": "hackerone:defectdojo",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "DefectDojo",
-  "platform": "hackerone",
-  "scope_types": {
-   "https://github.com/DefectDojo/django-DefectDojo": "domain"
-  },
-  "url": "https://hackerone.com/defectdojo",
-  "wildcards": 0
  },
  "hackerone:deptofdefense": {
   "barriers": [],
@@ -67355,6 +67365,20 @@
   "url": "https://hackerone.com/formassembly",
   "wildcards": 0
  },
+ "hackerone:fresenius": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [],
+  "is_vdp": true,
+  "key": "hackerone:fresenius",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Fresenius",
+  "platform": "hackerone",
+  "scope_types": {},
+  "url": "https://hackerone.com/fresenius",
+  "wildcards": 0
+ },
  "hackerone:freshworks": {
   "barriers": [],
   "currency": "",
@@ -74331,6 +74355,7 @@
    "exo04.wirtgen-group.com",
    "experiencia.deere.com.ar",
    "explore.deere.com",
+   "extraparts.deere.com",
    "fax.harvestprofit.com",
    "fc-devl-casemanagement-financeconnect.deere.com",
    "fc-devl-r2-pos-financeconnect.deere.com",
@@ -74694,6 +74719,7 @@
    "mail.unimil.com.br",
    "mail.wirtgenankara.com.tr",
    "mail.wirtgn-group.com",
+   "mailhost.johndeere.com",
    "mailrelay01.wirtgen-group.com",
    "mailrelay02.wirtgen-group.com",
    "maintenance-manager-ai.channel-owner-portal-myjohndeere-qual-vpn.us.e06.c01.johndeerecloud.com",
@@ -76390,6 +76416,7 @@
    "exo04.wirtgen-group.com": "domain",
    "experiencia.deere.com.ar": "domain",
    "explore.deere.com": "domain",
+   "extraparts.deere.com": "domain",
    "fax.harvestprofit.com": "domain",
    "fc-devl-casemanagement-financeconnect.deere.com": "domain",
    "fc-devl-r2-pos-financeconnect.deere.com": "domain",
@@ -76753,6 +76780,7 @@
    "mail.unimil.com.br": "domain",
    "mail.wirtgenankara.com.tr": "domain",
    "mail.wirtgn-group.com": "domain",
+   "mailhost.johndeere.com": "domain",
    "mailrelay01.wirtgen-group.com": "domain",
    "mailrelay02.wirtgen-group.com": "domain",
    "maintenance-manager-ai.channel-owner-portal-myjohndeere-qual-vpn.us.e06.c01.johndeerecloud.com": "domain",
@@ -78797,6 +78825,24 @@
   "url": "https://hackerone.com/linkedin",
   "wildcards": 0
  },
+ "hackerone:litellm": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://github.com/BerriAI/litellm"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:litellm",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "LiteLLM (VDP)",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://github.com/BerriAI/litellm": "domain"
+  },
+  "url": "https://hackerone.com/litellm",
+  "wildcards": 0
+ },
  "hackerone:live_nation": {
   "barriers": [],
   "currency": "",
@@ -79498,6 +79544,7 @@
    "banfieldfoundation.org",
    "https://portal.securevetsource.com/petowner.html",
    "marsbettertogetherfund.org",
+   "marschina.com",
    "practice.securevetsource.com",
    "royalcanin.petpaw.com",
    "spsah2.securevetsource.com"
@@ -79618,6 +79665,7 @@
    "banfieldfoundation.org": "domain",
    "https://portal.securevetsource.com/petowner.html": "domain",
    "marsbettertogetherfund.org": "domain",
+   "marschina.com": "domain",
    "practice.securevetsource.com": "domain",
    "royalcanin.petpaw.com": "domain",
    "spsah2.securevetsource.com": "domain"
@@ -89439,7 +89487,6 @@
    "*.tdbfg.com",
    "*.tdcanadatrust.com",
    "*.tdcommercialbanking.com",
-   "*.tdfitloan.com",
    "*.tdinsurance.com",
    "*.tdpartnershipprograms.com",
    "*.tdprimeservices.com",
@@ -89467,7 +89514,6 @@
    "*.tdbfg.com": "wildcard",
    "*.tdcanadatrust.com": "wildcard",
    "*.tdcommercialbanking.com": "wildcard",
-   "*.tdfitloan.com": "wildcard",
    "*.tdinsurance.com": "wildcard",
    "*.tdpartnershipprograms.com": "wildcard",
    "*.tdprimeservices.com": "wildcard",
@@ -89477,7 +89523,7 @@
    "*.tdwaterhouse.ca": "wildcard"
   },
   "url": "https://hackerone.com/td-bank",
-  "wildcards": 20
+  "wildcards": 19
  },
  "hackerone:temu": {
   "barriers": [],
@@ -90565,7 +90611,6 @@
    "github.com/segmentio",
    "github.com/sendgrid",
    "github.com/stytchauth/is-agent",
-   "github.com/stytchauth/samlshield",
    "github.com/stytchauth/stytch-android",
    "github.com/stytchauth/stytch-browser",
    "github.com/stytchauth/stytch-dotnet",
@@ -90657,7 +90702,6 @@
    "github.com/segmentio": "other",
    "github.com/sendgrid": "other",
    "github.com/stytchauth/is-agent": "other",
-   "github.com/stytchauth/samlshield": "other",
    "github.com/stytchauth/stytch-android": "other",
    "github.com/stytchauth/stytch-browser": "other",
    "github.com/stytchauth/stytch-dotnet": "other",
