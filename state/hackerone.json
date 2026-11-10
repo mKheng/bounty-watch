@@ -2764,9 +2764,6 @@
    "2dehands.be",
    "2ememain.be",
    "adevinta.com",
-   "datavenues.com",
-   "fotocasa.pro",
-   "habitaclia.com",
    "infojobs.it",
    "jobmarketinsights.com",
    "kijiji.ca",
@@ -2779,7 +2776,6 @@
    "subito.it",
    "www.automobile.it",
    "www.coches.net",
-   "www.fotocasa.es",
    "www.infojobs.net",
    "www.kleinanzeigen.de",
    "www.milanuncios.com",
@@ -2795,9 +2791,6 @@
    "2dehands.be": "domain",
    "2ememain.be": "domain",
    "adevinta.com": "domain",
-   "datavenues.com": "domain",
-   "fotocasa.pro": "domain",
-   "habitaclia.com": "domain",
    "infojobs.it": "domain",
    "jobmarketinsights.com": "domain",
    "kijiji.ca": "domain",
@@ -2810,7 +2803,6 @@
    "subito.it": "domain",
    "www.automobile.it": "domain",
    "www.coches.net": "domain",
-   "www.fotocasa.es": "domain",
    "www.infojobs.net": "domain",
    "www.kleinanzeigen.de": "domain",
    "www.milanuncios.com": "domain",
@@ -3738,7 +3730,6 @@
    "*.isonaspureaccesscloud.com",
    "*.my-mobilekey.com",
    "*.yonomi.co",
-   "9500IQ / 2800IQ Senior Swing Series Operators",
    "Aero USB RFID Reader",
    "Axa Remote 2.0",
    "BLEGateway (IF-4041)",
@@ -3755,6 +3746,7 @@
    "Interflex Terminals time recording",
    "Interflex controllers",
    "Interflex desktop readers and encoders",
+   "LCN 9500IQ / 2800IQ Senior Swing Series Operators",
    "MyEVO Lock Controller",
    "MyEVO RFID Transponder",
    "OpenX Wall Reader",
@@ -3876,7 +3868,6 @@
    "*.isonaspureaccesscloud.com": "wildcard",
    "*.my-mobilekey.com": "wildcard",
    "*.yonomi.co": "wildcard",
-   "9500IQ / 2800IQ Senior Swing Series Operators": "other",
    "Aero USB RFID Reader": "other",
    "Axa Remote 2.0": "other",
    "BLEGateway (IF-4041)": "other",
@@ -3893,6 +3884,7 @@
    "Interflex Terminals time recording": "other",
    "Interflex controllers": "other",
    "Interflex desktop readers and encoders": "other",
+   "LCN 9500IQ / 2800IQ Senior Swing Series Operators": "other",
    "MyEVO Lock Controller": "other",
    "MyEVO RFID Transponder": "other",
    "OpenX Wall Reader": "other",
@@ -37392,6 +37384,24 @@
   },
   "url": "https://hackerone.com/databricks",
   "wildcards": 1
+ },
+ "hackerone:defectdojo": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://github.com/DefectDojo/django-DefectDojo"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:defectdojo",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "DefectDojo",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://github.com/DefectDojo/django-DefectDojo": "domain"
+  },
+  "url": "https://hackerone.com/defectdojo",
+  "wildcards": 0
  },
  "hackerone:deptofdefense": {
   "barriers": [],
@@ -78809,24 +78819,6 @@
    "www.linkedin.com": "domain"
   },
   "url": "https://hackerone.com/linkedin",
-  "wildcards": 0
- },
- "hackerone:litellm": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "https://github.com/BerriAI/litellm"
-  ],
-  "is_vdp": true,
-  "key": "hackerone:litellm",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "LiteLLM (VDP)",
-  "platform": "hackerone",
-  "scope_types": {
-   "https://github.com/BerriAI/litellm": "domain"
-  },
-  "url": "https://hackerone.com/litellm",
   "wildcards": 0
  },
  "hackerone:live_nation": {
