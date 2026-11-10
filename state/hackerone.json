@@ -7748,7 +7748,6 @@
    "https://testnet.bybit.com/en/trade/odds/",
    "https://testnet.bybit.com/en/trade/option/usdt/spcx",
    "https://testnet.bybit.com/en/trade/usdt/btcusdt",
-   "https://www.bybit.com/en/ai-bot/home",
    "https://www.bybit.com/en/stocks"
   ],
   "is_vdp": false,
@@ -7771,7 +7770,6 @@
    "https://testnet.bybit.com/en/trade/odds/": "domain",
    "https://testnet.bybit.com/en/trade/option/usdt/spcx": "domain",
    "https://testnet.bybit.com/en/trade/usdt/btcusdt": "domain",
-   "https://www.bybit.com/en/ai-bot/home": "domain",
    "https://www.bybit.com/en/stocks": "domain"
   },
   "url": "https://hackerone.com/bybit_fintech",
@@ -39911,42 +39909,6 @@
   "url": "https://hackerone.com/dust",
   "wildcards": 0
  },
- "hackerone:dynatrace": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "*.sprint.apps.dynatracelabs.com",
-   "*.sprint.dynatracelabs.com",
-   "Core Assets",
-   "Dynatrace ActiveGate",
-   "Dynatrace MobileAgent",
-   "Dynatrace OneAgent",
-   "account-sprint.dynatracelabs.com",
-   "https://github.com/Dynatrace",
-   "myaccount-hardening.dynatracelabs.com",
-   "sso-sprint.dynatracelabs.com"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:dynatrace",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Dynatrace",
-  "platform": "hackerone",
-  "scope_types": {
-   "*.sprint.apps.dynatracelabs.com": "wildcard",
-   "*.sprint.dynatracelabs.com": "wildcard",
-   "Core Assets": "other",
-   "Dynatrace ActiveGate": "other",
-   "Dynatrace MobileAgent": "other",
-   "Dynatrace OneAgent": "other",
-   "account-sprint.dynatracelabs.com": "domain",
-   "https://github.com/Dynatrace": "domain",
-   "myaccount-hardening.dynatracelabs.com": "domain",
-   "sso-sprint.dynatracelabs.com": "domain"
-  },
-  "url": "https://hackerone.com/dynatrace",
-  "wildcards": 2
- },
  "hackerone:dyson": {
   "barriers": [],
   "currency": "",
@@ -44931,6 +44893,32 @@
    "your-assigned-subdomain.hosted-by-files.com": "domain"
   },
   "url": "https://hackerone.com/files",
+  "wildcards": 0
+ },
+ "hackerone:filezilla": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://filezilla-project.org/download.php?type=server&show_all=1",
+   "https://fzssh.filezilla-project.org/download.php",
+   "https://svn.filezilla-project.org/svn/FileZilla3/trunk/",
+   "https://svn.filezilla-project.org/svn/libfilezilla/trunk",
+   "https://svn.filezilla-project.org/svn/libfilezilla/trunk/"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:filezilla",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "FileZilla",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://filezilla-project.org/download.php?type=server&show_all=1": "domain",
+   "https://fzssh.filezilla-project.org/download.php": "domain",
+   "https://svn.filezilla-project.org/svn/FileZilla3/trunk/": "domain",
+   "https://svn.filezilla-project.org/svn/libfilezilla/trunk": "domain",
+   "https://svn.filezilla-project.org/svn/libfilezilla/trunk/": "domain"
+  },
+  "url": "https://hackerone.com/filezilla",
   "wildcards": 0
  },
  "hackerone:finnair_vdp": {
@@ -89210,13 +89198,10 @@
   "currency": "",
   "in_scope": [
    "*.happening.dev",
-   "*.luckydays.ca",
-   "*.luckydays.com",
    "*.napoleoncasino.be",
    "*.napoleondice.be",
    "*.napoleongames.be",
    "*.napoleonsports.be",
-   "*.spinaway.com",
    "*.super.xyz",
    "*.superbet.com",
    "*.superbet.gr",
@@ -89246,13 +89231,10 @@
   "platform": "hackerone",
   "scope_types": {
    "*.happening.dev": "wildcard",
-   "*.luckydays.ca": "wildcard",
-   "*.luckydays.com": "wildcard",
    "*.napoleoncasino.be": "wildcard",
    "*.napoleondice.be": "wildcard",
    "*.napoleongames.be": "wildcard",
    "*.napoleonsports.be": "wildcard",
-   "*.spinaway.com": "wildcard",
    "*.super.xyz": "wildcard",
    "*.superbet.com": "wildcard",
    "*.superbet.gr": "wildcard",
@@ -89275,7 +89257,7 @@
    "superbet.bet.br": "domain"
   },
   "url": "https://hackerone.com/superbet",
-  "wildcards": 14
+  "wildcards": 11
  },
  "hackerone:superhuman": {
   "barriers": [],
@@ -92202,6 +92184,7 @@
    "Crypto infrastructure for cold and hot wallets",
    "http://t.me/wallet",
    "http://t.me/walt",
+   "io.walt.app",
    "p2p.walletbot.me",
    "pay.wallet.tg",
    "wallet.tg",
@@ -92220,6 +92203,7 @@
    "Crypto infrastructure for cold and hot wallets": "other",
    "http://t.me/wallet": "domain",
    "http://t.me/walt": "domain",
+   "io.walt.app": "mobile",
    "p2p.walletbot.me": "domain",
    "pay.wallet.tg": "domain",
    "wallet.tg": "domain",
