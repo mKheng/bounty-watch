@@ -68944,6 +68944,7 @@
   "currency": "",
   "in_scope": [
    "*.hilton.com",
+   "*.hilton.com.cn",
    "*.hilton.io",
    "*.hiltonbusinessonline.com",
    "*.hiltonlocalbiz.com",
@@ -68975,6 +68976,7 @@
   "platform": "hackerone",
   "scope_types": {
    "*.hilton.com": "wildcard",
+   "*.hilton.com.cn": "wildcard",
    "*.hilton.io": "wildcard",
    "*.hiltonbusinessonline.com": "wildcard",
    "*.hiltonlocalbiz.com": "wildcard",
@@ -68999,7 +69001,7 @@
    "resmax.hilton.com": "domain"
   },
   "url": "https://hackerone.com/hilton",
-  "wildcards": 4
+  "wildcards": 5
  },
  "hackerone:hostinger": {
   "barriers": [],
@@ -90928,10 +90930,13 @@
    "*.uat.unico.app",
    "[Unico] Liveness Bypass",
    "accountshomolog.acesso.io",
+   "api.humantoken.unico.app",
    "backend-sdk.uat.private.unico.run",
    "blog.unico.io",
-   "devcenter.unico.io",
+   "dashboard.unico.app",
+   "developer.unico.io",
    "https://sdk-h1.unico.io/createprocess",
+   "humantoken.unico.app",
    "idcash-uat.unico.io",
    "identityhomolog.acesso.io",
    "idpay-uat.unico.io",
@@ -90950,10 +90955,13 @@
    "*.uat.unico.app": "wildcard",
    "[Unico] Liveness Bypass": "other",
    "accountshomolog.acesso.io": "domain",
+   "api.humantoken.unico.app": "domain",
    "backend-sdk.uat.private.unico.run": "domain",
    "blog.unico.io": "domain",
-   "devcenter.unico.io": "domain",
+   "dashboard.unico.app": "domain",
+   "developer.unico.io": "domain",
    "https://sdk-h1.unico.io/createprocess": "domain",
+   "humantoken.unico.app": "domain",
    "idcash-uat.unico.io": "domain",
    "identityhomolog.acesso.io": "domain",
    "idpay-uat.unico.io": "domain",
