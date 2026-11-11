@@ -7149,6 +7149,30 @@
   "url": "https://hackerone.com/bill_vdp",
   "wildcards": 3
  },
+ "hackerone:bitmex": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "*.bitmex.com",
+   "All Other BitMEX Assets",
+   "testnet.bitmex.com",
+   "www.bitmex.com"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:bitmex",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "BitMEX",
+  "platform": "hackerone",
+  "scope_types": {
+   "*.bitmex.com": "wildcard",
+   "All Other BitMEX Assets": "other",
+   "testnet.bitmex.com": "domain",
+   "www.bitmex.com": "domain"
+  },
+  "url": "https://hackerone.com/bitmex",
+  "wildcards": 1
+ },
  "hackerone:bitwarden": {
   "barriers": [],
   "currency": "",
@@ -89186,6 +89210,7 @@
   "currency": "",
   "in_scope": [
    "*.happening.dev",
+   "*.maxbet.ro",
    "*.napoleoncasino.be",
    "*.napoleondice.be",
    "*.napoleongames.be",
@@ -89219,6 +89244,7 @@
   "platform": "hackerone",
   "scope_types": {
    "*.happening.dev": "wildcard",
+   "*.maxbet.ro": "wildcard",
    "*.napoleoncasino.be": "wildcard",
    "*.napoleondice.be": "wildcard",
    "*.napoleongames.be": "wildcard",
@@ -89245,7 +89271,7 @@
    "superbet.bet.br": "domain"
   },
   "url": "https://hackerone.com/superbet",
-  "wildcards": 11
+  "wildcards": 12
  },
  "hackerone:superhuman": {
   "barriers": [],
