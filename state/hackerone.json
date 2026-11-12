@@ -39819,6 +39819,26 @@
   "url": "https://hackerone.com/disney",
   "wildcards": 0
  },
+ "hackerone:divvy-homes": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "com.divvyapp.io",
+   "www.divvyhomes.com"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:divvy-homes",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Divvy Homes",
+  "platform": "hackerone",
+  "scope_types": {
+   "com.divvyapp.io": "mobile",
+   "www.divvyhomes.com": "domain"
+  },
+  "url": "https://hackerone.com/divvy-homes",
+  "wildcards": 0
+ },
  "hackerone:docusign": {
   "barriers": [],
   "currency": "",
