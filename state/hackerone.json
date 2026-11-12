@@ -35907,7 +35907,6 @@
    "http://github.com/cloudflare",
    "https://github.com/cloudflare/vinext",
    "https://github.com/cloudflare/workerd",
-   "https://php-rce.cloudflare.app/",
    "one.dash.cloudflare.com"
   ],
   "is_vdp": false,
@@ -35967,7 +35966,6 @@
    "http://github.com/cloudflare": "domain",
    "https://github.com/cloudflare/vinext": "domain",
    "https://github.com/cloudflare/workerd": "domain",
-   "https://php-rce.cloudflare.app/": "domain",
    "one.dash.cloudflare.com": "domain"
   },
   "url": "https://hackerone.com/cloudflare",
@@ -44917,32 +44915,6 @@
    "your-assigned-subdomain.hosted-by-files.com": "domain"
   },
   "url": "https://hackerone.com/files",
-  "wildcards": 0
- },
- "hackerone:filezilla": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "https://filezilla-project.org/download.php?type=server&show_all=1",
-   "https://fzssh.filezilla-project.org/download.php",
-   "https://svn.filezilla-project.org/svn/FileZilla3/trunk/",
-   "https://svn.filezilla-project.org/svn/libfilezilla/trunk",
-   "https://svn.filezilla-project.org/svn/libfilezilla/trunk/"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:filezilla",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "FileZilla",
-  "platform": "hackerone",
-  "scope_types": {
-   "https://filezilla-project.org/download.php?type=server&show_all=1": "domain",
-   "https://fzssh.filezilla-project.org/download.php": "domain",
-   "https://svn.filezilla-project.org/svn/FileZilla3/trunk/": "domain",
-   "https://svn.filezilla-project.org/svn/libfilezilla/trunk": "domain",
-   "https://svn.filezilla-project.org/svn/libfilezilla/trunk/": "domain"
-  },
-  "url": "https://hackerone.com/filezilla",
   "wildcards": 0
  },
  "hackerone:finnair_vdp": {
@@ -87719,30 +87691,6 @@
    "https://github.com/ruby/ruby": "domain"
   },
   "url": "https://hackerone.com/ruby",
-  "wildcards": 0
- },
- "hackerone:rubygems": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "Malicious or compromised gem",
-   "https://github.com/rubygems/rubygems",
-   "rubygems.org",
-   "shipit.rubygems.org"
-  ],
-  "is_vdp": true,
-  "key": "hackerone:rubygems",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "RubyGems",
-  "platform": "hackerone",
-  "scope_types": {
-   "Malicious or compromised gem": "other",
-   "https://github.com/rubygems/rubygems": "domain",
-   "rubygems.org": "domain",
-   "shipit.rubygems.org": "domain"
-  },
-  "url": "https://hackerone.com/rubygems",
   "wildcards": 0
  },
  "hackerone:s-pankki": {
