@@ -7551,6 +7551,32 @@
   "url": "https://hackerone.com/box_private",
   "wildcards": 0
  },
+ "hackerone:brave": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "Brave Browser Desktop",
+   "Brave websites",
+   "com.brave.browser",
+   "com.brave.ios.browser",
+   "https://github.com/brave/*, https://github.com/brave-intl/*"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:brave",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Brave Software",
+  "platform": "hackerone",
+  "scope_types": {
+   "Brave Browser Desktop": "other",
+   "Brave websites": "other",
+   "com.brave.browser": "mobile",
+   "com.brave.ios.browser": "mobile",
+   "https://github.com/brave/*, https://github.com/brave-intl/*": "domain"
+  },
+  "url": "https://hackerone.com/brave",
+  "wildcards": 0
+ },
  "hackerone:braze_inc": {
   "barriers": [],
   "currency": "",
@@ -40367,7 +40393,7 @@
    "*.unrealtournament.com",
    "Any other Epic games owned asset not listed in the out of scope section",
    "EOS C# SDK",
-   "EpicGamesLauncher.exe",
+   "EpicGamesLauncher v2",
    "EpicOnlineServices",
    "FortniteClient-Android-Shipping-arm64-es2.apk",
    "FortniteClient-Win64-Shipping.exe",
@@ -40460,7 +40486,7 @@
    "*.unrealtournament.com": "wildcard",
    "Any other Epic games owned asset not listed in the out of scope section": "other",
    "EOS C# SDK": "other",
-   "EpicGamesLauncher.exe": "domain",
+   "EpicGamesLauncher v2": "other",
    "EpicOnlineServices": "other",
    "FortniteClient-Android-Shipping-arm64-es2.apk": "domain",
    "FortniteClient-Win64-Shipping.exe": "domain",
@@ -41368,6 +41394,7 @@
    "https://essityusa.com",
    "https://extranet.hms.essity.co.za/",
    "https://globalmediabank.essity.com",
+   "https://higieneinclusivatork.mx/",
    "https://infohub.app.essity.com/",
    "https://infohub.essity.com/en-gb/search",
    "https://jobst-austria.at",
@@ -41857,6 +41884,7 @@
    "https://essityusa.com": "domain",
    "https://extranet.hms.essity.co.za/": "domain",
    "https://globalmediabank.essity.com": "domain",
+   "https://higieneinclusivatork.mx/": "domain",
    "https://infohub.app.essity.com/": "domain",
    "https://infohub.essity.com/en-gb/search": "domain",
    "https://jobst-austria.at": "domain",
@@ -73158,6 +73186,7 @@
    "connections.deere.com",
    "contact.bluerivertechnology.com",
    "contest.deere.com",
+   "context-flow-preview.lifecycle-management-devl-vpn.us.e20.c01.johndeerecloud.com",
    "copaamarela.com",
    "core.surefireag.com",
    "core.surepointag.com",
@@ -75219,6 +75248,7 @@
    "connections.deere.com": "domain",
    "contact.bluerivertechnology.com": "domain",
    "contest.deere.com": "domain",
+   "context-flow-preview.lifecycle-management-devl-vpn.us.e20.c01.johndeerecloud.com": "domain",
    "copaamarela.com": "domain",
    "core.surefireag.com": "domain",
    "core.surepointag.com": "domain",
@@ -78765,7 +78795,11 @@
    "admin.meeshosupply.com",
    "affiliate.meesho.com",
    "com.meesho.supply",
+   "com.valmo.ops",
+   "com.valmo.rider",
    "com.valmo.valmo",
+   "console.valmo.in",
+   "grocery-supplier.meesho.com",
    "investor.meesho.com",
    "meesho.io",
    "prod.meeshoapi.com",
@@ -78785,7 +78819,11 @@
    "admin.meeshosupply.com": "domain",
    "affiliate.meesho.com": "domain",
    "com.meesho.supply": "mobile",
+   "com.valmo.ops": "mobile",
+   "com.valmo.rider": "domain",
    "com.valmo.valmo": "mobile",
+   "console.valmo.in": "domain",
+   "grocery-supplier.meesho.com": "domain",
    "investor.meesho.com": "domain",
    "meesho.io": "domain",
    "prod.meeshoapi.com": "domain",
@@ -87064,26 +87102,6 @@
   },
   "url": "https://hackerone.com/servicenow-disclosure",
   "wildcards": 3
- },
- "hackerone:sheer_bbp": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "my.sheer.com",
-   "www.sheer.com"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:sheer_bbp",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Sheer",
-  "platform": "hackerone",
-  "scope_types": {
-   "my.sheer.com": "domain",
-   "www.sheer.com": "domain"
-  },
-  "url": "https://hackerone.com/sheer_bbp",
-  "wildcards": 0
  },
  "hackerone:shein": {
   "barriers": [],
