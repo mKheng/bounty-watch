@@ -3625,6 +3625,30 @@
   "url": "https://hackerone.com/airtable",
   "wildcards": 2
  },
+ "hackerone:algolia": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "*.algolia.net",
+   "*.algolianet.com",
+   "dashboard.algolia.com",
+   "www.algolia.com"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:algolia",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Algolia",
+  "platform": "hackerone",
+  "scope_types": {
+   "*.algolia.net": "wildcard",
+   "*.algolianet.com": "wildcard",
+   "dashboard.algolia.com": "domain",
+   "www.algolia.com": "domain"
+  },
+  "url": "https://hackerone.com/algolia",
+  "wildcards": 2
+ },
  "hackerone:alibaba_vdp": {
   "barriers": [],
   "currency": "",
@@ -80615,30 +80639,6 @@
   "platform": "hackerone",
   "scope_types": {},
   "url": "https://hackerone.com/monero",
-  "wildcards": 0
- },
- "hackerone:moneybird": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "com.moneybird.Moneybird",
-   "com.moneybird.android",
-   "moneybird.com",
-   "moneybirdstorage.com"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:moneybird",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Moneybird",
-  "platform": "hackerone",
-  "scope_types": {
-   "com.moneybird.Moneybird": "mobile",
-   "com.moneybird.android": "mobile",
-   "moneybird.com": "domain",
-   "moneybirdstorage.com": "domain"
-  },
-  "url": "https://hackerone.com/moneybird",
   "wildcards": 0
  },
  "hackerone:mongodb": {
