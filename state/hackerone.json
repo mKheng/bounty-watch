@@ -83074,8 +83074,7 @@
    "http://*.newegg.com",
    "https://secure.newegg.com",
    "pmtcards.newegg.com",
-   "secure.newegg.ca",
-   "sellerportal.newegg.com"
+   "secure.newegg.ca"
   ],
   "is_vdp": false,
   "key": "hackerone:newegg",
@@ -83089,8 +83088,7 @@
    "http://*.newegg.com": "wildcard",
    "https://secure.newegg.com": "domain",
    "pmtcards.newegg.com": "domain",
-   "secure.newegg.ca": "domain",
-   "sellerportal.newegg.com": "domain"
+   "secure.newegg.ca": "domain"
   },
   "url": "https://hackerone.com/newegg",
   "wildcards": 2
