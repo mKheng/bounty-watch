@@ -4127,6 +4127,7 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "*.dial.plus",
    "*.fax.plus",
    "*.sign.plus",
    "FAX Programmable API",
@@ -4145,6 +4146,7 @@
   "name": "Alohi",
   "platform": "hackerone",
   "scope_types": {
+   "*.dial.plus": "wildcard",
    "*.fax.plus": "wildcard",
    "*.sign.plus": "wildcard",
    "FAX Programmable API": "other",
@@ -4157,7 +4159,7 @@
    "www.alohi.com": "domain"
   },
   "url": "https://hackerone.com/alohi",
-  "wildcards": 2
+  "wildcards": 3
  },
  "hackerone:alsco": {
   "barriers": [],
@@ -73447,6 +73449,7 @@
    "changelog.harvestprofit.com",
    "changepass.wirtgen-group.com",
    "changepassword.kreiselelectric.com",
+   "channel-ai-solutions.deere.com",
    "ciber.com.br",
    "ciber.wirtgen-group.com",
    "cicqual.tal.deere.com",
@@ -75515,6 +75518,7 @@
    "changelog.harvestprofit.com": "domain",
    "changepass.wirtgen-group.com": "domain",
    "changepassword.kreiselelectric.com": "domain",
+   "channel-ai-solutions.deere.com": "domain",
    "ciber.com.br": "domain",
    "ciber.wirtgen-group.com": "domain",
    "cicqual.tal.deere.com": "domain",
@@ -80619,6 +80623,30 @@
   "platform": "hackerone",
   "scope_types": {},
   "url": "https://hackerone.com/monero",
+  "wildcards": 0
+ },
+ "hackerone:moneybird": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "com.moneybird.Moneybird",
+   "com.moneybird.android",
+   "moneybird.com",
+   "moneybirdstorage.com"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:moneybird",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Moneybird",
+  "platform": "hackerone",
+  "scope_types": {
+   "com.moneybird.Moneybird": "mobile",
+   "com.moneybird.android": "mobile",
+   "moneybird.com": "domain",
+   "moneybirdstorage.com": "domain"
+  },
+  "url": "https://hackerone.com/moneybird",
   "wildcards": 0
  },
  "hackerone:mongodb": {
