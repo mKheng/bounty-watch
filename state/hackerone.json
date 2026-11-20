@@ -44027,6 +44027,7 @@
   "in_scope": [
    "*.advisorchannel.com",
    "*.fidelity.com",
+   "*.fidsafe.com",
    "*.mystreetscape.com",
    "*.streetscape.com",
    "*.wealthscape.com",
@@ -44040,9 +44041,7 @@
    "com.fmr.eca.android.wealthscapeinvestor",
    "mobi.wealthscape",
    "mobi.wealthscapeinvestor",
-   "web.fidsafe.com",
-   "www.fidelityprivateshares.com",
-   "www.fidsafe.com"
+   "www.fidelityprivateshares.com"
   ],
   "is_vdp": true,
   "key": "hackerone:fidelity",
@@ -44053,6 +44052,7 @@
   "scope_types": {
    "*.advisorchannel.com": "wildcard",
    "*.fidelity.com": "wildcard",
+   "*.fidsafe.com": "wildcard",
    "*.mystreetscape.com": "wildcard",
    "*.streetscape.com": "wildcard",
    "*.wealthscape.com": "wildcard",
@@ -44066,12 +44066,10 @@
    "com.fmr.eca.android.wealthscapeinvestor": "mobile",
    "mobi.wealthscape": "mobile",
    "mobi.wealthscapeinvestor": "mobile",
-   "web.fidsafe.com": "domain",
-   "www.fidelityprivateshares.com": "domain",
-   "www.fidsafe.com": "domain"
+   "www.fidelityprivateshares.com": "domain"
   },
   "url": "https://hackerone.com/fidelity",
-  "wildcards": 5
+  "wildcards": 6
  },
  "hackerone:fifth_third_bank_vdp": {
   "barriers": [],
@@ -73546,6 +73544,7 @@
    "download.kleemann.info",
    "droneci.deere.com",
    "drxapi.deere.com",
+   "ds4.sap.allmakes.deere.com",
    "dtacsolutionviewer-devl.deere.com",
    "dtfapi.deere.com",
    "dwedevl.deere.com",
@@ -74466,6 +74465,7 @@
    "smtp.unimil.com.br",
    "soap.hagie.com",
    "softwareupdates.deere.com",
+   "soil-health.deere.com",
    "solutionviewer.deere.com",
    "sonar13.marketing-devl.us.e06.c01.johndeerecloud.com",
    "sonarqube.nprd-exco.deere.com",
@@ -75617,6 +75617,7 @@
    "download.kleemann.info": "domain",
    "droneci.deere.com": "domain",
    "drxapi.deere.com": "domain",
+   "ds4.sap.allmakes.deere.com": "domain",
    "dtacsolutionviewer-devl.deere.com": "domain",
    "dtfapi.deere.com": "domain",
    "dwedevl.deere.com": "domain",
@@ -76537,6 +76538,7 @@
    "smtp.unimil.com.br": "domain",
    "soap.hagie.com": "domain",
    "softwareupdates.deere.com": "domain",
+   "soil-health.deere.com": "domain",
    "solutionviewer.deere.com": "domain",
    "sonar13.marketing-devl.us.e06.c01.johndeerecloud.com": "domain",
    "sonarqube.nprd-exco.deere.com": "domain",
@@ -85021,6 +85023,24 @@
   "url": "https://hackerone.com/phonepe_vdp",
   "wildcards": 1
  },
+ "hackerone:phpbb": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://github.com/phpbb/phpbb"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:phpbb",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "phpBB",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://github.com/phpbb/phpbb": "domain"
+  },
+  "url": "https://hackerone.com/phpbb",
+  "wildcards": 0
+ },
  "hackerone:picsart": {
   "barriers": [],
   "currency": "",
@@ -86985,6 +87005,30 @@
    "https://github.com/ruby/ruby": "domain"
   },
   "url": "https://hackerone.com/ruby",
+  "wildcards": 0
+ },
+ "hackerone:rubygems": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "Malicious or compromised gem",
+   "https://github.com/rubygems/rubygems",
+   "rubygems.org",
+   "shipit.rubygems.org"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:rubygems",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "RubyGems",
+  "platform": "hackerone",
+  "scope_types": {
+   "Malicious or compromised gem": "other",
+   "https://github.com/rubygems/rubygems": "domain",
+   "rubygems.org": "domain",
+   "shipit.rubygems.org": "domain"
+  },
+  "url": "https://hackerone.com/rubygems",
   "wildcards": 0
  },
  "hackerone:s-pankki": {
@@ -89863,7 +89907,8 @@
    "test.stytch.com",
    "trunking.twilio.com",
    "tsock.us1.twilio.com",
-   "twilio.com"
+   "twilio.com",
+   "verify.twilio.com"
   ],
   "is_vdp": false,
   "key": "hackerone:twilio",
@@ -89954,7 +89999,8 @@
    "test.stytch.com": "domain",
    "trunking.twilio.com": "domain",
    "tsock.us1.twilio.com": "domain",
-   "twilio.com": "domain"
+   "twilio.com": "domain",
+   "verify.twilio.com": "domain"
   },
   "url": "https://hackerone.com/twilio",
   "wildcards": 2
@@ -90877,6 +90923,7 @@
    "ebctest.cybersource.com",
    "forms.cybersource.com",
    "http://myvisainfinite.com/suntrust/en_us/home.html",
+   "https://ebc2test.cybersource.com/currencyconversion",
    "https://ebc2test.cybersource.com/settings",
    "https://ebctest.cybersource.com/CGK2",
    "https://ebctest.cybersource.com/apm",
@@ -91055,6 +91102,7 @@
    "ebctest.cybersource.com": "domain",
    "forms.cybersource.com": "domain",
    "http://myvisainfinite.com/suntrust/en_us/home.html": "domain",
+   "https://ebc2test.cybersource.com/currencyconversion": "domain",
    "https://ebc2test.cybersource.com/settings": "domain",
    "https://ebctest.cybersource.com/CGK2": "domain",
    "https://ebctest.cybersource.com/apm": "domain",
