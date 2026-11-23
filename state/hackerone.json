@@ -66793,6 +66793,36 @@
   "url": "https://hackerone.com/fronthq",
   "wildcards": 0
  },
+ "hackerone:gcash_vdp": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "GCash",
+   "GCash Pera Outlet Plus",
+   "GCash PocketPay",
+   "fuselending.com",
+   "gcash.com",
+   "mynt.com.ph",
+   "mynt.xyz"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:gcash_vdp",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "GCash Vulnerability Disclosure",
+  "platform": "hackerone",
+  "scope_types": {
+   "GCash": "mobile",
+   "GCash Pera Outlet Plus": "mobile",
+   "GCash PocketPay": "mobile",
+   "fuselending.com": "domain",
+   "gcash.com": "domain",
+   "mynt.com.ph": "domain",
+   "mynt.xyz": "domain"
+  },
+  "url": "https://hackerone.com/gcash_vdp",
+  "wildcards": 0
+ },
  "hackerone:getyourguide_vdp": {
   "barriers": [],
   "currency": "",
