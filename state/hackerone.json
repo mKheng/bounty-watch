@@ -7689,6 +7689,32 @@
   "url": "https://hackerone.com/box_private",
   "wildcards": 0
  },
+ "hackerone:brave": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "Brave Browser Desktop",
+   "Brave websites",
+   "com.brave.browser",
+   "com.brave.ios.browser",
+   "https://github.com/brave/*, https://github.com/brave-intl/*"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:brave",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Brave Software",
+  "platform": "hackerone",
+  "scope_types": {
+   "Brave Browser Desktop": "other",
+   "Brave websites": "other",
+   "com.brave.browser": "mobile",
+   "com.brave.ios.browser": "mobile",
+   "https://github.com/brave/*, https://github.com/brave-intl/*": "domain"
+  },
+  "url": "https://hackerone.com/brave",
+  "wildcards": 0
+ },
  "hackerone:braze_inc": {
   "barriers": [],
   "currency": "",
@@ -40112,6 +40138,7 @@
    "Valid Disney Retiree Credential",
    "abcspotdepot.com",
    "com.espn.score_center",
+   "debut.disney.com",
    "disneyauditions.com",
    "disneyland.disney.go.com",
    "disneyplus.link",
@@ -40137,6 +40164,7 @@
    "Valid Disney Retiree Credential": "other",
    "abcspotdepot.com": "domain",
    "com.espn.score_center": "mobile",
+   "debut.disney.com": "domain",
    "disneyauditions.com": "domain",
    "disneyland.disney.go.com": "domain",
    "disneyplus.link": "domain",
@@ -41033,6 +41061,7 @@
    "*.boavistaservicos.com.br",
    "*.bvsnet.com.br",
    "*.certificadoboavista.com.br",
+   "*.creditapps.com.au",
    "*.datacredito.com",
    "*.datacredito.com.do",
    "*.datacredito.info",
@@ -41324,6 +41353,7 @@
    "*.boavistaservicos.com.br": "wildcard",
    "*.bvsnet.com.br": "wildcard",
    "*.certificadoboavista.com.br": "wildcard",
+   "*.creditapps.com.au": "wildcard",
    "*.datacredito.com": "wildcard",
    "*.datacredito.com.do": "wildcard",
    "*.datacredito.info": "wildcard",
@@ -41599,7 +41629,7 @@
    "yourcreditidentity.com.au": "domain"
   },
   "url": "https://hackerone.com/equifax",
-  "wildcards": 64
+  "wildcards": 65
  },
  "hackerone:essity": {
   "barriers": [],
@@ -67697,7 +67727,6 @@
    "*.nymbrands.{com,co.uk,uk,}",
    "*.nymhair.co.uk,.com,.uk",
    "*.nymhair.{com,co.uk,uk,}",
-   "*.opx.tc",
    "*.osiatlowes.com",
    "*.pattex.*",
    "*.pattex.com.cn",
@@ -67981,7 +68010,6 @@
    "*.nymbrands.{com,co.uk,uk,}": "wildcard",
    "*.nymhair.co.uk,.com,.uk": "wildcard",
    "*.nymhair.{com,co.uk,uk,}": "wildcard",
-   "*.opx.tc": "wildcard",
    "*.osiatlowes.com": "wildcard",
    "*.pattex.*": "wildcard",
    "*.pattex.com.cn": "wildcard",
@@ -68123,7 +68151,7 @@
    "www.joico.lat/": "domain"
   },
   "url": "https://hackerone.com/henkel_vdp",
-  "wildcards": 216
+  "wildcards": 215
  },
  "hackerone:hertz": {
   "barriers": [],
@@ -73460,6 +73488,7 @@
    "dealers-staging.harvestprofit.com",
    "dealers.harvestprofit.com",
    "dealers.waratah.net",
+   "dealertools.deere.com",
    "debinst.kleemann.info",
    "deere.africa",
    "deere.asia",
@@ -73855,6 +73884,7 @@
    "jdpsproductdatawsqualtcv.tal.deere.com",
    "jdpsproductdatawstc.deere.com",
    "jdquote2.deere.com",
+   "jdsapqhr.deere.com",
    "jdscms.deere.com",
    "jdset.deere.com",
    "jdsn-cart-qual.deere.com",
@@ -74072,6 +74102,7 @@
    "msoid.monosemusa.com",
    "mssql.wirtgenankara.com.tr",
    "mstage.tal.deere.com",
+   "mtg2doc-support-tool.deere.com",
    "mtx-dev.wirtgen-group.com",
    "mtx01a.wirtgen-group.com",
    "mtx01b.wirtgen-group.com",
@@ -75533,6 +75564,7 @@
    "dealers-staging.harvestprofit.com": "domain",
    "dealers.harvestprofit.com": "domain",
    "dealers.waratah.net": "domain",
+   "dealertools.deere.com": "domain",
    "debinst.kleemann.info": "domain",
    "deere.africa": "domain",
    "deere.asia": "domain",
@@ -75928,6 +75960,7 @@
    "jdpsproductdatawsqualtcv.tal.deere.com": "domain",
    "jdpsproductdatawstc.deere.com": "domain",
    "jdquote2.deere.com": "domain",
+   "jdsapqhr.deere.com": "domain",
    "jdscms.deere.com": "domain",
    "jdset.deere.com": "domain",
    "jdsn-cart-qual.deere.com": "domain",
@@ -76145,6 +76178,7 @@
    "msoid.monosemusa.com": "domain",
    "mssql.wirtgenankara.com.tr": "domain",
    "mstage.tal.deere.com": "domain",
+   "mtg2doc-support-tool.deere.com": "domain",
    "mtx-dev.wirtgen-group.com": "domain",
    "mtx01a.wirtgen-group.com": "domain",
    "mtx01b.wirtgen-group.com": "domain",
@@ -89376,6 +89410,7 @@
    "sipas-ca-west.ccid.neustar.biz",
    "sipas-prod-br.ccid.neustar.biz",
    "sipvs-ca.ccid.neustar.biz",
+   "smim.sontiq.com",
    "smtp-test.truoptik.com",
    "solutions.transunion.co.uk",
    "sompoh-crivoapi.crivo.com.br",
@@ -89539,6 +89574,7 @@
    "sipas-ca-west.ccid.neustar.biz": "domain",
    "sipas-prod-br.ccid.neustar.biz": "domain",
    "sipvs-ca.ccid.neustar.biz": "domain",
+   "smim.sontiq.com": "domain",
    "smtp-test.truoptik.com": "domain",
    "solutions.transunion.co.uk": "domain",
    "sompoh-crivoapi.crivo.com.br": "domain",
@@ -90931,6 +90967,7 @@
    "https://www.myvisacardportal.com/enbd/en_ae/landing/",
    "https://www.visa.com.az/az_az/account/registration",
    "https://www.visa.com.ua/",
+   "lac-visa-payments-day.visa.com",
    "my.visa.fr",
    "myanmar.visa.com",
    "myvu.visauniversity.com",
@@ -91110,6 +91147,7 @@
    "https://www.myvisacardportal.com/enbd/en_ae/landing/": "domain",
    "https://www.visa.com.az/az_az/account/registration": "domain",
    "https://www.visa.com.ua/": "domain",
+   "lac-visa-payments-day.visa.com": "domain",
    "my.visa.fr": "domain",
    "myanmar.visa.com": "domain",
    "myvu.visauniversity.com": "domain",
