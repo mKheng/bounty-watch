@@ -73241,6 +73241,7 @@
    "api-qual-casemanagement-financeconnect.deere.com",
    "api-trade-mgmt.supplymgmt-tariffs-devl-vpn.use1.e15.c01.johndeerecloud.com",
    "api-us-devl-e00.deere.com",
+   "api-us-prod-e00.deere.com",
    "api.agrisync.com",
    "api.contest.deere.com",
    "api.creditapplication-devl-floating.us.e10.c01.johndeerecloud.com",
@@ -73249,6 +73250,7 @@
    "api.jd-exam.com",
    "api.mfg-manufacturing-center-prod-vpn.use1.e11.c01.johndeerecloud.com/",
    "api.sentera.com",
+   "api.tartarus.prod.mesa.brtws.com",
    "apidev.sentera.com",
    "apigateway.channel-dss-r1-anubhuti-devl-vpn.ap.e06.c01.johndeerecloud.com",
    "apigateway.fihre-autonomous-business-devl-floating.use1.e16.c01.johndeerecloud.com",
@@ -75317,6 +75319,7 @@
    "api-qual-casemanagement-financeconnect.deere.com": "domain",
    "api-trade-mgmt.supplymgmt-tariffs-devl-vpn.use1.e15.c01.johndeerecloud.com": "domain",
    "api-us-devl-e00.deere.com": "domain",
+   "api-us-prod-e00.deere.com": "domain",
    "api.agrisync.com": "domain",
    "api.contest.deere.com": "domain",
    "api.creditapplication-devl-floating.us.e10.c01.johndeerecloud.com": "domain",
@@ -75325,6 +75328,7 @@
    "api.jd-exam.com": "domain",
    "api.mfg-manufacturing-center-prod-vpn.use1.e11.c01.johndeerecloud.com/": "domain",
    "api.sentera.com": "domain",
+   "api.tartarus.prod.mesa.brtws.com": "domain",
    "apidev.sentera.com": "domain",
    "apigateway.channel-dss-r1-anubhuti-devl-vpn.ap.e06.c01.johndeerecloud.com": "domain",
    "apigateway.fihre-autonomous-business-devl-floating.use1.e16.c01.johndeerecloud.com": "domain",
@@ -77367,6 +77371,7 @@
   "barriers": [],
   "currency": "",
   "in_scope": [
+   "*.atlantichealthvirtualcare.org",
    "*.csconnect.org",
    "*.hhc247.org",
    "*.hmh247.org",
@@ -77376,10 +77381,13 @@
    "*.novanthealthvirtualprimarycare.org",
    "*.pennmedicine.connect-visit.com",
    "*.primarycareondemand.mayoclinic.org",
+   "*.uvahealthpcod.org",
    "6741442288",
    "https://*.khealth.com",
    "https://apps.apple.com/us/app/hhc-24-7/id6741442288",
-   "org.hartfordhealthcare.hhc247"
+   "org.hartfordhealthcare.hhc247",
+   "patientgpt.pennmedicine.k-test.connect-visit.com",
+   "pennmedicine.k-test.connect-visit.com"
   ],
   "is_vdp": false,
   "key": "hackerone:khealth",
@@ -77388,6 +77396,7 @@
   "name": "KHealth",
   "platform": "hackerone",
   "scope_types": {
+   "*.atlantichealthvirtualcare.org": "wildcard",
    "*.csconnect.org": "wildcard",
    "*.hhc247.org": "wildcard",
    "*.hmh247.org": "wildcard",
@@ -77397,13 +77406,16 @@
    "*.novanthealthvirtualprimarycare.org": "wildcard",
    "*.pennmedicine.connect-visit.com": "wildcard",
    "*.primarycareondemand.mayoclinic.org": "wildcard",
+   "*.uvahealthpcod.org": "wildcard",
    "6741442288": "mobile",
    "https://*.khealth.com": "wildcard",
    "https://apps.apple.com/us/app/hhc-24-7/id6741442288": "mobile",
-   "org.hartfordhealthcare.hhc247": "mobile"
+   "org.hartfordhealthcare.hhc247": "mobile",
+   "patientgpt.pennmedicine.k-test.connect-visit.com": "domain",
+   "pennmedicine.k-test.connect-visit.com": "domain"
   },
   "url": "https://hackerone.com/khealth",
-  "wildcards": 10
+  "wildcards": 12
  },
  "hackerone:kiwicom": {
   "barriers": [],
@@ -83523,48 +83535,6 @@
   "url": "https://hackerone.com/oanda",
   "wildcards": 5
  },
- "hackerone:oasisprotocol": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [
-   "github.com/oasisprotocol/explorer",
-   "http://emerald.oasis.dev",
-   "http://grpc.oasis.dev",
-   "http://rosetta.oasis.dev/api/mainnet",
-   "http://sapphire.oasis.io",
-   "https://github.com/oasisprotocol/curve25519-voi",
-   "https://github.com/oasisprotocol/deoxysii",
-   "https://github.com/oasisprotocol/deoxysii-rust",
-   "https://github.com/oasisprotocol/oasis-core",
-   "https://github.com/oasisprotocol/oasis-sdk",
-   "https://github.com/oasisprotocol/oasis-wallet-web",
-   "status.oasis.io",
-   "wallet.oasis.io"
-  ],
-  "is_vdp": false,
-  "key": "hackerone:oasisprotocol",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Oasis Protocol Foundation",
-  "platform": "hackerone",
-  "scope_types": {
-   "github.com/oasisprotocol/explorer": "other",
-   "http://emerald.oasis.dev": "domain",
-   "http://grpc.oasis.dev": "domain",
-   "http://rosetta.oasis.dev/api/mainnet": "domain",
-   "http://sapphire.oasis.io": "domain",
-   "https://github.com/oasisprotocol/curve25519-voi": "domain",
-   "https://github.com/oasisprotocol/deoxysii": "domain",
-   "https://github.com/oasisprotocol/deoxysii-rust": "domain",
-   "https://github.com/oasisprotocol/oasis-core": "domain",
-   "https://github.com/oasisprotocol/oasis-sdk": "domain",
-   "https://github.com/oasisprotocol/oasis-wallet-web": "domain",
-   "status.oasis.io": "domain",
-   "wallet.oasis.io": "domain"
-  },
-  "url": "https://hackerone.com/oasisprotocol",
-  "wildcards": 0
- },
  "hackerone:octopus-energy": {
   "barriers": [],
   "currency": "",
@@ -87916,6 +87886,26 @@
   },
   "url": "https://hackerone.com/snapchat",
   "wildcards": 2
+ },
+ "hackerone:solidus": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "https://github.com/solidusio/solidus",
+   "https://github.com/solidusio/solidus_auth_devise"
+  ],
+  "is_vdp": true,
+  "key": "hackerone:solidus",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Solidus",
+  "platform": "hackerone",
+  "scope_types": {
+   "https://github.com/solidusio/solidus": "domain",
+   "https://github.com/solidusio/solidus_auth_devise": "domain"
+  },
+  "url": "https://hackerone.com/solidus",
+  "wildcards": 0
  },
  "hackerone:sony": {
   "barriers": [],
