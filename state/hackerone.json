@@ -83393,6 +83393,32 @@
   "url": "https://hackerone.com/nominet",
   "wildcards": 3
  },
+ "hackerone:northerntechhq": {
+  "barriers": [],
+  "currency": "",
+  "in_scope": [
+   "CFEngine Enterprise",
+   "https://github.com/cfengine/core",
+   "https://github.com/mendersoftware/mender",
+   "https://github.com/mendersoftware/mender-server",
+   "staging.hosted.mender.io"
+  ],
+  "is_vdp": false,
+  "key": "hackerone:northerntechhq",
+  "max_bounty": 0.0,
+  "min_bounty": 0.0,
+  "name": "Northern.tech",
+  "platform": "hackerone",
+  "scope_types": {
+   "CFEngine Enterprise": "other",
+   "https://github.com/cfengine/core": "domain",
+   "https://github.com/mendersoftware/mender": "domain",
+   "https://github.com/mendersoftware/mender-server": "domain",
+   "staging.hosted.mender.io": "domain"
+  },
+  "url": "https://hackerone.com/northerntechhq",
+  "wildcards": 0
+ },
  "hackerone:notion": {
   "barriers": [],
   "currency": "",
@@ -85736,20 +85762,6 @@
   },
   "url": "https://hackerone.com/pubg",
   "wildcards": 2
- },
- "hackerone:publitas": {
-  "barriers": [],
-  "currency": "",
-  "in_scope": [],
-  "is_vdp": true,
-  "key": "hackerone:publitas",
-  "max_bounty": 0.0,
-  "min_bounty": 0.0,
-  "name": "Publitas",
-  "platform": "hackerone",
-  "scope_types": {},
-  "url": "https://hackerone.com/publitas",
-  "wildcards": 0
  },
  "hackerone:qinetiq": {
   "barriers": [],
