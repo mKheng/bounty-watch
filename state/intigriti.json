@@ -111,28 +111,6 @@
   "url": "https://www.intigriti.com/programs/aikido/aikido/detail",
   "wildcards": 0
  },
- "intigriti:allegro/allegrobugbounty": {
-  "barriers": [],
-  "currency": "EUR",
-  "in_scope": [
-   "*.allegro.cz.allegrosandbox.pl",
-   "*.allegro.pl.allegrosandbox.pl",
-   "*.allegro.sk.allegrosandbox.pl"
-  ],
-  "is_vdp": false,
-  "key": "intigriti:allegro/allegrobugbounty",
-  "max_bounty": 4000.0,
-  "min_bounty": 100.0,
-  "name": "Allegro",
-  "platform": "intigriti",
-  "scope_types": {
-   "*.allegro.cz.allegrosandbox.pl": "wildcard",
-   "*.allegro.pl.allegrosandbox.pl": "wildcard",
-   "*.allegro.sk.allegrosandbox.pl": "wildcard"
-  },
-  "url": "https://www.intigriti.com/programs/allegro/allegrobugbounty/detail",
-  "wildcards": 3
- },
  "intigriti:anacondainc/anacondavdp": {
   "barriers": [],
   "currency": "USD",
